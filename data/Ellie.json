@@ -1,0 +1,91 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Ellie",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bp.Macro Oscillator::CV2" : [ 0.0 ],
+					"bp.Macro Oscillator::CV3" : [ 0.0 ],
+					"bp.Macro Oscillator::Color" : [ -4.094488188976378 ],
+					"bp.Macro Oscillator::ColorCV" : [ 0.0 ],
+					"bp.Macro Oscillator::Freq" : [ 34.100646138855538 ],
+					"bp.Macro Oscillator::FreqMode" : [ 1.0 ],
+					"bp.Macro Oscillator::Macro" : [ 0 ],
+					"bp.Macro Oscillator::Mute" : [ 0.0 ],
+					"bp.Macro Oscillator::Offset[2]" : [ -35.275590551181104 ],
+					"bp.Macro Oscillator::Timbre" : [ -2.83464566929134 ],
+					"bp.Macro Oscillator::TimbreCV" : [ 0.0 ],
+					"bp.Quantizer[1]::bypass" : [ 0.0 ],
+					"bp.Quantizer[1]::notes" : [ 0, 10, 1, 10, 2, 10, 3, 10, 4, 55, 5, 48, 6, 10, 7, 36, 8, 10, 9, 36, 10, 10, 11, 10 ],
+					"bp.Quantizer[1]::rounding" : [ 1.0 ],
+					"bp.Quantizer[1]::score" : [ 1.0 ],
+					"bp.Chorus::Center" : [ 500.0 ],
+					"bp.Chorus::Rate" : [ 2.0 ],
+					"bp.Chorus::Regen" : [ 0.5 ],
+					"bp.Chorus::Width" : [ 20.000000000000004 ],
+					"bp.Chorus::bypass" : [ 0.0 ],
+					"bp.Feedback::Signal" : [ 0.0 ],
+					"bp.Feedback::invert" : [ 0.0 ],
+					"bp.Feedback::mute" : [ 0.0 ],
+					"bp.Signal Mixer[2]::in3" : [ 0.0 ],
+					"bp.Signal Mixer[2]::in4" : [ 0.0 ],
+					"bp.Signal Mixer[2]::live.dial" : [ 0.0 ],
+					"bp.Signal Mixer[2]::live.dial[1]" : [ 0.0 ],
+					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
+					"bp.Smooth Delay[3]::Time" : [ 99.999999999999972 ],
+					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
+					"bp.Stereo::DSP" : [ 1.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"bp.Macro Oscillator::CV2" : [ 0.0 ],
+					"bp.Macro Oscillator::CV3" : [ 0.0 ],
+					"bp.Macro Oscillator::Color" : [ 3.070866141732282 ],
+					"bp.Macro Oscillator::ColorCV" : [ 72.440944881889763 ],
+					"bp.Macro Oscillator::Freq" : [ 8603.630126978996486 ],
+					"bp.Macro Oscillator::FreqMode" : [ 1.0 ],
+					"bp.Macro Oscillator::Macro" : [ 0 ],
+					"bp.Macro Oscillator::Mute" : [ 0.0 ],
+					"bp.Macro Oscillator::Offset[2]" : [ 60.472440944881868 ],
+					"bp.Macro Oscillator::Timbre" : [ 0.393700787401573 ],
+					"bp.Macro Oscillator::TimbreCV" : [ 0.0 ],
+					"bp.Quantizer[1]::bypass" : [ 0.0 ],
+					"bp.Quantizer[1]::notes" : [ 0, 10, 1, 10, 2, 10, 3, 10, 4, 55, 5, 48, 6, 10, 7, 36, 8, 10, 9, 36, 10, 10, 11, 10 ],
+					"bp.Quantizer[1]::rounding" : [ 1.0 ],
+					"bp.Quantizer[1]::score" : [ 1.0 ],
+					"bp.Chorus::Center" : [ 500.0 ],
+					"bp.Chorus::Rate" : [ 2.0 ],
+					"bp.Chorus::Regen" : [ 0.5 ],
+					"bp.Chorus::Width" : [ 20.000000000000004 ],
+					"bp.Chorus::bypass" : [ 0.0 ],
+					"bp.Feedback::Signal" : [ 0.0 ],
+					"bp.Feedback::invert" : [ 0.0 ],
+					"bp.Feedback::mute" : [ 0.0 ],
+					"bp.Signal Mixer[2]::in3" : [ 0.0 ],
+					"bp.Signal Mixer[2]::in4" : [ 0.0 ],
+					"bp.Signal Mixer[2]::live.dial" : [ 0.0 ],
+					"bp.Signal Mixer[2]::live.dial[1]" : [ 0.0 ],
+					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
+					"bp.Smooth Delay[3]::Time" : [ 99.999999999999972 ],
+					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
+					"bp.Stereo::DSP" : [ 1.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
