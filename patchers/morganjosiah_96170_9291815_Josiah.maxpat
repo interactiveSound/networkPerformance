@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 155.0, 49.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -83,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.25, 40.0, 197.0, 23.0 ],
+					"patching_rect" : [ 269.25, 49.0, 197.0, 23.0 ],
 					"text" : "pattrstorage Josiah"
 				}
 
@@ -179,8 +191,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 19.000007033348083, 1245.666672468185425, 69.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1184.0, 719.0, 69.0, 29.0 ],
 					"varname" : "AudioOutput",
 					"viewvisibility" : 1
 				}
@@ -204,8 +214,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 19.000007033348083, 1095.666672468185425, 69.0, 139.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1184.0, 579.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[1]",
 					"viewvisibility" : 1
 				}
@@ -228,6 +236,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 19.0, 291.0, 314.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 27.0, 314.0, 116.0 ],
 					"varname" : "bp.Oscillator[2]",
 					"viewvisibility" : 1
 				}
@@ -244,6 +254,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 71.0, 125.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 55.0, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[17]",
@@ -269,6 +281,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 175.0, 125.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 159.0, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[18]",
@@ -300,6 +314,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 304.999992966651917, 527.0, 134.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 275.0, 263.0, 134.0, 116.0 ],
 					"varname" : "bp.Smooth Delay[2]",
 					"viewvisibility" : 1
 				}
@@ -322,6 +338,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 170.0, 527.0, 134.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 139.0, 263.0, 134.0, 116.0 ],
 					"varname" : "bp.Smooth Delay[1]",
 					"viewvisibility" : 1
 				}
@@ -344,6 +362,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 19.0, 645.0, 175.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 381.0, 175.0, 116.0 ],
 					"varname" : "bp.Signal Mixer[1]",
 					"viewvisibility" : 1
 				}
@@ -366,6 +386,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 34.0, 527.0, 134.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 263.0, 134.0, 116.0 ],
 					"varname" : "bp.Smooth Delay",
 					"viewvisibility" : 1
 				}
@@ -388,6 +410,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 651.0, 291.014181167968786, 314.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 635.0, 27.0, 314.0, 116.0 ],
 					"varname" : "bp.Oscillator[1]",
 					"viewvisibility" : 1
 				}
@@ -404,6 +428,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 123.0, 125.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 107.0, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[19]",
@@ -435,6 +461,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 335.0, 291.014181167968786, 314.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 319.0, 27.0, 314.0, 116.0 ],
 					"varname" : "bp.Oscillator",
 					"viewvisibility" : 1
 				}
@@ -457,6 +485,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 19.0, 409.0, 175.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 145.0, 175.0, 116.0 ],
 					"varname" : "bp.Signal Mixer",
 					"viewvisibility" : 1
 				}
@@ -496,6 +526,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 19.0, 125.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[20]",
@@ -608,6 +640,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1037,9 +1076,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1048,9 +1087,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1059,7 +1098,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
@@ -1070,7 +1108,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
