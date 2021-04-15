@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 677.0, 200.0, 665.0, 708.0 ],
+		"rect" : [ 254.0, 177.0, 665.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 458.21933070818568, 260.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"number" : [ 0.0 ],
+						"number[1]" : [ 0.0 ],
+						"number[2]" : [ 0 ],
+						"number[3]" : [ 5 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u375008276"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 145.0, 34.0, 22.0 ],
+					"patching_rect" : [ 458.21933070818568, 164.0, 34.0, 22.0 ],
 					"text" : "write"
 				}
 
@@ -70,7 +90,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.0, 5.0, 106.0, 23.0 ],
+					"patching_rect" : [ 291.0, 32.0, 106.0, 23.0 ],
 					"text" : "pattrstorage Ellie"
 				}
 
@@ -82,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 228.0, 52.0, 100.0, 40.0 ],
+					"patching_rect" : [ 291.0, 64.0, 100.0, 40.0 ],
 					"pattrstorage" : "Ellie"
 				}
 
@@ -726,8 +746,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -737,8 +757,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
