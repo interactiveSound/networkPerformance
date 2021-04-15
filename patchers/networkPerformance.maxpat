@@ -582,31 +582,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1225.0, 67.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1225.0, 134.0, 81.0, 35.0 ],
-					"text" : ";\rGIGA bus $1."
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -752,13 +727,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-39", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -2889,8 +2857,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2900,8 +2868,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2912,6 +2880,7 @@
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2920,8 +2889,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -2936,6 +2904,7 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2944,8 +2913,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
