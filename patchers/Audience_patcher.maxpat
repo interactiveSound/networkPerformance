@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.577826619148254, 10.0, 215.0, 23.0 ],
+					"patching_rect" : [ 109.577826619148254, 10.0, 142.0, 23.0 ],
 					"text" : "pattrstorage Sam"
 				}
 
@@ -70,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 109.327826619148254, 54.0, 221.0, 39.0 ]
+					"patching_rect" : [ 109.327826619148254, 54.0, 79.0, 33.259632050991058 ]
 				}
 
 			}
@@ -872,98 +872,214 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "kontrol.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol[1].maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol[2].maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol[3].maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "stereo.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oscillator.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gig.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverbtwoo.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
+		"snapshot" : 		{
+			"filetype" : "C74Snapshot",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
+			"subtype" : "Undefined",
+			"embed" : 1,
+			"snapshotlist" : 			{
+				"current_snapshot" : -1,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol",
+							"filename" : "kontrol.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "ed12dbc5c017f1234acc06de1a34d759"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[1]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[1]",
+							"filename" : "kontrol[1].maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "32f170dde05a78256b968a416d1d19b9"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[2]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[2]",
+							"filename" : "kontrol[2].maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "a313da969f5bc6c756bbfd7cf58e5238"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[3]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[3]",
+							"filename" : "kontrol[3].maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "46298f0559375870d3ad403dc137947d"
+						}
+
+					}
+ ]
+			}
+
+		}
+,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
