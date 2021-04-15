@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 149.0, 87.0, 1497.0, 928.0 ],
+		"rect" : [ 316.0, 79.0, 1497.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 768.0, 272.0, 56.0, 22.0 ],
+					"text" : "autopattr",
+					"varname" : "u994002924"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 768.0, 170.0, 34.0, 22.0 ],
+					"text" : "write"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "comment",
@@ -70,7 +95,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 109.327826619148254, 54.0, 79.0, 33.259632050991058 ]
+					"patching_rect" : [ 109.327826619148254, 54.0, 79.0, 33.259632050991058 ],
+					"preset_data" : [  ]
 				}
 
 			}
@@ -81,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 569.0, 206.513096690177917, 189.0, 22.0 ],
+					"patching_rect" : [ 768.0, 218.513096690177917, 189.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 79, 343, 580 ],
 						"parameter_enable" : 0,
@@ -505,7 +531,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 26.506403207778931, 103.0, 427.230751395225525, 121.84615421295166 ],
+					"patching_rect" : [ 26.506403207778931, 108.0, 427.230751395225525, 121.84615421295166 ],
 					"varname" : "oscillator",
 					"viewvisibility" : 1
 				}
@@ -805,6 +831,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 2 ],
 					"midpoints" : [ 537.083347678184509, 407.666665315628052, 459.54487544298172, 407.666665315628052, 459.54487544298172, 257.000006914138794, 382.006403207778931, 257.000006914138794 ],
 					"source" : [ "obj-97", 0 ]
@@ -874,118 +907,146 @@
 		"dependency_cache" : [ 			{
 				"name" : "kontrol.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[1].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[2].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[3].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol[1]_20210407.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol[2]_20210407.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol[3]_20210407.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol_20210407.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stereo.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oscillator.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gig.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverbtwoo.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1075,6 +1136,78 @@
 						}
 
 					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[1]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[1]",
+							"filename" : "kontrol[1]_20210407.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "865891a7849c61fe3bf3378c053a5229"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[2]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[2]",
+							"filename" : "kontrol[2]_20210407.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "b79f856c3113ae614d4833818899a50c"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[3]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[3]",
+							"filename" : "kontrol[3]_20210407.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "ab51fc9869ae05e5188715d0687d332c"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol",
+							"filename" : "kontrol_20210407.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "36ff149c26f750e78a12d4704cea4e89"
+						}
+
+					}
  ]
 			}
 
@@ -1100,9 +1233,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1111,9 +1244,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1122,8 +1255,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1133,7 +1264,9 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1159,8 +1292,6 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1169,7 +1300,9 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
