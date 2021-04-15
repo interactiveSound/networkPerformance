@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 360.0, 85.0, 1352.0, 987.0 ],
+		"rect" : [ 233.0, 79.0, 1406.0, 973.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,732 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "dictionary" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 8,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "float", "float", "float", "float" ],
+									"patching_rect" : [ 377.500000000000227, 648.000000000000114, 117.999999999999773, 22.0 ],
+									"text" : "unpack f f f f"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-63",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 476.5, 737.333334000000036, 25.0, 22.0 ],
+									"text" : "s d"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-62",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 443.5, 737.333334000000036, 24.0, 22.0 ],
+									"text" : "s c"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 410.500000000000227, 737.333334000000036, 25.0, 22.0 ],
+									"text" : "s b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-60",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 377.500000000000227, 737.333334000000036, 25.0, 22.0 ],
+									"text" : "s a"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 330.285714285714221, 581.333334000000036, 53.0, 22.0 ],
+									"text" : "s Josiah"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 269.0, 729.333334000000036, 36.0, 22.0 ],
+									"text" : "s mix"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 249.428571428571331, 705.333334000000036, 43.0, 22.0 ],
+									"text" : "s level"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 300.783401091893666, 705.333334000000036, 55.0, 22.0 ],
+									"text" : "s spread"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 279.0, 753.333334000000036, 41.0, 22.0 ],
+									"text" : "s time"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "float", "float", "float", "float", "float" ],
+									"patching_rect" : [ 249.428571428571331, 670.333334000000036, 81.0, 22.0 ],
+									"text" : "unpack f f f f f"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "float", "float", "float", "float", "float" ],
+									"patching_rect" : [ 209.0, 581.333334000000036, 81.0, 22.0 ],
+									"text" : "unpack f f f f f"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-75",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 325.0, 636.175346524604834, 28.0, 22.0 ],
+									"text" : "s m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-70",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 295.0, 636.175346524604834, 25.0, 22.0 ],
+									"text" : "s o"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-65",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 269.0, 636.175346524604834, 21.0, 22.0 ],
+									"text" : "s f"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 237.626226039159974, 636.175346524604834, 24.0, 22.0 ],
+									"text" : "s y"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-61",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 209.0, 636.175346524604834, 24.0, 22.0 ],
+									"text" : "s x"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 8,
+									"numoutlets" : 8,
+									"outlettype" : [ "", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 209.0, 548.5, 302.0, 22.0 ],
+									"text" : "route Alex Annie Ellie Josiah Sam Trevor \"Windows 10\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 209.0, 515.0, 161.400000000000091, 22.0 ],
+									"text" : "join 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 151.0, 100.0, 67.0, 22.0 ],
+									"text" : "r to_socket"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 51.0, 239.0, 97.0, 22.0 ],
+									"text" : "route friend-data"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 187.0, 193.5, 72.0, 22.0 ],
+									"text" : "route stdout"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 51.0, 152.0, 155.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"autostart" : 0,
+										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
+										"watch" : 0
+									}
+,
+									"text" : "node.script remote_client.js"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 209.0, 383.31915283203125, 29.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "bang", "bang", "bang", "" ],
+									"patching_rect" : [ 51.0, 274.0, 217.0, 22.0 ],
+									"text" : "t b b b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "dictionary", "", "", "" ],
+									"patching_rect" : [ 50.0, 312.5, 80.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "dict friends"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "dictionary", "", "", "" ],
+									"patching_rect" : [ 209.0, 312.5, 76.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "dict friends"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-45",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 6,
+									"outlettype" : [ "", "", "", "", "", "" ],
+									"patching_rect" : [ 209.0, 451.6595458984375, 197.0, 22.0 ],
+									"text" : "dict.unpack name: x: y: z: w: active:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 219.5, 411.0, 55.0, 22.0 ],
+									"text" : "zl slice 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 209.0, 353.31915283203125, 47.0, 22.0 ],
+									"text" : "dict.iter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-47",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 144.0, 312.5, 50.0, 22.0 ],
+									"text" : "getkeys"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-4",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 51.0, 40.000006000000042, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-11",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 835.333334000000036, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-13", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-65", 0 ],
+									"source" : [ "obj-13", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-70", 0 ],
+									"source" : [ "obj-13", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-75", 0 ],
+									"source" : [ "obj-13", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-14", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-14", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-14", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-22", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-22", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-63", 0 ],
+									"source" : [ "obj-22", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-39", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-39", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-39", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-40", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"source" : [ "obj-41", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"source" : [ "obj-41", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"source" : [ "obj-41", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"source" : [ "obj-43", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"order" : 1,
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"order" : 0,
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 4 ],
+									"source" : [ "obj-45", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 3 ],
+									"source" : [ "obj-45", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 2 ],
+									"source" : [ "obj-45", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 1 ],
+									"source" : [ "obj-45", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-43", 0 ],
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"source" : [ "obj-53", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1220.0, 97.666666000000021, 47.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p script"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -60,250 +786,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "float", "float", "float", "float" ],
-					"patching_rect" : [ 1557.500000000000227, 839.666666000000077, 117.999999999999773, 22.0 ],
-					"text" : "unpack f f f f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-63",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1656.5, 929.0, 25.0, 22.0 ],
-					"text" : "s d"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1623.5, 929.0, 24.0, 22.0 ],
-					"text" : "s c"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1590.500000000000227, 929.0, 25.0, 22.0 ],
-					"text" : "s b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-60",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1557.500000000000227, 929.0, 25.0, 22.0 ],
-					"text" : "s a"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1510.285714285714221, 773.0, 53.0, 22.0 ],
-					"text" : "s Josiah"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1449.0, 921.0, 36.0, 22.0 ],
-					"text" : "s mix"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1429.428571428571331, 897.0, 43.0, 22.0 ],
-					"text" : "s level"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1480.783401091893666, 897.0, 55.0, 22.0 ],
-					"text" : "s spread"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1459.0, 945.0, 41.0, 22.0 ],
-					"text" : "s time"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "float", "float", "float", "float", "float" ],
-					"patching_rect" : [ 1429.428571428571331, 862.0, 81.0, 22.0 ],
-					"text" : "unpack f f f f f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "float", "float", "float", "float", "float" ],
-					"patching_rect" : [ 1389.0, 773.0, 81.0, 22.0 ],
-					"text" : "unpack f f f f f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1505.0, 827.842012524604797, 28.0, 22.0 ],
-					"text" : "s m"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-70",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1475.0, 827.842012524604797, 25.0, 22.0 ],
-					"text" : "s o"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-65",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1449.0, 827.842012524604797, 21.0, 22.0 ],
-					"text" : "s f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-64",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1417.626226039159974, 827.842012524604797, 24.0, 22.0 ],
-					"text" : "s y"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-61",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1389.0, 827.842012524604797, 24.0, 22.0 ],
-					"text" : "s x"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-39",
-					"maxclass" : "newobj",
-					"numinlets" : 8,
-					"numoutlets" : 8,
-					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 1389.0, 740.166665999999964, 302.0, 22.0 ],
-					"text" : "route Alex Annie Ellie Josiah Sam Trevor \"Windows 10\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1389.0, 706.666665999999964, 161.400000000000091, 22.0 ],
-					"text" : "join 5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1300.0, 260.666665999999964, 120.0, 24.0 ],
-					"text" : "Start the script"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1331.0, 291.666665999999964, 67.0, 22.0 ],
-					"text" : "r to_socket"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1231.0, 291.666665999999964, 63.0, 22.0 ],
+					"patching_rect" : [ 1301.0, 34.666665999999964, 63.0, 22.0 ],
 					"text" : "script stop"
 				}
 
@@ -314,31 +802,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1230.0, 571.666665999999964, 144.0, 290.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1231.0, 430.666665999999964, 97.0, 22.0 ],
-					"text" : "route friend-data"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-37",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1367.0, 385.166665999999964, 72.0, 22.0 ],
-					"text" : "route stdout"
+					"patching_rect" : [ 1220.0, 176.666665999999964, 144.0, 290.0 ]
 				}
 
 			}
@@ -349,136 +813,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1230.0, 245.666665999999964, 64.0, 22.0 ],
+					"patching_rect" : [ 1220.0, 34.666665999999964, 64.0, 22.0 ],
 					"text" : "script start"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-40",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1231.0, 343.666665999999964, 155.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"autostart" : 0,
-						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
-						"watch" : 0
-					}
-,
-					"text" : "node.script remote_client.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1389.0, 574.985818832031214, 29.5, 22.0 ],
-					"text" : "t b l"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 1231.0, 465.666665999999964, 217.0, 22.0 ],
-					"text" : "t b b b l"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1230.0, 504.166665999999964, 80.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict friends"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-52",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1389.0, 504.166665999999964, 76.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict friends"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 1389.0, 643.326211898437464, 197.0, 22.0 ],
-					"text" : "dict.unpack name: x: y: z: w: active:"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-53",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1399.5, 602.666665999999964, 55.0, 22.0 ],
-					"text" : "zl slice 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-46",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1389.0, 544.985818832031214, 47.0, 22.0 ],
-					"text" : "dict.iter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1324.0, 504.166665999999964, 50.0, 22.0 ],
-					"text" : "getkeys"
 				}
 
 			}
@@ -587,268 +923,21 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"source" : [ "obj-10", 0 ]
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"source" : [ "obj-13", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"source" : [ "obj-13", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
-					"source" : [ "obj-13", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"source" : [ "obj-13", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-14", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-14", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-14", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-22", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"source" : [ "obj-22", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"source" : [ "obj-22", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-39", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-39", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-39", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"source" : [ "obj-40", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-41", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"source" : [ "obj-41", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
-					"source" : [ "obj-41", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-43", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"order" : 1,
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"order" : 0,
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 4 ],
-					"source" : [ "obj-45", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 3 ],
-					"source" : [ "obj-45", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 2 ],
-					"source" : [ "obj-45", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
-					"source" : [ "obj-45", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-53", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-83", 0 ]
 				}
 
@@ -2460,380 +2549,380 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "morganjosiah_96170_9291815_Josiah.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Reverb 1.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Signal Mixer.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Smooth Delay.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Josiah.json",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "n4m-handpose.main.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stereo.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oscillator.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb2.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb1.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gigaverb.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Annie.json",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ellie's Synth.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Macro Oscillator.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/code",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Chorus.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Feedback.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Stereo.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ellie.json",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Audience_patcher.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gig.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverbtwoo.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TREVOR_SYNTH.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend2.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive2.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioEQ.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Gigaverb.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Sync Delay.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Cloud.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.LFO.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Xfade.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "remote_client.js",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/node_content",
-				"patcherrelativepath" : "../node_content",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "alexmalone_networksynth.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.FM.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.CV LFO.maxpat",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Alex.json",
-				"bootpath" : "E:/macOS_Windows/networkPerformance/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "remote_client.js",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/node_content",
+				"patcherrelativepath" : "../node_content",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
