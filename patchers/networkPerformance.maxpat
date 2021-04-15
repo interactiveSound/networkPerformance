@@ -10,7 +10,11 @@
 		}
 ,
 		"classnamespace" : "box",
+<<<<<<< HEAD
 		"rect" : [ 104.0, 196.0, 1352.0, 987.0 ],
+=======
+		"rect" : [ 99.0, 87.0, 1352.0, 987.0 ],
+>>>>>>> 39bac1f2a1dbdcf3af8e26bf6743858ab4d2805d
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -345,8 +349,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -605,6 +607,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 24.0, 514.0, 348.0, 453.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 24.0, 514.0, 348.0, 453.0 ],
 					"varname" : "TREVOR_SYNTH",
 					"viewvisibility" : 1
 				}
@@ -960,11 +964,6 @@
 			"obj-1::obj-58::obj-33" : [ "in4[1]", "in4", 0 ],
 			"obj-1::obj-58::obj-37" : [ "power[1]", "power", 0 ],
 			"obj-1::obj-58::obj-39" : [ "in1[1]", "in1", 0 ],
-			"obj-1::obj-5::obj-100" : [ "score[2]", "score", 0 ],
-			"obj-1::obj-5::obj-105" : [ "rounding[2]", "rounding", 0 ],
-			"obj-1::obj-5::obj-12" : [ "bypass[15]", "bypass", 0 ],
-			"obj-1::obj-5::obj-14::obj-2" : [ "pastebang[5]", "pastebang", 0 ],
-			"obj-1::obj-5::obj-71" : [ "notes[2]", "notes", 1 ],
 			"obj-1::obj-6::obj-113" : [ "pan[8]", "Pan", 0 ],
 			"obj-1::obj-6::obj-114" : [ "solo[8]", "Solo", 0 ],
 			"obj-1::obj-6::obj-115" : [ "active[30]", "Active", 0 ],
@@ -1462,22 +1461,6 @@
 ,
 				"obj-1::obj-58::obj-39" : 				{
 					"parameter_longname" : "in1[1]"
-				}
-,
-				"obj-1::obj-5::obj-100" : 				{
-					"parameter_longname" : "score[2]"
-				}
-,
-				"obj-1::obj-5::obj-105" : 				{
-					"parameter_longname" : "rounding[2]"
-				}
-,
-				"obj-1::obj-5::obj-12" : 				{
-					"parameter_longname" : "bypass[15]"
-				}
-,
-				"obj-1::obj-5::obj-14::obj-2" : 				{
-					"parameter_longname" : "pastebang[5]"
 				}
 ,
 				"obj-1::obj-6::obj-113" : 				{
@@ -2770,6 +2753,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Josiah.json",
+				"bootpath" : "~/Desktop/networkPerformance/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "n4m-handpose.main.maxpat",
 				"bootpath" : "~/Desktop/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
@@ -2966,8 +2956,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -2977,8 +2967,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -2988,8 +2978,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2999,7 +2989,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3013,6 +3003,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -3022,8 +3013,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
