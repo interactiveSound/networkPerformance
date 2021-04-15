@@ -84,14 +84,24 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 289.85714285714289, 639.333334000000036, 41.0, 22.0 ],
+									"text" : "s Ellie"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 252.500000000000227, 690.333334000000036, 48.0, 22.0 ],
+									"patching_rect" : [ 249.428571428571445, 602.333334000000036, 48.0, 22.0 ],
 									"text" : "s Annie"
 								}
 
@@ -102,64 +112,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 392.500000000000227, 602.333334000000036, 43.0, 22.0 ],
+									"patching_rect" : [ 370.714285714285722, 588.333334000000036, 43.0, 22.0 ],
 									"text" : "s Sam"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-22",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "float", "float", "float", "float" ],
-									"patching_rect" : [ 377.500000000000227, 648.000000000000114, 117.999999999999773, 22.0 ],
-									"text" : "unpack f f f f"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-63",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 476.5, 737.333334000000036, 25.0, 22.0 ],
-									"text" : "s d"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-62",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 443.5, 737.333334000000036, 24.0, 22.0 ],
-									"text" : "s c"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-21",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 410.500000000000227, 737.333334000000036, 25.0, 22.0 ],
-									"text" : "s b"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-60",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 377.500000000000227, 737.333334000000036, 25.0, 22.0 ],
-									"text" : "s a"
 								}
 
 							}
@@ -169,7 +123,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.285714285714221, 581.333334000000036, 53.0, 22.0 ],
+									"patching_rect" : [ 330.285714285714278, 612.333334000000036, 53.0, 22.0 ],
 									"text" : "s Josiah"
 								}
 
@@ -181,7 +135,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "float", "float", "float", "float", "float" ],
-									"patching_rect" : [ 209.0, 581.333334000000036, 81.0, 22.0 ],
+									"patching_rect" : [ 93.0, 633.333334000000036, 81.0, 22.0 ],
 									"text" : "unpack f f f f f"
 								}
 
@@ -192,7 +146,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 325.0, 636.175346524604834, 28.0, 22.0 ],
+									"patching_rect" : [ 209.0, 688.175346524604834, 28.0, 22.0 ],
 									"text" : "s m"
 								}
 
@@ -203,7 +157,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 295.0, 636.175346524604834, 25.0, 22.0 ],
+									"patching_rect" : [ 179.0, 688.175346524604834, 25.0, 22.0 ],
 									"text" : "s o"
 								}
 
@@ -214,7 +168,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 269.0, 636.175346524604834, 21.0, 22.0 ],
+									"patching_rect" : [ 153.0, 688.175346524604834, 21.0, 22.0 ],
 									"text" : "s f"
 								}
 
@@ -225,7 +179,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 237.626226039159974, 636.175346524604834, 24.0, 22.0 ],
+									"patching_rect" : [ 121.626226039159974, 688.175346524604834, 24.0, 22.0 ],
 									"text" : "s y"
 								}
 
@@ -236,7 +190,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 209.0, 636.175346524604834, 24.0, 22.0 ],
+									"patching_rect" : [ 93.0, 688.175346524604834, 24.0, 22.0 ],
 									"text" : "s x"
 								}
 
@@ -312,8 +266,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -499,34 +451,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
-									"source" : [ "obj-22", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
-									"source" : [ "obj-22", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-62", 0 ],
-									"source" : [ "obj-22", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-63", 0 ],
-									"source" : [ "obj-22", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
 									"source" : [ "obj-35", 0 ]
 								}
@@ -569,7 +493,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-39", 2 ]
 								}
 
@@ -2550,15 +2474,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.Flanger.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
+				"name" : "Annie.json",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Annie.json",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
-				"patcherrelativepath" : "../data",
+				"name" : "bp.Flanger.maxpat",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2787,9 +2711,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2798,9 +2722,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2809,7 +2733,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2819,8 +2743,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2834,7 +2758,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontface" : [ 1 ],
+					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2844,7 +2768,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 12.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
