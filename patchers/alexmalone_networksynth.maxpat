@@ -4,15 +4,15 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 477.0, 79.0, 1210.0, 1007.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 897.0, 832.5, 37.0, 23.0 ],
+					"patching_rect" : [ 1004.0, 736.013096690177917, 37.0, 23.0 ],
 					"text" : "read"
 				}
 
@@ -61,7 +61,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.0, 836.0, 38.0, 23.0 ],
+					"patching_rect" : [ 943.0, 736.013096690177917, 38.0, 23.0 ],
 					"text" : "write"
 				}
 
@@ -74,7 +74,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.0, 53.0, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "18"
 				}
 
 			}
@@ -85,8 +85,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 18.0, 70.0, 22.0 ],
-					"text" : "loadmess 2"
+					"patching_rect" : [ 90.0, 18.0, 77.0, 22.0 ],
+					"text" : "loadmess 18"
 				}
 
 			}
@@ -108,7 +108,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1587.286968191464894, 524.5, 26.0, 22.0 ],
+					"patching_rect" : [ 1197.234304149945729, 961.473928689956665, 26.0, 22.0 ],
 					"text" : "r m"
 				}
 
@@ -122,7 +122,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1587.286968191464894, 591.5, 50.0, 22.0 ]
+					"patching_rect" : [ 1197.234304149945729, 1028.473928689956665, 50.0, 22.0 ]
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1531.234339793523304, 524.5, 23.0, 22.0 ],
+					"patching_rect" : [ 1141.181675752004139, 961.473928689956665, 23.0, 22.0 ],
 					"text" : "r o"
 				}
 
@@ -145,7 +145,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1476.052664041519165, 524.5, 19.0, 22.0 ],
+					"patching_rect" : [ 1086.0, 961.473928689956665, 19.0, 22.0 ],
 					"text" : "r f"
 				}
 
@@ -157,7 +157,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1421.71933070818568, 524.5, 22.0, 22.0 ],
+					"patching_rect" : [ 1031.666666666666515, 961.473928689956665, 22.0, 22.0 ],
 					"text" : "r y"
 				}
 
@@ -169,7 +169,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1368.052664041519165, 524.5, 22.0, 22.0 ],
+					"patching_rect" : [ 978.0, 961.473928689956665, 22.0, 22.0 ],
 					"text" : "r x"
 				}
 
@@ -183,7 +183,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1531.234339793523304, 591.5, 50.0, 22.0 ]
+					"patching_rect" : [ 1141.181675752004139, 1028.473928689956665, 50.0, 22.0 ]
 				}
 
 			}
@@ -196,7 +196,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1476.052664041519165, 591.5, 50.0, 22.0 ]
+					"patching_rect" : [ 1086.0, 1028.473928689956665, 50.0, 22.0 ]
 				}
 
 			}
@@ -209,7 +209,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1421.71933070818568, 591.5, 50.0, 22.0 ]
+					"patching_rect" : [ 1031.666666666666515, 1028.473928689956665, 50.0, 22.0 ]
 				}
 
 			}
@@ -222,7 +222,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1368.052664041519165, 591.5, 50.0, 22.0 ]
+					"patching_rect" : [ 978.0, 1028.473928689956665, 50.0, 22.0 ]
 				}
 
 			}
@@ -233,7 +233,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1368.052664041519165, 634.5, 95.0, 22.0 ],
+					"patching_rect" : [ 978.0, 1071.473928689956665, 95.0, 22.0 ],
 					"text" : "pak 0. 0. 0. 0. 0."
 				}
 
@@ -244,7 +244,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1368.052664041519165, 742.513096690177917, 69.0, 22.0 ],
+					"patching_rect" : [ 978.0, 1179.487025380134583, 69.0, 22.0 ],
 					"text" : "s to_socket"
 				}
 
@@ -256,7 +256,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1368.052664041519165, 680.5, 82.0, 22.0 ],
+					"patching_rect" : [ 978.0, 1117.473928689956665, 82.0, 22.0 ],
 					"text" : "prepend send"
 				}
 
@@ -486,9 +486,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 844.21933070818568, 919.513096690177917, 187.0, 22.0 ],
+					"patching_rect" : [ 951.21933070818568, 823.026193380355835, 187.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 4, 79, 343, 580 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -669,7 +669,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 992.71933070818568, 697.596431106328964, 150.0, 33.0 ],
+					"patching_rect" : [ 914.0, 673.083334416151047, 150.0, 34.0 ],
 					"text" : "pattrstorage for wireless synth controls"
 				}
 
@@ -705,8 +705,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.5, 1074.881514072418213, 113.0, 62.0 ],
-					"text" : ";\rfmcontrol Depth $1;\roscil CV2 $2;\rmaster-mix gain $3"
+					"patching_rect" : [ 47.5, 1074.881514072418213, 113.0, 64.0 ],
+					"text" : ";\r\nfmcontrol Depth $1;\r\noscil CV2 $2;\r\nmaster-mix gain $3"
 				}
 
 			}
@@ -820,6 +820,8 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "cvlfo", "@Phase", 0.02, "@Rate", 0.74, "@Freq", "triangle" ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -835,6 +837,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1037.0, 359.5, 214.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 63.5, 422.5, 214.0, 116.0 ],
 					"varname" : "bp.CV LFO",
 					"viewvisibility" : 1
 				}
@@ -842,6 +846,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -857,6 +862,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 723.0, 354.5, 217.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 62.0, 296.5, 217.0, 116.0 ],
 					"varname" : "bp.Quantizer",
 					"viewvisibility" : 1
 				}
@@ -935,7 +942,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1212,8 +1219,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1223,8 +1230,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1234,7 +1241,6 @@
 								"name" : "Default M4L-1",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1244,6 +1250,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
 ,
@@ -1282,7 +1289,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1559,8 +1566,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1570,8 +1577,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1581,7 +1588,6 @@
 								"name" : "Default M4L-1",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1591,6 +1597,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
 ,
@@ -1630,6 +1637,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1646,7 +1654,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 416.541422247886658, 358.0, 265.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 615.0, 98.872872829437256, 265.0, 116.0 ],
+					"presentation_rect" : [ 371.0, 172.0, 265.0, 116.0 ],
 					"varname" : "bp.Sync Delay",
 					"viewvisibility" : 1
 				}
@@ -1655,6 +1663,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
+					"args" : [ "delay", "@gain", -5.4 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1671,7 +1680,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 249.541422247886658, 726.083334416151047, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 658.169490575790405, 534.262711763381958, 69.0, 139.0 ],
+					"presentation_rect" : [ 397.0, 20.5, 69.0, 139.0 ],
 					"varname" : "AudioMix[1]",
 					"viewvisibility" : 1
 				}
@@ -1680,6 +1689,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  sender.",
+					"args" : [ "sender4", "@bus", "master" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1695,8 +1705,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 249.541422247886658, 875.083334416151047, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 573.423725843429565, 684.0, 69.0, 39.0 ],
 					"varname" : "AudioSend2[1]",
 					"viewvisibility" : 1
 				}
@@ -1705,6 +1713,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  receiver.",
+					"args" : [ "Delsend", "@bus", 1 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1720,8 +1729,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 475.041422247886658, 294.0, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 573.423725843429565, 313.516949415206909, 69.0, 39.0 ],
 					"varname" : "AudioReceive[1]",
 					"viewvisibility" : 1
 				}
@@ -1729,6 +1736,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1745,7 +1753,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 43.189569473266602, 352.0, 332.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 267.0, 98.872872829437256, 332.0, 116.0 ],
+					"presentation_rect" : [ 25.0, 172.0, 332.0, 116.0 ],
 					"varname" : "bp.Gigaverb",
 					"viewvisibility" : 1
 				}
@@ -1759,7 +1767,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 448.541422247886658, 516.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 834.457629442214966, 313.516949415206909, 45.0, 45.0 ]
+					"presentation_rect" : [ 156.5, 20.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -1781,8 +1789,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 342.041422247886658, 562.0, 69.0, 149.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 742.516948223114014, 370.983050584793091, 69.0, 149.0 ],
 					"varname" : "AudioEQ[1]",
 					"viewvisibility" : 1
 				}
@@ -1806,8 +1812,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 160.541422247886658, 569.083334416151047, 69.0, 149.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 573.423725843429565, 371.0, 69.0, 149.0 ],
 					"varname" : "AudioEQ",
 					"viewvisibility" : 1
 				}
@@ -1816,6 +1820,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A stereo/dual mono audio output chooser.",
+					"args" : [ "output", "@output", "1-2" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1832,7 +1837,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 342.041422247886658, 879.0, 69.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1598.0, 1097.0, 69.0, 29.0 ],
+					"presentation_rect" : [ 144.5, 130.5, 69.0, 29.0 ],
 					"varname" : "AudioOutput",
 					"viewvisibility" : 1
 				}
@@ -1841,6 +1846,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
+					"args" : [ "master", "@gain", -74 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1857,7 +1863,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 342.041422247886658, 720.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 742.516948223114014, 534.262711763381958, 69.0, 139.0 ],
+					"presentation_rect" : [ 481.041422247886658, 20.5, 69.0, 139.0 ],
 					"varname" : "AudioMix[11]",
 					"viewvisibility" : 1
 				}
@@ -1882,8 +1888,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 342.041422247886658, 516.0, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 742.516948223114014, 313.516949415206909, 69.0, 39.0 ],
 					"varname" : "AudioReceive2",
 					"viewvisibility" : 1
 				}
@@ -1892,7 +1896,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  receiver.",
-					"args" : [ "GIGA", "@bus", 1 ],
+					"args" : [ "reverbsend", "@bus", 1 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1908,8 +1912,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 152.189569473266602, 285.0, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 658.169490575790405, 313.516949415206909, 69.0, 39.0 ],
 					"varname" : "AudioReceive",
 					"viewvisibility" : 1
 				}
@@ -1918,6 +1920,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
+					"args" : [ "reverb", "@gain", -20 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1934,7 +1937,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 160.541422247886658, 726.083334416151047, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 573.423725843429565, 534.262711763381958, 69.0, 139.0 ],
+					"presentation_rect" : [ 313.541422247886658, 20.5, 69.0, 139.0 ],
 					"varname" : "AudioMix[10]",
 					"viewvisibility" : 1
 				}
@@ -1943,7 +1946,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  sender.",
-					"args" : [ "out", "@gain", -20 ],
+					"args" : [ "sender3", "@bus", "master" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1959,8 +1962,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 160.541422247886658, 875.083334416151047, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 487.62711763381958, 688.762711763381958, 69.0, 39.0 ],
 					"varname" : "AudioSend2[9]",
 					"viewvisibility" : 1
 				}
@@ -1985,8 +1986,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 73.041422247886658, 874.083334416151047, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 658.169490575790405, 684.0, 69.0, 39.0 ],
 					"varname" : "AudioSend2[11]",
 					"viewvisibility" : 1
 				}
@@ -2011,8 +2010,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 73.041422247886658, 673.083334416151047, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 487.62711763381958, 634.262711763381958, 69.0, 39.0 ],
 					"varname" : "AudioSend[10]",
 					"viewvisibility" : 1
 				}
@@ -2021,7 +2018,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
-					"args" : [ "Synth", "@gain", 0 ],
+					"args" : [ "Synth", "@gain", -15 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -2038,7 +2035,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 73.041422247886658, 520.5, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 487.62711763381958, 391.762711763381958, 69.0, 139.0 ],
+					"presentation_rect" : [ 232.041422247886658, 20.5, 69.0, 139.0 ],
 					"varname" : "AudioMix[13]",
 					"viewvisibility" : 1
 				}
@@ -2046,7 +2043,8 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "oscil", "@CV2" ],
+					"args" : [ "oscil", "@CV2", "@Offset", -31 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2062,6 +2060,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 978.0, 488.5, 314.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 295.0, 296.5, 314.0, 116.0 ],
 					"varname" : "bp.Oscil",
 					"viewvisibility" : 1
 				}
@@ -2069,7 +2069,8 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "fmcontrol", "@Depth" ],
+					"args" : [ "fmcontrol", "@Depth", "@Offset", -24.190000000000001, "@Ratio", 0.74 ],
+					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2085,6 +2086,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 723.0, 493.5, 211.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 295.0, 422.5, 211.0, 116.0 ],
 					"varname" : "bp.FM",
 					"viewvisibility" : 1
 				}
@@ -2971,154 +2974,154 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.FM.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend2.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive2.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioEQ.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Gigaverb.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Sync Delay.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "~/Desktop/networkPerformance/code",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.CV LFO.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Alex.json",
-				"bootpath" : "~/Desktop/networkPerformance/data",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3146,8 +3149,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3157,8 +3160,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3168,7 +3171,6 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3178,6 +3180,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
 ,
@@ -3208,7 +3211,17 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"default_bgcolor" : [ 0.145098039215686, 0.474509803921569, 0.537254901960784, 1.0 ],
+		"color" : [ 0.0, 0.886274509803922, 1.0, 1.0 ],
+		"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"accentcolor" : [ 0.301960784313725, 0.764705882352941, 0.850980392156863, 1.0 ],
+		"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"bgcolor" : [ 0.0, 0.156862745098039, 1.0, 1.0 ],
+		"bgfillcolor_type" : "gradient",
+		"bgfillcolor_color1" : [ 1.0, 1.0, 1.0, 1.0 ],
+		"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+		"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 
 }
