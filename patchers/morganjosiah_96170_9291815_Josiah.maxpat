@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 259.0, 178.0, 588.0, 989.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,43 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 155.0, 49.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 651.0, 109.0, 34.0, 22.0 ],
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-14",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 86.0, 1234.666672468185425, 150.0, 51.0 ],
+					"text" : "Not sure what the argument is supposed to be here."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -58,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.25, 40.0, 197.0, 23.0 ],
+					"patching_rect" : [ 269.25, 49.0, 197.0, 23.0 ],
 					"text" : "pattrstorage Josiah"
 				}
 
@@ -70,12 +107,18 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 136.0, 84.0, 178.0, 40.0 ]
+					"patching_rect" : [ 156.524475529789925, 84.0, 52.475531503558159, 21.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-12", "flonum", "float", -1.600000023841858, 5, "obj-73", "number", "int", 0, 5, "obj-110", "number", "int", 0, 5, "obj-86", "number", "int", 0 ]
+						}
+ ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "Josiah.json",
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -83,7 +126,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 651.0, 140.513096690177917, 199.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 79, 343, 580 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -126,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 211.000007033348083, 803.0, 121.0, 76.0 ],
+					"patching_rect" : [ 524.333349704742432, 810.0, 121.0, 76.0 ],
 					"text" : ";\rJosiah-mix active $1;\rJosiah-mix gain 0.;\rJosiah-mix pan 0.;\rJosiah-mix solo 0."
 				}
 
@@ -147,9 +190,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 19.000007033348083, 1051.0, 69.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1184.0, 719.0, 69.0, 29.0 ],
+					"patching_rect" : [ 19.000007033348083, 1245.666672468185425, 69.0, 29.0 ],
 					"varname" : "AudioOutput",
 					"viewvisibility" : 1
 				}
@@ -158,7 +199,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
-					"args" : [ "@type", "output" ],
+					"args" : [ "Josiah", "@gain", 0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -172,9 +213,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 19.000007033348083, 901.0, 69.0, 139.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1184.0, 579.0, 69.0, 139.0 ],
+					"patching_rect" : [ 19.000007033348083, 1095.666672468185425, 69.0, 139.0 ],
 					"varname" : "AudioMix[1]",
 					"viewvisibility" : 1
 				}
@@ -197,6 +236,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 19.0, 291.0, 314.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 27.0, 314.0, 116.0 ],
 					"varname" : "bp.Oscillator[2]",
 					"viewvisibility" : 1
 				}
@@ -213,6 +254,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 71.0, 125.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 55.0, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[17]",
@@ -238,6 +281,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 175.0, 125.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 159.0, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[18]",
@@ -269,6 +314,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 304.999992966651917, 527.0, 134.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 275.0, 263.0, 134.0, 116.0 ],
 					"varname" : "bp.Smooth Delay[2]",
 					"viewvisibility" : 1
 				}
@@ -291,6 +338,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 170.0, 527.0, 134.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 139.0, 263.0, 134.0, 116.0 ],
 					"varname" : "bp.Smooth Delay[1]",
 					"viewvisibility" : 1
 				}
@@ -313,6 +362,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 19.0, 645.0, 175.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 381.0, 175.0, 116.0 ],
 					"varname" : "bp.Signal Mixer[1]",
 					"viewvisibility" : 1
 				}
@@ -335,6 +386,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 34.0, 527.0, 134.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 263.0, 134.0, 116.0 ],
 					"varname" : "bp.Smooth Delay",
 					"viewvisibility" : 1
 				}
@@ -357,6 +410,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 651.0, 291.014181167968786, 314.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 635.0, 27.0, 314.0, 116.0 ],
 					"varname" : "bp.Oscillator[1]",
 					"viewvisibility" : 1
 				}
@@ -373,6 +428,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 123.0, 125.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 107.0, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[19]",
@@ -404,6 +461,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 335.0, 291.014181167968786, 314.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 319.0, 27.0, 314.0, 116.0 ],
 					"varname" : "bp.Oscillator",
 					"viewvisibility" : 1
 				}
@@ -426,6 +485,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 19.0, 409.0, 175.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 145.0, 175.0, 116.0 ],
 					"varname" : "bp.Signal Mixer",
 					"viewvisibility" : 1
 				}
@@ -447,7 +508,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 19.000007033348083, 763.0, 190.0, 116.0 ],
+					"patching_rect" : [ 19.0, 950.00000536441803, 190.0, 116.0 ],
 					"varname" : "bp.Reverb 1",
 					"viewvisibility" : 1
 				}
@@ -465,6 +526,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 19.0, 125.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[20]",
@@ -492,32 +555,10 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"extract" : 1,
-					"id" : "obj-5",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "bp.Quantizer.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 19.0, 173.0, 217.0, 116.0 ],
-					"varname" : "bp.Quantizer",
-					"viewvisibility" : 1
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-19", 0 ],
 					"order" : 2,
 					"source" : [ "obj-10", 0 ]
 				}
@@ -569,6 +610,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -597,7 +645,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -761,11 +809,6 @@
 			"obj-58::obj-33" : [ "in4[1]", "in4", 0 ],
 			"obj-58::obj-37" : [ "power[1]", "power", 0 ],
 			"obj-58::obj-39" : [ "in1[1]", "in1", 0 ],
-			"obj-5::obj-100" : [ "score", "score", 0 ],
-			"obj-5::obj-105" : [ "rounding", "rounding", 0 ],
-			"obj-5::obj-12" : [ "bypass[2]", "bypass", 0 ],
-			"obj-5::obj-14::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-5::obj-71" : [ "notes", "notes", 1 ],
 			"obj-6::obj-113" : [ "pan", "Pan", 0 ],
 			"obj-6::obj-114" : [ "solo", "Solo", 0 ],
 			"obj-6::obj-115" : [ "active", "Active", 0 ],
@@ -928,34 +971,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "~/Desktop/networkPerformance/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bp.Reverb 1.maxpat",
 				"bootpath" : "~/Desktop/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
@@ -1032,6 +1047,13 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Josiah.json",
+				"bootpath" : "~/Desktop/networkPerformance/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
@@ -1054,8 +1076,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -1065,8 +1087,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -1076,8 +1098,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1087,7 +1109,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1113,6 +1135,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -1122,8 +1145,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
