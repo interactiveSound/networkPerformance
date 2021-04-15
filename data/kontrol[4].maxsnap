@@ -1,0 +1,65 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "kontrol[4]",
+	"origin" : "Audience_patcher",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Attack" : 133.0,
+				"Bypass" : 0.0,
+				"CV2[3]" : 0.0,
+				"CV3[3]" : 0.0,
+				"Cutoff[2]" : 15830.94488212896249,
+				"DSP" : 0.0,
+				"Damp[3]" : 0.7,
+				"Damping[1]" : 7457.853399123739109,
+				"Decay[1]" : 45.0,
+				"Diffusion[1]" : 0.2,
+				"Dry[3]" : 1.0,
+				"Early[3]" : 0.25,
+				"FreqMode[2]" : 1.0,
+				"Freq[3]" : 6763.827789816807126,
+				"Input" : 0.0,
+				"Level" : -31.293474,
+				"Linear[2]" : 0.0,
+				"Mix[5]" : 71.811024000000003,
+				"Mix[6]" : 50.0,
+				"Mute[6]" : 0.0,
+				"Mute[7]" : 0.0,
+				"Offset[5]" : 0.0,
+				"Output" : 9.061418,
+				"OutputChannel" : 0.0,
+				"PWM[1]" : 0.0,
+				"PW[1]" : 50.0,
+				"Ratio[1]" : 44.0,
+				"Reflections[2]" : 88.661417,
+				"Regen[4]" : 0.5,
+				"Release" : 135.0,
+				"Size[4]" : 149.974981234360769,
+				"Size[5]" : 25.0,
+				"Spread[3]" : 23.0,
+				"Tail[3]" : 0.25,
+				"Threshold" : -26.929134000000001,
+				"Time[11]" : 11715.099855785485488,
+				"Time[9]" : 2141.732282999999825,
+				"Waveform[1]" : 0.0,
+				"bypass[17]" : 0.0,
+				"bypass[18]" : 0.0,
+				"bypass[19]" : 0.0,
+				"blob" : 				{
+					"slider[2]" : [ 133 ],
+					"slider[3]" : [ 135 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
