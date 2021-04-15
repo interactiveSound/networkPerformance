@@ -84,7 +84,19 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 406.285714285714221, 581.333334000000036, 43.0, 22.0 ],
+									"text" : "s Sam"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-22",
 									"maxclass" : "newobj",
@@ -345,8 +357,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -597,6 +607,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-41", 0 ],
 									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-39", 4 ]
 								}
 
 							}
@@ -1006,8 +1023,9 @@
 			"obj-1::obj-85::obj-37" : [ "power[2]", "power", 0 ],
 			"obj-1::obj-85::obj-39" : [ "in1[2]", "in1", 0 ],
 			"obj-1::obj-86" : [ "number[17]", "number[1]", 0 ],
+			"obj-3::obj-1" : [ "number[4]", "number", 0 ],
 			"obj-3::obj-105" : [ "number[7]", "number", 0 ],
-			"obj-3::obj-116" : [ "number[8]", "number", 0 ],
+			"obj-3::obj-11" : [ "number[21]", "number", 0 ],
 			"obj-3::obj-15::obj-12" : [ "Bypass[1]", "Bypass", 0 ],
 			"obj-3::obj-15::obj-15::obj-2" : [ "pastebang[6]", "pastebang", 0 ],
 			"obj-3::obj-15::obj-2" : [ "Output[1]", "Output", 0 ],
@@ -1018,7 +1036,20 @@
 			"obj-3::obj-15::obj-47" : [ "Release[1]", "Release", 0 ],
 			"obj-3::obj-15::obj-52" : [ "Threshold[1]", "Threshold", 0 ],
 			"obj-3::obj-15::obj-78" : [ "Ratio[2]", "Ratio", 0 ],
+			"obj-3::obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-3::obj-17::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-3::obj-17::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-3::obj-17::obj-25" : [ "TimbreCV", "CV", 0 ],
+			"obj-3::obj-17::obj-3" : [ "Timbre", "Timbre", 0 ],
+			"obj-3::obj-17::obj-35::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-3::obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-3::obj-17::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-3::obj-17::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-3::obj-17::obj-80" : [ "ColorCV", "CV", 0 ],
+			"obj-3::obj-17::obj-81" : [ "Color", "Color", 0 ],
+			"obj-3::obj-17::obj-9" : [ "Macro", "Macro", 0 ],
 			"obj-3::obj-25" : [ "number[6]", "number", 0 ],
+			"obj-3::obj-3" : [ "number[22]", "number", 0 ],
 			"obj-3::obj-31::obj-1" : [ "Size[2]", "Size", 0 ],
 			"obj-3::obj-31::obj-20" : [ "Diffusion", "Diffusion", 0 ],
 			"obj-3::obj-31::obj-25" : [ "Damping", "Damping", 0 ],
@@ -1045,6 +1076,11 @@
 			"obj-3::obj-58::obj-28" : [ "Mix[3]", "Mix", 0 ],
 			"obj-3::obj-58::obj-47" : [ "bypass[10]", "bypass", 0 ],
 			"obj-3::obj-67" : [ "number[5]", "number", 0 ],
+			"obj-3::obj-72::obj-1" : [ "Width", "Width", 0 ],
+			"obj-3::obj-72::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-3::obj-72::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-3::obj-72::obj-28" : [ "Center", "Center", 0 ],
+			"obj-3::obj-72::obj-3" : [ "Regen", "Regen", 0 ],
 			"obj-3::obj-97::obj-23" : [ "bypass[11]", "bypass", 0 ],
 			"obj-3::obj-97::obj-28" : [ "Size[3]", "Size", 0 ],
 			"obj-3::obj-97::obj-3" : [ "Regen[2]", "Regen", 0 ],
@@ -1078,9 +1114,9 @@
 			"obj-5::obj-42::obj-81" : [ "Color[1]", "Color", 0 ],
 			"obj-5::obj-42::obj-9" : [ "Macro[1]", "Macro", 0 ],
 			"obj-5::obj-72::obj-1" : [ "Depth[1]", "Depth", 0 ],
-			"obj-5::obj-72::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-5::obj-72::obj-2" : [ "Rate[1]", "Rate", 0 ],
 			"obj-5::obj-72::obj-23" : [ "bypass[14]", "bypass", 0 ],
-			"obj-5::obj-72::obj-28" : [ "Center", "Center", 0 ],
+			"obj-5::obj-72::obj-28" : [ "Center[1]", "Center", 0 ],
 			"obj-5::obj-72::obj-3" : [ "Regen[3]", "Regen", 0 ],
 			"obj-5::obj-75::obj-12" : [ "invert", "invert", 0 ],
 			"obj-5::obj-75::obj-20" : [ "mute[1]", "mute", 0 ],
@@ -1103,6 +1139,7 @@
 			"obj-6::obj-101::obj-64" : [ "Tail[3]", "Tail", 0 ],
 			"obj-6::obj-101::obj-65" : [ "Spread[3]", "Spread", 0 ],
 			"obj-6::obj-101::obj-66" : [ "Time[11]", "Time", 0 ],
+			"obj-6::obj-109" : [ "number[3]", "number", 0 ],
 			"obj-6::obj-20::obj-12" : [ "Bypass", "Bypass", 0 ],
 			"obj-6::obj-20::obj-15::obj-2" : [ "pastebang[5]", "pastebang", 0 ],
 			"obj-6::obj-20::obj-2" : [ "Output", "Output", 0 ],
@@ -1119,6 +1156,7 @@
 			"obj-6::obj-30::obj-26" : [ "Decay[1]", "Decay", 0 ],
 			"obj-6::obj-30::obj-50" : [ "bypass[19]", "bypass", 0 ],
 			"obj-6::obj-30::obj-55" : [ "Mix[6]", "Mix", 0 ],
+			"obj-6::obj-32" : [ "number", "number", 0 ],
 			"obj-6::obj-42::obj-106" : [ "CV3[3]", "CV3", 0 ],
 			"obj-6::obj-42::obj-107" : [ "Linear[2]", "Linear", 0 ],
 			"obj-6::obj-42::obj-11" : [ "PWM[1]", "PWM", 0 ],
@@ -1133,11 +1171,13 @@
 			"obj-6::obj-57::obj-52" : [ "Level", "Level", 0 ],
 			"obj-6::obj-57::obj-55" : [ "DSP", "DSP", 0 ],
 			"obj-6::obj-57::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-6::obj-68" : [ "number[1]", "number", 0 ],
 			"obj-6::obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
 			"obj-6::obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
 			"obj-6::obj-72::obj-26" : [ "Reflections[2]", "Reflections", 0 ],
 			"obj-6::obj-72::obj-28" : [ "Mix[5]", "Mix", 0 ],
 			"obj-6::obj-72::obj-47" : [ "bypass[17]", "bypass", 0 ],
+			"obj-6::obj-96" : [ "number[2]", "number", 0 ],
 			"obj-7::obj-101::obj-113" : [ "pan[9]", "Pan", 0 ],
 			"obj-7::obj-101::obj-114" : [ "solo[9]", "Solo", 0 ],
 			"obj-7::obj-101::obj-115" : [ "active[36]", "Active", 0 ],
@@ -1237,15 +1277,15 @@
 			"obj-7::obj-7::obj-106" : [ "CV3[11]", "CV3", 0 ],
 			"obj-7::obj-7::obj-12" : [ "Mute[23]", "Mute", 0 ],
 			"obj-7::obj-7::obj-129" : [ "CV2[11]", "CV2", 0 ],
-			"obj-7::obj-7::obj-25" : [ "TimbreCV", "CV", 0 ],
-			"obj-7::obj-7::obj-3" : [ "Timbre", "Timbre", 0 ],
+			"obj-7::obj-7::obj-25" : [ "TimbreCV[2]", "CV", 0 ],
+			"obj-7::obj-7::obj-3" : [ "Timbre[2]", "Timbre", 0 ],
 			"obj-7::obj-7::obj-35::obj-2" : [ "pastebang[8]", "pastebang", 0 ],
 			"obj-7::obj-7::obj-45" : [ "FreqMode[10]", "FreqMode", 0 ],
 			"obj-7::obj-7::obj-46" : [ "Offset[15]", "Offset", 0 ],
 			"obj-7::obj-7::obj-51" : [ "Freq[11]", "Freq", 0 ],
-			"obj-7::obj-7::obj-80" : [ "ColorCV", "CV", 0 ],
-			"obj-7::obj-7::obj-81" : [ "Color", "Color", 0 ],
-			"obj-7::obj-7::obj-9" : [ "Macro", "Macro", 0 ],
+			"obj-7::obj-7::obj-80" : [ "ColorCV[2]", "CV", 0 ],
+			"obj-7::obj-7::obj-81" : [ "Color[2]", "Color", 0 ],
+			"obj-7::obj-7::obj-9" : [ "Macro[2]", "Macro", 0 ],
 			"obj-7::obj-93::obj-122" : [ "active[38]", "Active", 0 ],
 			"obj-7::obj-93::obj-35" : [ "bus[18]", "Bus", 0 ],
 			"obj-7::obj-93::obj-88" : [ "gain[27]", "Gain", 0 ],
@@ -1264,11 +1304,11 @@
 			"obj-8::obj-169::obj-116" : [ "gain[10]", "Gain", 0 ],
 			"obj-8::obj-169::obj-30" : [ "qlist[5]", "Qlist", 0 ],
 			"obj-8::obj-169::obj-4" : [ "setname[5]", "Setname", 0 ],
-			"obj-8::obj-17" : [ "number[4]", "number[3]", 0 ],
+			"obj-8::obj-17" : [ "number[27]", "number[3]", 0 ],
 			"obj-8::obj-170::obj-122" : [ "active[59]", "Active", 0 ],
 			"obj-8::obj-170::obj-35" : [ "bus[30]", "Bus", 0 ],
 			"obj-8::obj-170::obj-88" : [ "gain[9]", "Gain", 0 ],
-			"obj-8::obj-175" : [ "number[1]", "number[1]", 0 ],
+			"obj-8::obj-175" : [ "number[26]", "number[1]", 0 ],
 			"obj-8::obj-176::obj-118" : [ "Mix", "Mix", 0 ],
 			"obj-8::obj-176::obj-27" : [ "Feedback", "Feedback", 0 ],
 			"obj-8::obj-176::obj-49" : [ "HPF", "HPF", 0 ],
@@ -1278,11 +1318,11 @@
 			"obj-8::obj-176::obj-9" : [ "delay_right", "delay_right", 0 ],
 			"obj-8::obj-176::obj-957" : [ "duration.l", "duration.l", 0 ],
 			"obj-8::obj-176::obj-96" : [ "delay_left", "delay_left", 0 ],
-			"obj-8::obj-178" : [ "number", "number", 0 ],
-			"obj-8::obj-22" : [ "number[2]", "number[2]", 0 ],
-			"obj-8::obj-35::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-8::obj-178" : [ "number[24]", "number", 0 ],
+			"obj-8::obj-22" : [ "number[25]", "number[2]", 0 ],
+			"obj-8::obj-35::obj-23" : [ "bypass[24]", "bypass", 0 ],
 			"obj-8::obj-35::obj-28" : [ "Size", "Size", 0 ],
-			"obj-8::obj-35::obj-3" : [ "Regen", "Regen", 0 ],
+			"obj-8::obj-35::obj-3" : [ "Regen[6]", "Regen", 0 ],
 			"obj-8::obj-35::obj-60" : [ "Damp", "Damp", 0 ],
 			"obj-8::obj-35::obj-62" : [ "Dry", "Dry", 0 ],
 			"obj-8::obj-35::obj-63" : [ "Early", "Early", 0 ],
@@ -1314,7 +1354,7 @@
 			"obj-8::obj-54::obj-100" : [ "score", "score", 0 ],
 			"obj-8::obj-54::obj-105" : [ "rounding", "rounding", 0 ],
 			"obj-8::obj-54::obj-12" : [ "bypass[2]", "bypass", 0 ],
-			"obj-8::obj-54::obj-14::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-8::obj-54::obj-14::obj-2" : [ "pastebang[7]", "pastebang", 0 ],
 			"obj-8::obj-54::obj-71" : [ "notes", "notes", 1 ],
 			"obj-8::obj-56::obj-122" : [ "active[54]", "Active", 0 ],
 			"obj-8::obj-56::obj-35" : [ "bus[28]", "Bus", 0 ],
@@ -1343,7 +1383,7 @@
 			"obj-8::obj-63::obj-36" : [ "hi[7]", "Hi", 0 ],
 			"obj-8::obj-63::obj-4" : [ "setname[4]", "Setname", 0 ],
 			"obj-8::obj-63::obj-9" : [ "active[57]", "Active", 0 ],
-			"obj-8::obj-74" : [ "number[3]", "number[3]", 0 ],
+			"obj-8::obj-74" : [ "number[23]", "number[3]", 0 ],
 			"obj-8::obj-79::obj-122" : [ "active[50]", "Active", 0 ],
 			"obj-8::obj-79::obj-35" : [ "bus[25]", "Bus", 0 ],
 			"obj-8::obj-79::obj-88" : [ "gain[2]", "Gain", 0 ],
@@ -1351,20 +1391,20 @@
 			"obj-8::obj-8::obj-56" : [ "Depth", "Depth", 0 ],
 			"obj-8::obj-8::obj-80" : [ "Ratio[5]", "Ratio", 0 ],
 			"obj-8::obj-8::obj-86" : [ "Amt", "Amt", 0 ],
-			"obj-8::obj-8::obj-91" : [ "Offset", "Offset", 0 ],
+			"obj-8::obj-8::obj-91" : [ "Offset[16]", "Offset", 0 ],
 			"obj-8::obj-93::obj-122" : [ "active[49]", "Active", 0 ],
 			"obj-8::obj-93::obj-35" : [ "bus", "Bus", 0 ],
 			"obj-8::obj-93::obj-88" : [ "gain[1]", "Gain", 0 ],
-			"obj-8::obj-9::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-8::obj-9::obj-106" : [ "CV3[12]", "CV3", 0 ],
 			"obj-8::obj-9::obj-107" : [ "Linear", "Linear", 0 ],
 			"obj-8::obj-9::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-8::obj-9::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-8::obj-9::obj-129" : [ "CV2[12]", "CV2", 0 ],
 			"obj-8::obj-9::obj-36" : [ "PW", "PW", 0 ],
 			"obj-8::obj-9::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-8::obj-9::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-8::obj-9::obj-45" : [ "FreqMode[8]", "FreqMode", 0 ],
 			"obj-8::obj-9::obj-46" : [ "Offset[1]", "Offset", 0 ],
-			"obj-8::obj-9::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-8::obj-9::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-8::obj-9::obj-51" : [ "Freq[13]", "Freq", 0 ],
+			"obj-8::obj-9::obj-53" : [ "Mute[17]", "Mute", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1766,8 +1806,16 @@
 					"parameter_longname" : "Depth[1]"
 				}
 ,
+				"obj-5::obj-72::obj-2" : 				{
+					"parameter_longname" : "Rate[1]"
+				}
+,
 				"obj-5::obj-72::obj-23" : 				{
 					"parameter_longname" : "bypass[14]"
+				}
+,
+				"obj-5::obj-72::obj-28" : 				{
+					"parameter_longname" : "Center[1]"
 				}
 ,
 				"obj-5::obj-72::obj-3" : 				{
@@ -2143,11 +2191,11 @@
 				}
 ,
 				"obj-7::obj-7::obj-25" : 				{
-					"parameter_longname" : "TimbreCV"
+					"parameter_longname" : "TimbreCV[2]"
 				}
 ,
 				"obj-7::obj-7::obj-3" : 				{
-					"parameter_longname" : "Timbre"
+					"parameter_longname" : "Timbre[2]"
 				}
 ,
 				"obj-7::obj-7::obj-35::obj-2" : 				{
@@ -2167,11 +2215,11 @@
 				}
 ,
 				"obj-7::obj-7::obj-80" : 				{
-					"parameter_longname" : "ColorCV"
+					"parameter_longname" : "ColorCV[2]"
 				}
 ,
 				"obj-7::obj-7::obj-81" : 				{
-					"parameter_longname" : "Color"
+					"parameter_longname" : "Color[2]"
 				}
 ,
 				"obj-7::obj-93::obj-122" : 				{
@@ -2226,6 +2274,14 @@
 					"parameter_longname" : "gain[9]"
 				}
 ,
+				"obj-8::obj-35::obj-23" : 				{
+					"parameter_longname" : "bypass[24]"
+				}
+,
+				"obj-8::obj-35::obj-3" : 				{
+					"parameter_longname" : "Regen[6]"
+				}
+,
 				"obj-8::obj-38::obj-122" : 				{
 					"parameter_longname" : "active[51]"
 				}
@@ -2264,6 +2320,10 @@
 ,
 				"obj-8::obj-50::obj-88" : 				{
 					"parameter_longname" : "gain[5]"
+				}
+,
+				"obj-8::obj-54::obj-14::obj-2" : 				{
+					"parameter_longname" : "pastebang[7]"
 				}
 ,
 				"obj-8::obj-56::obj-122" : 				{
@@ -2346,12 +2406,36 @@
 					"parameter_longname" : "Ratio[5]"
 				}
 ,
+				"obj-8::obj-8::obj-91" : 				{
+					"parameter_longname" : "Offset[16]"
+				}
+,
 				"obj-8::obj-93::obj-122" : 				{
 					"parameter_longname" : "active[49]"
 				}
 ,
 				"obj-8::obj-93::obj-88" : 				{
 					"parameter_longname" : "gain[1]"
+				}
+,
+				"obj-8::obj-9::obj-106" : 				{
+					"parameter_longname" : "CV3[12]"
+				}
+,
+				"obj-8::obj-9::obj-129" : 				{
+					"parameter_longname" : "CV2[12]"
+				}
+,
+				"obj-8::obj-9::obj-45" : 				{
+					"parameter_longname" : "FreqMode[8]"
+				}
+,
+				"obj-8::obj-9::obj-51" : 				{
+					"parameter_longname" : "Freq[13]"
+				}
+,
+				"obj-8::obj-9::obj-53" : 				{
+					"parameter_longname" : "Mute[17]"
 				}
 
 			}
@@ -2514,6 +2598,33 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "macro_oscillator.maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "background_sm.maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Flanger.maxpat",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Annie.json",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
@@ -2529,20 +2640,6 @@
 			}
 , 			{
 				"name" : "bp.Macro Oscillator.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
