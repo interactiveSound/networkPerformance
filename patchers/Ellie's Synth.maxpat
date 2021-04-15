@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 458.21933070818568, 260.0, 56.0, 22.0 ],
+					"patching_rect" : [ 457.21933070818568, 348.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"number" : [ 0.0 ],
 						"number[1]" : [ 0.0 ],
@@ -65,7 +65,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 458.21933070818568, 164.0, 34.0, 22.0 ],
+					"patching_rect" : [ 457.21933070818568, 252.0, 34.0, 22.0 ],
 					"text" : "write"
 				}
 
@@ -76,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 8.0, 50.0, 20.0 ],
+					"patching_rect" : [ 16.0, 96.0, 50.0, 20.0 ],
 					"text" : "Ellie"
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 291.0, 32.0, 106.0, 23.0 ],
+					"patching_rect" : [ 78.0, 29.0, 106.0, 23.0 ],
 					"text" : "pattrstorage Ellie"
 				}
 
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 291.0, 64.0, 100.0, 40.0 ],
+					"patching_rect" : [ 78.0, 61.0, 100.0, 40.0 ],
 					"pattrstorage" : "Ellie"
 				}
 
@@ -115,7 +115,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 458.21933070818568, 226.0, 187.0, 22.0 ],
+					"patching_rect" : [ 457.21933070818568, 314.0, 187.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 79, 343, 580 ],
 						"parameter_enable" : 0,
@@ -143,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 15.0, 816.014181167968786, 148.0, 116.0 ],
+					"patching_rect" : [ 14.0, 904.014181167968786, 148.0, 116.0 ],
 					"varname" : "bp.Stereo",
 					"viewvisibility" : 1
 				}
@@ -159,7 +159,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 173.0, 60.0, 50.0, 22.0 ],
+					"patching_rect" : [ 172.0, 148.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[14]",
@@ -185,7 +185,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 121.0, 60.0, 50.0, 22.0 ],
+					"patching_rect" : [ 120.0, 148.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[13]",
@@ -217,7 +217,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 27.0, 462.0, 134.0, 116.0 ],
+					"patching_rect" : [ 26.0, 550.0, 134.0, 116.0 ],
 					"varname" : "bp.Smooth Delay[3]",
 					"viewvisibility" : 1
 				}
@@ -239,7 +239,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 580.0, 175.0, 116.0 ],
+					"patching_rect" : [ 14.0, 668.0, 175.0, 116.0 ],
 					"varname" : "bp.Signal Mixer[2]",
 					"viewvisibility" : 1
 				}
@@ -261,7 +261,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 17.0, 344.0, 112.0, 116.0 ],
+					"patching_rect" : [ 16.0, 432.0, 112.0, 116.0 ],
 					"varname" : "bp.Feedback",
 					"viewvisibility" : 1
 				}
@@ -283,7 +283,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 698.014181167968786, 187.0, 116.0 ],
+					"patching_rect" : [ 14.0, 786.014181167968786, 187.0, 116.0 ],
 					"varname" : "bp.Chorus",
 					"viewvisibility" : 1
 				}
@@ -296,7 +296,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 37.0, 23.0, 22.0 ],
+					"patching_rect" : [ 172.0, 125.0, 23.0, 22.0 ],
 					"text" : "r d"
 				}
 
@@ -308,7 +308,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 37.0, 22.0, 22.0 ],
+					"patching_rect" : [ 120.0, 125.0, 22.0, 22.0 ],
 					"text" : "r c"
 				}
 
@@ -320,7 +320,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 37.0, 23.0, 22.0 ],
+					"patching_rect" : [ 68.0, 125.0, 23.0, 22.0 ],
 					"text" : "r b"
 				}
 
@@ -332,7 +332,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 37.0, 23.0, 22.0 ],
+					"patching_rect" : [ 16.0, 125.0, 23.0, 22.0 ],
 					"text" : "r a"
 				}
 
@@ -348,7 +348,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 69.0, 60.0, 50.0, 22.0 ],
+					"patching_rect" : [ 68.0, 148.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[15]",
@@ -371,7 +371,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 17.0, 84.0, 31.0, 22.0 ],
+					"patching_rect" : [ 16.0, 172.0, 31.0, 22.0 ],
 					"text" : "sig~"
 				}
 
@@ -387,7 +387,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 17.0, 60.0, 50.0, 22.0 ],
+					"patching_rect" : [ 16.0, 148.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[16]",
@@ -419,7 +419,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 17.0, 108.0, 217.0, 116.0 ],
+					"patching_rect" : [ 16.0, 196.0, 217.0, 116.0 ],
 					"varname" : "bp.Quantizer[1]",
 					"viewvisibility" : 1
 				}
@@ -442,7 +442,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 17.0, 226.0, 358.0, 116.0 ],
+					"patching_rect" : [ 16.0, 314.0, 358.0, 116.0 ],
 					"varname" : "bp.Macro Oscillator",
 					"viewvisibility" : 1
 				}
