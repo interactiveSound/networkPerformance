@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 49.0, 99.0, 1183.0, 929.0 ],
+		"rect" : [ 608.0, 332.0, 1183.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,50 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 156.524475529789925, 46.0, 61.0, 22.0 ],
+					"text" : "pipe 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 687.0, 95.0, 45.0, 22.0 ],
+					"text" : "store 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 810.0, 561.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"number" : [ -1.600000023841858 ],
+						"number[1]" : [ 0 ],
+						"number[2]" : [ 0 ],
+						"number[3]" : [ 0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u473006163"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-23",
 					"linecount" : 2,
@@ -70,7 +114,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 156.333349704742432, 116.0, 24.0, 24.0 ]
+					"patching_rect" : [ 156.333349704742432, 116.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.333349704742432, 3.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -128,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.0, 49.0, 70.0, 22.0 ],
+					"patching_rect" : [ 156.524475529789925, 12.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -140,7 +186,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 651.0, 109.0, 34.0, 22.0 ],
+					"patching_rect" : [ 651.0, 95.0, 34.0, 22.0 ],
 					"text" : "write"
 				}
 
@@ -178,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.5, 18.0, 143.0, 23.0 ],
+					"patching_rect" : [ 324.024475529789925, 40.0, 143.0, 23.0 ],
 					"text" : "pattrstorage Josiah"
 				}
 
@@ -191,11 +237,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 156.524475529789925, 84.0, 52.475531503558159, 21.0 ],
-					"preset_data" : [ 						{
-							"number" : 1,
-							"data" : [ 5, "obj-12", "flonum", "float", -1.600000023841858, 5, "obj-73", "number", "int", 0, 5, "obj-110", "number", "int", 0, 5, "obj-86", "number", "int", 0 ]
-						}
- ]
+					"pattrstorage" : "Josiah",
+					"presentation" : 1,
+					"presentation_rect" : [ 286.524475529789925, 3.0, 52.475531503558159, 21.0 ]
 				}
 
 			}
@@ -339,7 +383,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 71.0, 158.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 3.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 82.333349704742432, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[17]",
@@ -366,7 +410,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 175.0, 158.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 159.0, 3.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 186.333349704742432, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[18]",
@@ -513,7 +557,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 123.0, 158.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.0, 3.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 134.333349704742432, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[19]",
@@ -611,7 +655,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 19.0, 158.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 3.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 30.333349704742432, 3.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[20]",
@@ -742,6 +786,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -763,6 +814,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
 					"source" : [ "obj-3", 1 ]
 				}
@@ -777,7 +835,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1233,9 +1291,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1244,9 +1302,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1255,7 +1313,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1265,8 +1322,9 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1292,7 +1350,6 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1302,6 +1359,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontface" : [ 1 ],
 					"fontsize" : [ 12.0 ]
 				}
 ,
