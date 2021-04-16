@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 943.0, 922.0, 167.0, 22.0 ],
-					"text" : "AudioMix[11]::gain 0."
+					"text" : "write <none> 0"
 				}
 
 			}
@@ -1305,7 +1305,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1315,8 +1316,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1652,7 +1652,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1662,8 +1663,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3267,7 +3267,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3277,8 +3278,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3292,7 +3292,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontface" : [ 1 ],
+					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3302,7 +3302,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 12.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
