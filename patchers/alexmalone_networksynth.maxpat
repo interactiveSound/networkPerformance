@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 220.0, 79.0, 1852.0, 929.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,16 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 943.0, 922.0, 167.0, 22.0 ],
+					"text" : "AudioMix[11]::gain 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 135.5, 150.0, 33.0 ],
+					"patching_rect" : [ 426.0, 135.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 62.0, 20.5, 150.0, 33.0 ],
-					"text" : "On --> Performa Mode\nOff ----> Audience Mode"
+					"presentation_rect" : [ 62.0, 20.5, 150.0, 34.0 ],
+					"text" : "On --> Performance Mode\nOff ----> Audience Mode"
 				}
 
 			}
@@ -541,10 +553,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 951.21933070818568, 823.026193380355835, 187.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 699, 183, 1484, 901 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage Alex @outputmode 1",
@@ -722,7 +734,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 914.0, 673.083334416151047, 150.0, 33.0 ],
+					"patching_rect" : [ 914.0, 673.083334416151047, 150.0, 34.0 ],
 					"text" : "pattrstorage for wireless synth controls"
 				}
 
@@ -758,8 +770,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.5, 1074.881514072418213, 113.0, 62.0 ],
-					"text" : ";\rfmcontrol Depth $1;\roscil CV2 $2;\rmaster-mix gain $3"
+					"patching_rect" : [ 47.5, 1074.881514072418213, 113.0, 64.0 ],
+					"text" : ";\r\nfmcontrol Depth $1;\r\noscil CV2 $2;\r\nmaster-mix gain $3"
 				}
 
 			}
@@ -873,7 +885,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "cvlfo", "@Phase", 0.02, "@Rate", 0.74, "@Freq", "triangle" ],
+					"args" : [ "cvlfo", "@SpectraLFOPhase[1]", 0.02, "@FreqRate", 0.74, "@SpectraShape", 3 ],
 					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -884,7 +896,7 @@
 					"id" : "obj-49",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "bp.CV LFO.maxpat",
+					"name" : "bp.CV LFO (Alex).maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -995,7 +1007,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1271,8 +1283,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1282,8 +1294,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1342,7 +1354,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1618,8 +1630,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1629,8 +1641,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -2095,7 +2107,7 @@
 					"id" : "obj-9",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "bp.Oscillator.maxpat",
+					"name" : "bp.Oscillator (Alex).maxpat",
 					"numinlets" : 6,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2121,7 +2133,7 @@
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "bp.FM.maxpat",
+					"name" : "bp.FM (Alex).maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -2746,6 +2758,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-79", 1 ],
 					"source" : [ "obj-93", 1 ]
 				}
@@ -3051,155 +3070,155 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bp.FM.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"name" : "bp.FM (Alex).maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"name" : "bp.Oscillator (Alex).maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend2.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive2.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioEQ.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Gigaverb.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Sync Delay.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/code",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.CV LFO.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"name" : "bp.CV LFO (Alex).maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Alex.json",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3226,8 +3245,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -3237,8 +3256,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -3295,7 +3314,7 @@
 		"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"accentcolor" : [ 0.301960784313725, 0.764705882352941, 0.850980392156863, 1.0 ],
 		"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.0, 0.156862745098039, 1.0, 1.0 ],
+		"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
