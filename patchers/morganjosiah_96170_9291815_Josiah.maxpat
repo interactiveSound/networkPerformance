@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 87.0, 1183.0, 929.0 ],
+		"rect" : [ 233.0, 379.0, 1183.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 156.524475529789925, 46.0, 55.0, 22.0 ],
+					"text" : "pipe 100"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "message",
@@ -162,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.524475529789925, 45.0, 70.0, 22.0 ],
+					"patching_rect" : [ 156.524475529789925, 12.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -212,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 231.024475529789925, 45.0, 143.0, 23.0 ],
+					"patching_rect" : [ 324.024475529789925, 40.0, 143.0, 23.0 ],
 					"text" : "pattrstorage Josiah"
 				}
 
@@ -225,7 +237,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 156.524475529789925, 84.0, 52.475531503558159, 21.0 ],
-					"pattrstorage" : "Josiah"
+					"pattrstorage" : "Josiah",
+					"presentation" : 1,
+					"presentation_rect" : [ 286.524475529789925, 3.0, 52.475531503558159, 21.0 ]
 				}
 
 			}
@@ -772,6 +786,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -814,7 +835,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1166,84 +1187,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.Reverb 1.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Signal Mixer.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Smooth Delay.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Josiah.json",
-				"bootpath" : "~/Desktop/networkPerformance/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1270,9 +1291,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1281,9 +1302,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1292,7 +1313,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
@@ -1303,7 +1323,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1329,7 +1350,6 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -1339,7 +1359,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
