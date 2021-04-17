@@ -71,10 +71,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 810.0, 561.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ -1.600000023841858 ],
+						"number" : [ -5.0 ],
 						"number[1]" : [ 0 ],
 						"number[2]" : [ 0 ],
-						"number[3]" : [ 0 ]
+						"number[3]" : [ -70 ]
 					}
 ,
 					"text" : "autopattr",
@@ -296,8 +296,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.333349704742432, 567.0, 121.0, 76.0 ],
-					"text" : ";\rJosiah-mix active $1;\rJosiah-mix gain 0.;\rJosiah-mix pan 0.;\rJosiah-mix solo 0."
+					"patching_rect" : [ 488.333349704742432, 567.0, 114.0, 76.0 ],
+					"text" : ";\rJosiah-mix active 1;\rJosiah-mix gain $1;\rJosiah-mix pan 0.;\rJosiah-mix solo 0."
 				}
 
 			}
@@ -402,8 +402,8 @@
 				"box" : 				{
 					"id" : "obj-110",
 					"maxclass" : "number",
-					"maximum" : 1,
-					"minimum" : 0,
+					"maximum" : 0,
+					"minimum" : -70,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -414,7 +414,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[18]",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 0.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 1
 						}
@@ -1185,6 +1186,40 @@
 			"inherited_shortname" : 1
 		}
 ,
+		"parameter_map" : 		{
+			"midi" : 			{
+				"number[20]" : 				{
+					"srcname" : "16.ctrl.0.chan.midi",
+					"min" : -5.0,
+					"max" : 2.0,
+					"flags" : 2
+				}
+,
+				"number[17]" : 				{
+					"srcname" : "17.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 13.0,
+					"flags" : 2
+				}
+,
+				"number[19]" : 				{
+					"srcname" : "18.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 13.0,
+					"flags" : 2
+				}
+,
+				"number[18]" : 				{
+					"srcname" : "19.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 2
+				}
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "bp.Reverb 1.maxpat",
 				"bootpath" : "~/Desktop/networkPerformance/patchers",
@@ -1313,6 +1348,9 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1321,10 +1359,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1350,6 +1385,8 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1358,9 +1395,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontsize" : [ 12.0 ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
