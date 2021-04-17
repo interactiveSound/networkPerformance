@@ -5,10 +5,10 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"number" : [ -1.600000023841858 ],
+					"number" : [ -5.0 ],
 					"number[1]" : [ 0 ],
 					"number[2]" : [ 0 ],
-					"number[3]" : [ 0 ],
+					"number[3]" : [ -70 ],
 					"bp.Reverb 1::Cutoff" : [ 12531.810714000002918 ],
 					"bp.Reverb 1::Mix" : [ 71.811024000000003 ],
 					"bp.Reverb 1::Reflections" : [ 88.661417 ],
@@ -17,7 +17,7 @@
 					"bp.Signal Mixer::in3" : [ 1.0 ],
 					"bp.Signal Mixer::in4" : [ 0.0 ],
 					"bp.Signal Mixer::live.dial" : [ 1.0 ],
-					"bp.Signal Mixer::live.dial[1]" : [ 1.0 ],
+					"bp.Signal Mixer::live.dial[1]" : [ 0.5 ],
 					"bp.Signal Mixer::power[1]" : [ 0.0 ],
 					"bp.Oscillator::CV2" : [ 100.0 ],
 					"bp.Oscillator::CV3" : [ 0.0 ],
@@ -60,8 +60,8 @@
 					"bp.Oscillator[2]::PW" : [ 50.0 ],
 					"bp.Oscillator[2]::PWM" : [ 0.0 ],
 					"bp.Oscillator[2]::Waveform" : [ 2.0 ],
-					"AudioMix[1]::active" : [ 0.0 ],
-					"AudioMix[1]::gain" : [ 0.0 ],
+					"AudioMix[1]::active" : [ 1.0 ],
+					"AudioMix[1]::gain" : [ -70.0 ],
 					"AudioMix[1]::pan" : [ 0.0 ],
 					"AudioMix[1]::solo" : [ 0.0 ],
 					"AudioOutput::output" : [ 1.0 ]
