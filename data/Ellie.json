@@ -5,19 +5,23 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"bp.Macro Oscillator::CV2" : [ 0.0 ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"number[3]" : [ 0 ],
+					"bp.Macro Oscillator::CV2" : [ 100.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
-					"bp.Macro Oscillator::Color" : [ -4.094488188976378 ],
-					"bp.Macro Oscillator::ColorCV" : [ 0.0 ],
-					"bp.Macro Oscillator::Freq" : [ 34.100646138855538 ],
+					"bp.Macro Oscillator::Color" : [ 0.0 ],
+					"bp.Macro Oscillator::ColorCV" : [ 100.0 ],
+					"bp.Macro Oscillator::Freq" : [ 261.625565410470585 ],
 					"bp.Macro Oscillator::FreqMode" : [ 1.0 ],
 					"bp.Macro Oscillator::Macro" : [ 0 ],
 					"bp.Macro Oscillator::Mute" : [ 0.0 ],
-					"bp.Macro Oscillator::Offset[2]" : [ -35.275590551181104 ],
-					"bp.Macro Oscillator::Timbre" : [ -2.83464566929134 ],
-					"bp.Macro Oscillator::TimbreCV" : [ 0.0 ],
+					"bp.Macro Oscillator::Offset[2]" : [ 0.0 ],
+					"bp.Macro Oscillator::Timbre" : [ 0.0 ],
+					"bp.Macro Oscillator::TimbreCV" : [ 100.0 ],
 					"bp.Quantizer[1]::bypass" : [ 0.0 ],
-					"bp.Quantizer[1]::notes" : [ 0, 10, 1, 10, 2, 10, 3, 10, 4, 55, 5, 48, 6, 10, 7, 36, 8, 10, 9, 36, 10, 10, 11, 10 ],
+					"bp.Quantizer[1]::notes" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12 ],
 					"bp.Quantizer[1]::rounding" : [ 1.0 ],
 					"bp.Quantizer[1]::score" : [ 1.0 ],
 					"bp.Chorus::Center" : [ 500.0 ],
@@ -25,24 +29,20 @@
 					"bp.Chorus::Regen" : [ 0.5 ],
 					"bp.Chorus::Width" : [ 20.000000000000004 ],
 					"bp.Chorus::bypass" : [ 0.0 ],
-					"bp.Feedback::Signal" : [ 0.0 ],
+					"bp.Feedback::Signal" : [ 73.228346456692876 ],
 					"bp.Feedback::invert" : [ 0.0 ],
 					"bp.Feedback::mute" : [ 0.0 ],
 					"bp.Signal Mixer[2]::in3" : [ 0.0 ],
 					"bp.Signal Mixer[2]::in4" : [ 0.0 ],
-					"bp.Signal Mixer[2]::live.dial" : [ 0.0 ],
-					"bp.Signal Mixer[2]::live.dial[1]" : [ 0.0 ],
+					"bp.Signal Mixer[2]::live.dial" : [ 0.5 ],
+					"bp.Signal Mixer[2]::live.dial[1]" : [ 1.0 ],
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
-					"bp.Smooth Delay[3]::Time" : [ 99.999999999999972 ],
+					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"bp.Stereo::DSP" : [ 1.0 ],
-					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::DSP" : [ 0.0 ],
+					"bp.Stereo::Level" : [ 0.0 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
-					"bp.Stereo::OutputChannel" : [ 0.0 ],
-					"number" : [  ],
-					"number[1]" : [  ],
-					"number[2]" : [  ],
-					"number[3]" : [  ]
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -50,6 +50,10 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"number[3]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 3.070866141732282 ],
@@ -83,11 +87,7 @@
 					"bp.Stereo::DSP" : [ 1.0 ],
 					"bp.Stereo::Level" : [ -31.293474 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
-					"bp.Stereo::OutputChannel" : [ 0.0 ],
-					"number" : [  ],
-					"number[1]" : [  ],
-					"number[2]" : [  ],
-					"number[3]" : [  ]
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -95,6 +95,10 @@
 			"8" : 			{
 				"id" : 8,
 				"data" : 				{
+					"number" : [ 0.0 ],
+					"number[1]" : [ 0.0 ],
+					"number[2]" : [ 0 ],
+					"number[3]" : [ -5 ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -128,11 +132,7 @@
 					"bp.Stereo::DSP" : [ 0.0 ],
 					"bp.Stereo::Level" : [ -31.293474 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
-					"bp.Stereo::OutputChannel" : [ 0.0 ],
-					"number" : [ 0.0 ],
-					"number[1]" : [ 0.0 ],
-					"number[2]" : [ 0 ],
-					"number[3]" : [ -5 ]
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -140,6 +140,10 @@
 			"9" : 			{
 				"id" : 9,
 				"data" : 				{
+					"number" : [ 0.0 ],
+					"number[1]" : [ 0.0 ],
+					"number[2]" : [ 5 ],
+					"number[3]" : [ 5 ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -173,11 +177,7 @@
 					"bp.Stereo::DSP" : [ 0.0 ],
 					"bp.Stereo::Level" : [ -31.293474 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
-					"bp.Stereo::OutputChannel" : [ 0.0 ],
-					"number" : [ 0.0 ],
-					"number[1]" : [ 0.0 ],
-					"number[2]" : [ 5 ],
-					"number[3]" : [ 5 ]
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -185,6 +185,10 @@
 			"10" : 			{
 				"id" : 10,
 				"data" : 				{
+					"number" : [ 0.0 ],
+					"number[1]" : [ 0.0 ],
+					"number[2]" : [ -5 ],
+					"number[3]" : [ 5 ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -218,11 +222,7 @@
 					"bp.Stereo::DSP" : [ 0.0 ],
 					"bp.Stereo::Level" : [ -31.293474 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
-					"bp.Stereo::OutputChannel" : [ 0.0 ],
-					"number" : [ 0.0 ],
-					"number[1]" : [ 0.0 ],
-					"number[2]" : [ -5 ],
-					"number[3]" : [ 5 ]
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -230,6 +230,10 @@
 			"16" : 			{
 				"id" : 16,
 				"data" : 				{
+					"number" : [ 0.0 ],
+					"number[1]" : [ 0.0 ],
+					"number[2]" : [ 0 ],
+					"number[3]" : [ 5 ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -263,11 +267,7 @@
 					"bp.Stereo::DSP" : [ 0.0 ],
 					"bp.Stereo::Level" : [ -31.293474 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
-					"bp.Stereo::OutputChannel" : [ 0.0 ],
-					"number" : [ 0.0 ],
-					"number[1]" : [ 0.0 ],
-					"number[2]" : [ 0 ],
-					"number[3]" : [ 5 ]
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -275,6 +275,10 @@
 			"23" : 			{
 				"id" : 23,
 				"data" : 				{
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"number[3]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ -5.0 ],
@@ -308,11 +312,7 @@
 					"bp.Stereo::DSP" : [ 0.0 ],
 					"bp.Stereo::Level" : [ -31.293474 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
-					"bp.Stereo::OutputChannel" : [ 0.0 ],
-					"number" : [  ],
-					"number[1]" : [  ],
-					"number[2]" : [  ],
-					"number[3]" : [  ]
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -320,6 +320,10 @@
 			"24" : 			{
 				"id" : 24,
 				"data" : 				{
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"number[3]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -353,11 +357,7 @@
 					"bp.Stereo::DSP" : [ 0.0 ],
 					"bp.Stereo::Level" : [ -31.293474 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
-					"bp.Stereo::OutputChannel" : [ 0.0 ],
-					"number" : [  ],
-					"number[1]" : [  ],
-					"number[2]" : [  ],
-					"number[3]" : [  ]
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
