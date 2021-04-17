@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 286.0, 96.0, 1439.0, 928.0 ],
+		"rect" : [ 627.0, 97.0, 988.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -176,7 +176,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1302.5, 444.203471899032593, 101.0, 22.0 ],
-					"text" : "scale 0 127 -20 0"
+					"text" : "scale 0 127 -74 0"
 				}
 
 			}
@@ -635,7 +635,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 109.577826619148254, 10.0, 142.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.577826619148254, 10.0, 142.0, 23.0 ],
+					"presentation_rect" : [ 105.577826619148254, 10.0, 142.0, 23.0 ],
 					"text" : "pattrstorage Sam"
 				}
 
@@ -649,12 +649,22 @@
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 109.327826619148254, 54.0, 79.0, 33.259632050991058 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.327826619148254, 54.0, 79.0, 33.259632050991058 ]
+					"presentation_rect" : [ 109.327826619148254, 54.0, 79.0, 33.259632050991058 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-32", "number", "int", 0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-26", "flonum", "float", 0.0, 5, "obj-25", "flonum", "float", 0.0, 5, "obj-24", "flonum", "float", 0.0, 5, "obj-68", "number", "int", 0, 5, "obj-96", "number", "int", 0, 5, "obj-109", "number", "int", 0, 5, "obj-7", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 0, 5, "obj-39", "number", "int", 0, 5, "obj-27", "gswitch2", "int", 0, 5, "obj-4", "toggle", "int", 0, 5, "obj-3", "gswitch2", "int", 0 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-32", "number", "int", 0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-26", "flonum", "float", 0.0, 5, "obj-25", "flonum", "float", 0.0, 5, "obj-24", "flonum", "float", 0.0, 5, "obj-68", "number", "int", 0, 5, "obj-96", "number", "int", 0, 5, "obj-109", "number", "int", 0, 5, "obj-7", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 0, 5, "obj-39", "number", "int", 0, 5, "obj-27", "gswitch2", "int", 0, 5, "obj-4", "toggle", "int", 0, 5, "obj-3", "gswitch2", "int", 0 ]
+						}
+ ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "Sam.json",
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -662,7 +672,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1233.0, 86.513103604316711, 189.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 4, 79, 358, 765 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -1288,147 +1298,126 @@
 		"dependency_cache" : [ 			{
 				"name" : "kontrol.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[1].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[2].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[3].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[1]_20210407.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[2]_20210407.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[3]_20210407.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol_20210407.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stereo.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oscillator.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gig.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverbtwoo.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Sam.json",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1443,8 +1432,75 @@
 			"type" : "list",
 			"subtype" : "Undefined",
 			"embed" : 1,
+			"snapshot" : 			{
+				"valuedictionary" : 				{
+					"parameter_values" : 					{
+						"Attack" : 133.0,
+						"Bypass" : 0.0,
+						"CV2" : 0.0,
+						"CV3" : 0.0,
+						"Cutoff" : 15830.94488212896249,
+						"DSP" : 0.0,
+						"Damp" : 0.7,
+						"Damping" : 7457.853399123739109,
+						"Decay" : 45.0,
+						"Diffusion" : 0.2,
+						"Dry" : 1.0,
+						"Early" : 0.25,
+						"Freq" : 6477.063681835433272,
+						"FreqMode" : 1.0,
+						"Input" : 0.0,
+						"Level" : -20.0,
+						"Linear" : 0.0,
+						"Mix" : 0.0,
+						"Mix[1]" : 0.0,
+						"Mute" : 0.0,
+						"Mute[1]" : 0.0,
+						"Mute[2]" : 0.0,
+						"NoiseType" : 0.0,
+						"Offset" : -3.0,
+						"Offset[1]" : 0.0,
+						"Output" : -14.088188299212611,
+						"OutputChannel" : 0.0,
+						"PW" : 50.0,
+						"PWM" : 0.0,
+						"Ratio" : 44.0,
+						"Reflections" : 88.661417,
+						"Regen" : 0.5,
+						"Release" : 135.0,
+						"Scale" : 100.0,
+						"Size" : 216.295461649395548,
+						"Size[1]" : 25.0,
+						"Skew" : 0.0,
+						"Spread" : 0.0,
+						"Tail" : 1.0,
+						"Threshold" : -26.929134000000001,
+						"Time" : 2141.732282999999825,
+						"Time[1]" : 0.1,
+						"Waveform" : 0.0,
+						"XCV" : 0.0,
+						"YCV" : 0.0,
+						"bypass" : 0.0,
+						"bypass[1]" : 0.0,
+						"bypass[2]" : 0.0,
+						"number" : 61.0,
+						"number[1]" : 0.0,
+						"number[2]" : 127.0,
+						"number[3]" : 66.0,
+						"source" : 1.0,
+						"blob" : 						{
+							"slider[2]" : [ 133 ],
+							"slider[3]" : [ 135 ]
+						}
+
+					}
+
+				}
+
+			}
+,
 			"snapshotlist" : 			{
-				"current_snapshot" : -1,
+				"current_snapshot" : 0,
 				"entries" : [ 					{
 						"filetype" : "C74Snapshot",
 						"version" : 2,
@@ -1517,78 +1573,6 @@
 						}
 
 					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[1]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[1]",
-							"filename" : "kontrol[1]_20210407.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "865891a7849c61fe3bf3378c053a5229"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[2]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[2]",
-							"filename" : "kontrol[2]_20210407.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "b79f856c3113ae614d4833818899a50c"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[3]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[3]",
-							"filename" : "kontrol[3]_20210407.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "ab51fc9869ae05e5188715d0687d332c"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol",
-							"filename" : "kontrol_20210407.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "36ff149c26f750e78a12d4704cea4e89"
-						}
-
-					}
  ]
 			}
 
@@ -1614,9 +1598,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1625,9 +1609,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1636,6 +1620,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1645,8 +1631,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
 ,
@@ -1673,6 +1657,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1682,7 +1667,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 12.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
