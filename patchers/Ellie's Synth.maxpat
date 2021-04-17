@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 838.0, 82.0, 665.0, 708.0 ],
+		"rect" : [ 831.0, 82.0, 665.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -142,10 +142,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 457.21933070818568, 348.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 0.0 ],
-						"number[1]" : [ 0.0 ],
-						"number[2]" : [ 0 ],
-						"number[3]" : [ 5 ]
+						"number" : [ -2.0 ],
+						"number[1]" : [ -5.0 ],
+						"number[2]" : [ -5 ],
+						"number[3]" : [ -5 ]
 					}
 ,
 					"text" : "autopattr",
@@ -739,6 +739,40 @@
 			"inherited_shortname" : 1
 		}
 ,
+		"parameter_map" : 		{
+			"midi" : 			{
+				"number[16]" : 				{
+					"srcname" : "0.ctrl.0.chan.midi",
+					"min" : -2.0,
+					"max" : 5.0,
+					"flags" : 2
+				}
+,
+				"number[15]" : 				{
+					"srcname" : "1.ctrl.0.chan.midi",
+					"min" : -5.0,
+					"max" : 6.0,
+					"flags" : 2
+				}
+,
+				"number[13]" : 				{
+					"srcname" : "2.ctrl.0.chan.midi",
+					"min" : -5.0,
+					"max" : 5.0,
+					"flags" : 2
+				}
+,
+				"number[14]" : 				{
+					"srcname" : "3.ctrl.0.chan.midi",
+					"min" : -5.0,
+					"max" : 5.0,
+					"flags" : 2
+				}
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "bp.Macro Oscillator.maxpat",
 				"bootpath" : "~/Desktop/networkPerformance/patchers",
@@ -845,9 +879,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -856,9 +890,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -868,7 +902,6 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -878,6 +911,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
 ,
