@@ -40,77 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"annotation" : "A stereo/dual mono audio output chooser.",
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-15",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "AudioOutput.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 1257.5, 753.0, 69.0, 29.0 ],
-					"varname" : "AudioOutput",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "A simple stereo audio player.",
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-10",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "AudioPlayer.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 1257.5, 529.0, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1211.0, 625.0, 69.0, 39.0 ],
-					"varname" : "AudioPlayer[1]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "A simple stereo audio mixing module. ",
-					"args" : [ "@type", "generic" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-14",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "AudioMix.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 1257.5, 579.0, 69.0, 139.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1211.0, 665.0, 69.0, 139.0 ],
-					"varname" : "AudioMix",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -337,6 +266,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -864,36 +795,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
-					"source" : [ "obj-10", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
-					"source" : [ "obj-14", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -913,17 +816,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-122" : [ "play[1]", "Play", 0 ],
-			"obj-10::obj-24" : [ "loop[1]", "Loop", 0 ],
-			"obj-10::obj-30" : [ "soundfile[1]", "Soundfile", 0 ],
-			"obj-10::obj-35" : [ "collection[1]", "live.drop", 0 ],
-			"obj-14::obj-113" : [ "pan[16]", "Pan", 0 ],
-			"obj-14::obj-114" : [ "solo[16]", "Solo", 0 ],
-			"obj-14::obj-115" : [ "active[63]", "Active", 0 ],
-			"obj-14::obj-116" : [ "gain[42]", "Gain", 0 ],
-			"obj-14::obj-30" : [ "qlist[16]", "Qlist", 0 ],
-			"obj-14::obj-4" : [ "setname[16]", "Setname", 0 ],
-			"obj-15::obj-24" : [ "output[4]", "Output", 0 ],
 			"obj-1::obj-108::obj-12" : [ "Mute[14]", "Mute", 0 ],
 			"obj-1::obj-108::obj-20" : [ "Time[7]", "Time", 0 ],
 			"obj-1::obj-109::obj-12" : [ "Mute[15]", "Mute", 0 ],
@@ -1380,42 +1272,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-10::obj-122" : 				{
-					"parameter_longname" : "play[1]"
-				}
-,
-				"obj-10::obj-24" : 				{
-					"parameter_longname" : "loop[1]"
-				}
-,
-				"obj-10::obj-35" : 				{
-					"parameter_longname" : "collection[1]"
-				}
-,
-				"obj-14::obj-113" : 				{
-					"parameter_longname" : "pan[16]"
-				}
-,
-				"obj-14::obj-114" : 				{
-					"parameter_longname" : "solo[16]"
-				}
-,
-				"obj-14::obj-115" : 				{
-					"parameter_longname" : "active[63]"
-				}
-,
-				"obj-14::obj-116" : 				{
-					"parameter_longname" : "gain[42]"
-				}
-,
-				"obj-14::obj-30" : 				{
-					"parameter_longname" : "qlist[16]"
-				}
-,
-				"obj-15::obj-24" : 				{
-					"parameter_longname" : "output[4]"
-				}
-,
 				"obj-1::obj-108::obj-12" : 				{
 					"parameter_longname" : "Mute[14]"
 				}
@@ -2831,13 +2687,6 @@
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/node_content",
 				"patcherrelativepath" : "../node_content",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioPlayer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/AudioMix/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/AudioMix/patchers",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
