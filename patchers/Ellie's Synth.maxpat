@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 831.0, 82.0, 665.0, 708.0 ],
+		"rect" : [ 831.0, 87.0, 665.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 251.0, 46.5, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 251.0, 70.5, 61.0, 22.0 ],
+					"text" : "pipe 1500"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -142,10 +166,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 457.21933070818568, 348.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ -2.0 ],
-						"number[1]" : [ -5.0 ],
-						"number[2]" : [ -5 ],
-						"number[3]" : [ -5 ]
+						"number" : [ 0.0 ],
+						"number[1]" : [ 0.0 ],
+						"number[2]" : [ 0 ],
+						"number[3]" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -185,7 +209,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.0, 82.0, 106.0, 23.0 ],
+					"patching_rect" : [ 323.0, 74.5, 106.0, 23.0 ],
 					"text" : "pattrstorage Ellie"
 				}
 
@@ -505,8 +529,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -810,8 +848,7 @@
 			}
 , 			{
 				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "~/Desktop/networkPerformance/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "C74:/packages/BEAP/misc",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
@@ -879,9 +916,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -890,9 +927,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -901,6 +938,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -910,9 +949,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -938,6 +975,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -947,8 +985,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
