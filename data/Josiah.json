@@ -5,6 +5,11 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
+					"number" : [ -1.600000023841858 ],
+					"number[1]" : [ 0 ],
+					"number[2]" : [ 0 ],
+					"number[3]" : [ 0 ],
+					"bp.Reverb 1::Cutoff" : [ 12531.810714000002918 ],
 					"bp.Reverb 1::Mix" : [ 71.811024000000003 ],
 					"bp.Reverb 1::Reflections" : [ 88.661417 ],
 					"bp.Reverb 1::Time" : [ 2141.732282999999825 ],
@@ -14,7 +19,7 @@
 					"bp.Signal Mixer::live.dial" : [ 0.25 ],
 					"bp.Signal Mixer::live.dial[1]" : [ 0.25 ],
 					"bp.Signal Mixer::power[1]" : [ 0.0 ],
-					"bp.Oscillator::CV2" : [ 0.0 ],
+					"bp.Oscillator::CV2" : [ 100.0 ],
 					"bp.Oscillator::CV3" : [ 0.0 ],
 					"bp.Oscillator::Freq" : [ 311.126983809187834 ],
 					"bp.Oscillator::FreqMode" : [ 1.0 ],
@@ -45,7 +50,7 @@
 					"bp.Smooth Delay[1]::bypass" : [ 0.0 ],
 					"bp.Smooth Delay[2]::Time" : [ 3000.0 ],
 					"bp.Smooth Delay[2]::bypass" : [ 0.0 ],
-					"bp.Oscillator[2]::CV2" : [ 0.0 ],
+					"bp.Oscillator[2]::CV2" : [ 100.0 ],
 					"bp.Oscillator[2]::CV3" : [ 0.0 ],
 					"bp.Oscillator[2]::Freq" : [ 261.625565410470585 ],
 					"bp.Oscillator[2]::FreqMode" : [ 1.0 ],
@@ -59,11 +64,7 @@
 					"AudioMix[1]::gain" : [ 0.0 ],
 					"AudioMix[1]::pan" : [ 0.0 ],
 					"AudioMix[1]::solo" : [ 0.0 ],
-					"AudioOutput::output" : [ 1.0 ],
-					"number" : [ -1.600000023841858 ],
-					"number[1]" : [ 0 ],
-					"number[2]" : [ 0 ],
-					"number[3]" : [ 0 ]
+					"AudioOutput::output" : [ 1.0 ]
 				}
 
 			}
