@@ -10,7 +10,11 @@ const maxApi = require("max-api");
 
 let uniqueName = "FriendName";
 let friend = {
+<<<<<<< HEAD
+	x: 0, y: 0, name: "Sam", active: false
+=======
 	x: 0, y: 0, name: "Josiah", active: false
+>>>>>>> a9f98509140b680a702994956f94c9e50cdd74ae
 };
 
 let friends = {};
