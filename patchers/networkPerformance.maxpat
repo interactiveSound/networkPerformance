@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 60.0, 1724.0, 1026.0 ],
+						"rect" : [ 257.0, 79.0, 983.0, 939.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -211,11 +211,11 @@
 								"box" : 								{
 									"id" : "obj-35",
 									"maxclass" : "newobj",
-									"numinlets" : 5,
+									"numinlets" : 7,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 209.0, 515.0, 161.400000000000091, 22.0 ],
-									"text" : "join 5"
+									"patching_rect" : [ 209.0, 515.0, 192.142857142857167, 22.0 ],
+									"text" : "join 7"
 								}
 
 							}
@@ -338,10 +338,10 @@
 									"id" : "obj-45",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 6,
-									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 209.0, 451.6595458984375, 197.0, 22.0 ],
-									"text" : "dict.unpack name: x: y: z: w: active:"
+									"numoutlets" : 8,
+									"outlettype" : [ "", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 209.0, 451.6595458984375, 221.0, 22.0 ],
+									"text" : "dict.unpack name: x: y: z: w: f: o: active:"
 								}
 
 							}
@@ -560,6 +560,20 @@
 									"destination" : [ "obj-46", 0 ],
 									"order" : 0,
 									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 6 ],
+									"source" : [ "obj-45", 6 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 5 ],
+									"source" : [ "obj-45", 5 ]
 								}
 
 							}
