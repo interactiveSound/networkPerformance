@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 82.0, 94.0, 642.0, 928.0 ],
+		"rect" : [ 34.0, 79.0, 1132.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -593,12 +593,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1233.0, 140.000006914138794, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 61 ],
-						"number[1]" : [ 51 ],
-						"number[2]" : [ 84 ],
-						"number[3]" : [ 82 ],
-						"number[4]" : [ 127 ],
-						"number[5]" : [ 0 ]
+						"number" : [ 3 ],
+						"number[1]" : [ 93 ],
+						"number[2]" : [ 102 ],
+						"number[3]" : [ 84 ],
+						"number[4]" : [ 43 ],
+						"number[5]" : [ 26 ]
 					}
 ,
 					"text" : "autopattr",
@@ -882,15 +882,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 5 ],
-					"order" : 1,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1098,16 +1089,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"order" : 0,
 					"source" : [ "obj-36", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 1312.0, 629.666680932044983, 1171.580587148666382, 629.666680932044983, 1171.580587148666382, 628.666680932044983, 1100.161174297332764, 628.666680932044983 ],
-					"order" : 0,
-					"source" : [ "obj-37", 0 ]
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -1115,7 +1106,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 2 ],
 					"midpoints" : [ 1312.0, 903.435076415538788, 340.88301956653595, 903.435076415538788 ],
-					"order" : 1,
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -1129,7 +1119,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 1,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
+					"order" : 0,
 					"source" : [ "obj-39", 0 ]
 				}
 
