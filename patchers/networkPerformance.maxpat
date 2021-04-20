@@ -266,6 +266,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -716,7 +718,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 841.0, 541.5, 355.0, 460.0 ],
+					"patching_rect" : [ 841.0, 527.0, 348.0, 474.0 ],
 					"varname" : "alexmalone_networksynth[2]",
 					"viewvisibility" : 1
 				}
@@ -736,7 +738,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 434.0, 527.0, 362.0, 474.0 ],
+					"patching_rect" : [ 425.5, 527.0, 362.0, 474.0 ],
 					"varname" : "TREVOR_SYNTH[2]",
 					"viewvisibility" : 1
 				}
@@ -776,7 +778,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 430.0, 28.0, 366.0, 453.0 ],
+					"patching_rect" : [ 423.5, 28.0, 366.0, 453.0 ],
 					"varname" : "TREVOR_SYNTH[1]",
 					"viewvisibility" : 1
 				}
@@ -796,7 +798,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 24.0, 514.0, 348.0, 453.0 ],
+					"patching_rect" : [ 24.0, 527.0, 348.0, 474.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 514.0, 348.0, 453.0 ],
 					"varname" : "TREVOR_SYNTH",
@@ -3720,6 +3722,8 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3728,9 +3732,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -3745,6 +3747,7 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3753,8 +3756,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
