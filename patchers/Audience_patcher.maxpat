@@ -56,6 +56,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -82,6 +83,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -591,12 +593,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1233.0, 140.000006914138794, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 0 ],
-						"number[1]" : [ 0 ],
-						"number[2]" : [ 0 ],
-						"number[3]" : [ 127 ],
+						"number" : [ 61 ],
+						"number[1]" : [ 51 ],
+						"number[2]" : [ 84 ],
+						"number[3]" : [ 82 ],
 						"number[4]" : [ 127 ],
-						"number[5]" : [ 127 ]
+						"number[5]" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
