@@ -602,12 +602,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1233.0, 140.000006914138794, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 61 ],
+						"number" : [ 0 ],
 						"number[1]" : [ 0 ],
-						"number[2]" : [ 127 ],
-						"number[3]" : [ 66 ],
-						"number[4]" : [ 127 ],
-						"number[5]" : [ 102 ]
+						"number[2]" : [ 0 ],
+						"number[3]" : [ 0 ],
+						"number[4]" : [ 0 ],
+						"number[5]" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
