@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 96.0, 1132.0, 928.0 ],
+		"rect" : [ 408.0, 79.0, 693.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,91 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1297.5, 542.0, 111.0, 35.0 ],
+					"text" : ";\rSamR-mix gain $1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "A stereo/dual mono audio output chooser.",
+					"args" : [ "outBus", "@output", "1-2" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-45",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "AudioOutput.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "" ],
+					"patching_rect" : [ 22.000007033348083, 1045.0, 69.0, 29.0 ],
+					"varname" : "AudioOutput",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "A simple stereo audio mixing module. ",
+					"args" : [ "SamR", "@gain", 0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-46",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "AudioMix.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "" ],
+					"patching_rect" : [ 22.0, 885.0, 69.0, 139.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 180.000007033348083, 157.0, 69.0, 139.0 ],
+					"varname" : "AudioMix[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 353.0, 81.0, 61.0, 22.0 ],
+					"text" : "pipe 1500"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 351.0, 30.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
@@ -169,18 +254,6 @@
 					}
 ,
 					"varname" : "number[5]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-37",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1302.5, 485.203471899032593, 54.0, 22.0 ],
-					"text" : "Level $1"
 				}
 
 			}
@@ -680,7 +753,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1233.0, 86.513103604316711, 189.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 79, 358, 765 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -802,28 +875,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.506403207778931, 108.0, 427.230751395225525, 121.84615421295166 ],
 					"varname" : "oscillator",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-57",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "stereo.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 27.577826619148254, 903.203471899032593, 322.805192947387695, 111.116883277893066 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 26.506403207778931, 775.203471899032593, 322.805192947387695, 111.116883277893066 ],
-					"varname" : "stereo",
 					"viewvisibility" : 1
 				}
 
@@ -960,14 +1011,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 1 ],
+					"destination" : [ "obj-46", 1 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
+					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -1120,15 +1171,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 2 ],
-					"midpoints" : [ 1312.0, 900.435076415538788, 340.88301956653595, 900.435076415538788 ],
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
+					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1168,6 +1211,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 1 ],
 					"source" : [ "obj-42", 1 ]
 				}
@@ -1177,6 +1227,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 1 ],
+					"source" : [ "obj-46", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -1290,10 +1361,13 @@
 			"obj-42::obj-46" : [ "Offset[5]", "Offset", 0 ],
 			"obj-42::obj-51" : [ "Freq[3]", "Freq", 0 ],
 			"obj-42::obj-53" : [ "Mute[7]", "Mute", 0 ],
-			"obj-57::obj-22" : [ "Mute[6]", "Mute", 0 ],
-			"obj-57::obj-52" : [ "Level", "Level", 0 ],
-			"obj-57::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-57::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-45::obj-24" : [ "output", "Output", 0 ],
+			"obj-46::obj-113" : [ "pan", "Pan", 0 ],
+			"obj-46::obj-114" : [ "solo", "Solo", 0 ],
+			"obj-46::obj-115" : [ "active", "Active", 0 ],
+			"obj-46::obj-116" : [ "gain", "Gain", 0 ],
+			"obj-46::obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-46::obj-4" : [ "setname", "Setname", 0 ],
 			"obj-68" : [ "number[1]", "number", 0 ],
 			"obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
 			"obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
@@ -1385,13 +1459,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "stereo.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "oscillator.maxpat",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
@@ -1479,6 +1546,20 @@
 				"name" : "sam.json",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "AudioMix.maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "AudioOutput.maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1660,8 +1741,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1671,8 +1752,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1682,7 +1763,6 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1692,6 +1772,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
 ,
