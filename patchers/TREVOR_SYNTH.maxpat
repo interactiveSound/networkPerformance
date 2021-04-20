@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1908.0, 91.0, 1415.0, 913.0 ],
+		"rect" : [ 1647.0, 101.0, 1136.0, 913.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1291,9 +1291,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1302,9 +1302,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1313,9 +1313,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1324,7 +1323,8 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1638,9 +1638,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1649,9 +1649,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1660,9 +1660,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1671,7 +1670,8 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1735,6 +1735,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
+					"args" : [ "delay", "@gain", -20 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1760,6 +1761,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  sender.",
+					"args" : [ "sender4", "@bus", "master" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1884,6 +1886,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A stereo/dual mono audio output chooser.",
+					"args" : [ "output", "@output", "1-2" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1987,6 +1990,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
+					"args" : [ "reverb", "@gain", -20 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -2012,7 +2016,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  sender.",
-					"args" : [ "out", "@gain", -20 ],
+					"args" : [ "sender3", "@bus", "master" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -3346,8 +3350,8 @@
 			}
 , 			{
 				"name" : "Trevor.json",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3429,9 +3433,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3440,9 +3444,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3451,9 +3455,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3462,7 +3465,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3476,7 +3480,6 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -3486,7 +3489,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
