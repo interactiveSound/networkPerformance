@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 408.0, 79.0, 693.0, 928.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -93,7 +93,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 22.0, 885.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.000007033348083, 157.0, 69.0, 139.0 ],
+					"presentation_rect" : [ 2.000007033348083, 1.129816025495529, 69.0, 139.0 ],
 					"varname" : "AudioMix[1]",
 					"viewvisibility" : 1
 				}
@@ -708,7 +708,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.777826130390167, 32.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.506403207778931, 35.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 84.506403207778931, 113.0, 150.0, 20.0 ],
 					"text" : "Sam"
 				}
 
@@ -781,7 +781,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 27.577826619148254, 739.0, 347.0, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.506403207778931, 632.0, 347.0, 131.0 ],
+					"presentation_rect" : [ 7.506403207778931, 685.0, 347.0, 131.0 ],
 					"varname" : "compressor",
 					"viewvisibility" : 1
 				}
@@ -804,7 +804,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 33.577826619148254, 587.666680932044983, 283.0, 126.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.506403207778931, 488.666680932044983, 283.0, 126.0 ],
+					"presentation_rect" : [ 7.506403207778931, 541.666680932044983, 283.0, 126.0 ],
 					"varname" : "reverbtwoo",
 					"viewvisibility" : 1
 				}
@@ -827,7 +827,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 26.506403207778931, 268.000006914138794, 365.0, 114.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.506403207778931, 231.84615421295166, 365.0, 114.0 ],
+					"presentation_rect" : [ 7.506403207778931, 284.84615421295166, 365.0, 114.0 ],
 					"varname" : "gig",
 					"viewvisibility" : 1
 				}
@@ -850,7 +850,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 26.506403207778931, 425.573711335659027, 275.821426749229431, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.506403207778931, 347.84615421295166, 275.821426749229431, 131.0 ],
+					"presentation_rect" : [ 7.506403207778931, 400.84615421295166, 275.821426749229431, 131.0 ],
 					"varname" : "reverb",
 					"viewvisibility" : 1
 				}
@@ -873,7 +873,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 26.506403207778931, 119.0, 427.230751395225525, 121.84615421295166 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.506403207778931, 108.0, 427.230751395225525, 121.84615421295166 ],
+					"presentation_rect" : [ 7.506403207778931, 161.0, 427.230751395225525, 121.84615421295166 ],
 					"varname" : "oscillator",
 					"viewvisibility" : 1
 				}
@@ -1740,9 +1740,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1751,9 +1751,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
