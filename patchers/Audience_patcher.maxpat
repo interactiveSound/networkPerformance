@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 55.0, 79.0, 636.0, 928.0 ],
+		"rect" : [ 82.0, 94.0, 642.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,6 +46,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 697.920676668485157, 5.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 697.920676668485157, 5.0, 150.0, 47.0 ],
 					"text" : "ON = PERFORMANCE MODE\nOFF= AUDIENCE MODE"
 				}
 
@@ -70,7 +73,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 671.920676668485157, 42.0, 24.0, 24.0 ]
+					"patching_rect" : [ 671.920676668485157, 42.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 671.920676668485157, 42.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -589,9 +594,9 @@
 						"number" : [ 0 ],
 						"number[1]" : [ 0 ],
 						"number[2]" : [ 0 ],
-						"number[3]" : [ 0 ],
-						"number[4]" : [ 0 ],
-						"number[5]" : [ 0 ]
+						"number[3]" : [ 127 ],
+						"number[4]" : [ 127 ],
+						"number[5]" : [ 127 ]
 					}
 ,
 					"text" : "autopattr",
@@ -656,7 +661,7 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "Sam.json",
+					"autorestore" : "sam.json",
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1482,7 +1487,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sam.json",
+				"name" : "sam.json",
 				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -1738,8 +1743,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 11.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1749,8 +1754,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1760,6 +1765,7 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1769,7 +1775,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ]
 				}
 ,
@@ -1796,6 +1801,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1805,7 +1811,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
 					"fontsize" : [ 12.0 ]
 				}
 ,
