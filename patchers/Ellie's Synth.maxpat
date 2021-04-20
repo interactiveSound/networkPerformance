@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 412.0, 188.0, 953.0, 588.0 ],
+		"rect" : [ 68.0, 152.0, 953.0, 588.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,8 +55,8 @@
 					"format" : 6,
 					"id" : "obj-18",
 					"maxclass" : "flonum",
-					"maximum" : -75.0,
-					"minimum" : 1.0,
+					"maximum" : 1.0,
+					"minimum" : -75.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -65,8 +65,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[17]",
-							"parameter_mmax" : -75.0,
-							"parameter_mmin" : 1.0,
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : -75.0,
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
 						}
