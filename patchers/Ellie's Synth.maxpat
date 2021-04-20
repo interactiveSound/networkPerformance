@@ -55,6 +55,8 @@
 					"format" : 6,
 					"id" : "obj-18",
 					"maxclass" : "flonum",
+					"maximum" : -75.0,
+					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -63,8 +65,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[17]",
-							"parameter_mmax" : 5.0,
-							"parameter_mmin" : -2.0,
+							"parameter_mmax" : -75.0,
+							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
 						}
@@ -264,11 +266,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 457.21933070818568, 348.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 1.086614173228346 ],
-						"number[1]" : [ -2.748031496062992 ],
-						"number[2]" : [ -1 ],
+						"number" : [ 0.0 ],
+						"number[1]" : [ 0.0 ],
+						"number[2]" : [ 0 ],
 						"number[3]" : [ 0 ],
-						"number[4]" : [ 202.0 ]
+						"number[4]" : [ -75.0 ]
 					}
 ,
 					"text" : "autopattr",
