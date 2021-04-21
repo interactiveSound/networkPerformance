@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 458.0, 111.0, 983.0, 939.0 ],
+		"rect" : [ 373.0, 123.0, 983.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -333,6 +333,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -1087,12 +1089,16 @@
 			"obj-3::obj-97::obj-64" : [ "Tail[2]", "Tail", 0 ],
 			"obj-3::obj-97::obj-65" : [ "Spread[2]", "Spread", 0 ],
 			"obj-3::obj-97::obj-66" : [ "Time[3]", "Time", 0 ],
+			"obj-5::obj-13::obj-113" : [ "pan", "Pan", 0 ],
+			"obj-5::obj-13::obj-114" : [ "solo", "Solo", 0 ],
+			"obj-5::obj-13::obj-115" : [ "active", "Active", 0 ],
+			"obj-5::obj-13::obj-116" : [ "gain", "Gain", 0 ],
+			"obj-5::obj-13::obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-5::obj-13::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-5::obj-18" : [ "number[7]", "number", 0 ],
 			"obj-5::obj-20" : [ "number[15]", "number[1]", 0 ],
 			"obj-5::obj-29" : [ "number[16]", "number", 0 ],
-			"obj-5::obj-2::obj-22" : [ "Mute[10]", "Mute", 0 ],
-			"obj-5::obj-2::obj-52" : [ "Level[2]", "Level", 0 ],
-			"obj-5::obj-2::obj-55" : [ "DSP[2]", "DSP", 0 ],
-			"obj-5::obj-2::obj-56" : [ "OutputChannel[2]", "OutputChannel", 0 ],
+			"obj-5::obj-2::obj-24" : [ "output", "Output", 0 ],
 			"obj-5::obj-30::obj-100" : [ "score[1]", "score", 0 ],
 			"obj-5::obj-30::obj-105" : [ "rounding[1]", "rounding", 0 ],
 			"obj-5::obj-30::obj-12" : [ "bypass[3]", "bypass", 0 ],
@@ -1166,12 +1172,12 @@
 			"obj-6::obj-42::obj-46" : [ "Offset[2]", "Offset", 0 ],
 			"obj-6::obj-42::obj-51" : [ "Freq[9]", "Freq", 0 ],
 			"obj-6::obj-42::obj-53" : [ "Mute[25]", "Mute", 0 ],
-			"obj-6::obj-46::obj-113" : [ "pan", "Pan", 0 ],
-			"obj-6::obj-46::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-6::obj-46::obj-115" : [ "active", "Active", 0 ],
-			"obj-6::obj-46::obj-116" : [ "gain", "Gain", 0 ],
-			"obj-6::obj-46::obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-6::obj-46::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-6::obj-46::obj-113" : [ "pan[1]", "Pan", 0 ],
+			"obj-6::obj-46::obj-114" : [ "solo[1]", "Solo", 0 ],
+			"obj-6::obj-46::obj-115" : [ "active[1]", "Active", 0 ],
+			"obj-6::obj-46::obj-116" : [ "gain[1]", "Gain", 0 ],
+			"obj-6::obj-46::obj-30" : [ "qlist[1]", "Qlist", 0 ],
+			"obj-6::obj-46::obj-4" : [ "setname[1]", "Setname", 0 ],
 			"obj-6::obj-47::obj-24" : [ "output[4]", "Output", 0 ],
 			"obj-6::obj-68" : [ "number[35]", "number", 0 ],
 			"obj-6::obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
@@ -1228,7 +1234,7 @@
 			"obj-7::obj-122::obj-36" : [ "hi", "Hi", 0 ],
 			"obj-7::obj-122::obj-4" : [ "setname[3]", "Setname", 0 ],
 			"obj-7::obj-122::obj-9" : [ "active[38]", "Active", 0 ],
-			"obj-7::obj-123::obj-24" : [ "output", "Output", 0 ],
+			"obj-7::obj-123::obj-24" : [ "output[3]", "Output", 0 ],
 			"obj-7::obj-125::obj-113" : [ "pan[11]", "Pan", 0 ],
 			"obj-7::obj-125::obj-114" : [ "solo[11]", "Solo", 0 ],
 			"obj-7::obj-125::obj-115" : [ "active[37]", "Active", 0 ],
@@ -1245,8 +1251,8 @@
 			"obj-7::obj-128::obj-114" : [ "solo[10]", "Solo", 0 ],
 			"obj-7::obj-128::obj-115" : [ "active[34]", "Active", 0 ],
 			"obj-7::obj-128::obj-116" : [ "gain[34]", "Gain", 0 ],
-			"obj-7::obj-128::obj-30" : [ "qlist[1]", "Qlist", 0 ],
-			"obj-7::obj-128::obj-4" : [ "setname[1]", "Setname", 0 ],
+			"obj-7::obj-128::obj-30" : [ "qlist[17]", "Qlist", 0 ],
+			"obj-7::obj-128::obj-4" : [ "setname[17]", "Setname", 0 ],
 			"obj-7::obj-129::obj-122" : [ "active[33]", "Active", 0 ],
 			"obj-7::obj-129::obj-35" : [ "bus[3]", "Bus", 0 ],
 			"obj-7::obj-129::obj-88" : [ "gain[33]", "Gain", 0 ],
@@ -1296,8 +1302,8 @@
 			"obj-7::obj-22" : [ "number[28]", "number[2]", 0 ],
 			"obj-7::obj-78" : [ "number[25]", "number[3]", 0 ],
 			"obj-7::obj-83" : [ "number[27]", "number[3]", 0 ],
-			"obj-8::obj-101::obj-113" : [ "pan[1]", "Pan", 0 ],
-			"obj-8::obj-101::obj-114" : [ "solo[1]", "Solo", 0 ],
+			"obj-8::obj-101::obj-113" : [ "pan[13]", "Pan", 0 ],
+			"obj-8::obj-101::obj-114" : [ "solo[13]", "Solo", 0 ],
 			"obj-8::obj-101::obj-115" : [ "active[3]", "Active", 0 ],
 			"obj-8::obj-101::obj-116" : [ "gain[3]", "Gain", 0 ],
 			"obj-8::obj-101::obj-30" : [ "qlist[6]", "Qlist", 0 ],
@@ -1306,8 +1312,8 @@
 			"obj-8::obj-164::obj-122" : [ "active[58]", "Active", 0 ],
 			"obj-8::obj-164::obj-35" : [ "bus[29]", "Bus", 0 ],
 			"obj-8::obj-164::obj-88" : [ "gain[11]", "Gain", 0 ],
-			"obj-8::obj-169::obj-113" : [ "pan[15]", "Pan", 0 ],
-			"obj-8::obj-169::obj-114" : [ "solo[15]", "Solo", 0 ],
+			"obj-8::obj-169::obj-113" : [ "pan[16]", "Pan", 0 ],
+			"obj-8::obj-169::obj-114" : [ "solo[16]", "Solo", 0 ],
 			"obj-8::obj-169::obj-115" : [ "active[60]", "Active", 0 ],
 			"obj-8::obj-169::obj-116" : [ "gain[13]", "Gain", 0 ],
 			"obj-8::obj-169::obj-30" : [ "qlist[11]", "Qlist", 0 ],
@@ -1337,15 +1343,15 @@
 			"obj-8::obj-35::obj-64" : [ "Tail[4]", "Tail", 0 ],
 			"obj-8::obj-35::obj-65" : [ "Spread[4]", "Spread", 0 ],
 			"obj-8::obj-35::obj-66" : [ "Time[10]", "Time", 0 ],
-			"obj-8::obj-37::obj-24" : [ "output[3]", "Output", 0 ],
+			"obj-8::obj-37::obj-24" : [ "output[5]", "Output", 0 ],
 			"obj-8::obj-38::obj-122" : [ "active[51]", "Active", 0 ],
 			"obj-8::obj-38::obj-35" : [ "bus[26]", "Bus", 0 ],
 			"obj-8::obj-38::obj-88" : [ "gain[6]", "Gain", 0 ],
 			"obj-8::obj-3::obj-1" : [ "Fade[2]", "Fade", 0 ],
 			"obj-8::obj-3::obj-22" : [ "CV[2]", "CV", 0 ],
 			"obj-8::obj-3::obj-41" : [ "bypass[4]", "bypass", 0 ],
-			"obj-8::obj-48::obj-113" : [ "pan[13]", "Pan", 0 ],
-			"obj-8::obj-48::obj-114" : [ "solo[13]", "Solo", 0 ],
+			"obj-8::obj-48::obj-113" : [ "pan[14]", "Pan", 0 ],
+			"obj-8::obj-48::obj-114" : [ "solo[14]", "Solo", 0 ],
 			"obj-8::obj-48::obj-115" : [ "active[52]", "Active", 0 ],
 			"obj-8::obj-48::obj-116" : [ "gain[7]", "Gain", 0 ],
 			"obj-8::obj-48::obj-30" : [ "qlist[7]", "Qlist", 0 ],
@@ -1370,8 +1376,8 @@
 			"obj-8::obj-56::obj-122" : [ "active[54]", "Active", 0 ],
 			"obj-8::obj-56::obj-35" : [ "bus[28]", "Bus", 0 ],
 			"obj-8::obj-56::obj-88" : [ "gain[9]", "Gain", 0 ],
-			"obj-8::obj-58::obj-113" : [ "pan[14]", "Pan", 0 ],
-			"obj-8::obj-58::obj-114" : [ "solo[14]", "Solo", 0 ],
+			"obj-8::obj-58::obj-113" : [ "pan[15]", "Pan", 0 ],
+			"obj-8::obj-58::obj-114" : [ "solo[15]", "Solo", 0 ],
 			"obj-8::obj-58::obj-115" : [ "active[55]", "Active", 0 ],
 			"obj-8::obj-58::obj-116" : [ "gain[10]", "Gain", 0 ],
 			"obj-8::obj-58::obj-30" : [ "qlist[8]", "Qlist", 0 ],
@@ -1653,18 +1659,6 @@
 					"parameter_longname" : "pastebang[1]"
 				}
 ,
-				"obj-5::obj-2::obj-52" : 				{
-					"parameter_longname" : "Level[2]"
-				}
-,
-				"obj-5::obj-2::obj-55" : 				{
-					"parameter_longname" : "DSP[2]"
-				}
-,
-				"obj-5::obj-2::obj-56" : 				{
-					"parameter_longname" : "OutputChannel[2]"
-				}
-,
 				"obj-5::obj-30::obj-100" : 				{
 					"parameter_longname" : "score[1]"
 				}
@@ -1793,6 +1787,26 @@
 					"parameter_longname" : "Mute[25]"
 				}
 ,
+				"obj-6::obj-46::obj-113" : 				{
+					"parameter_longname" : "pan[1]"
+				}
+,
+				"obj-6::obj-46::obj-114" : 				{
+					"parameter_longname" : "solo[1]"
+				}
+,
+				"obj-6::obj-46::obj-115" : 				{
+					"parameter_longname" : "active[1]"
+				}
+,
+				"obj-6::obj-46::obj-116" : 				{
+					"parameter_longname" : "gain[1]"
+				}
+,
+				"obj-6::obj-46::obj-30" : 				{
+					"parameter_longname" : "qlist[1]"
+				}
+,
 				"obj-6::obj-47::obj-24" : 				{
 					"parameter_longname" : "output[4]"
 				}
@@ -1885,6 +1899,10 @@
 					"parameter_longname" : "active[38]"
 				}
 ,
+				"obj-7::obj-123::obj-24" : 				{
+					"parameter_longname" : "output[3]"
+				}
+,
 				"obj-7::obj-125::obj-113" : 				{
 					"parameter_longname" : "pan[11]"
 				}
@@ -1942,7 +1960,7 @@
 				}
 ,
 				"obj-7::obj-128::obj-30" : 				{
-					"parameter_longname" : "qlist[1]"
+					"parameter_longname" : "qlist[17]"
 				}
 ,
 				"obj-7::obj-129::obj-122" : 				{
@@ -2054,11 +2072,11 @@
 				}
 ,
 				"obj-8::obj-101::obj-113" : 				{
-					"parameter_longname" : "pan[1]"
+					"parameter_longname" : "pan[13]"
 				}
 ,
 				"obj-8::obj-101::obj-114" : 				{
-					"parameter_longname" : "solo[1]"
+					"parameter_longname" : "solo[13]"
 				}
 ,
 				"obj-8::obj-101::obj-115" : 				{
@@ -2086,11 +2104,11 @@
 				}
 ,
 				"obj-8::obj-169::obj-113" : 				{
-					"parameter_longname" : "pan[15]"
+					"parameter_longname" : "pan[16]"
 				}
 ,
 				"obj-8::obj-169::obj-114" : 				{
-					"parameter_longname" : "solo[15]"
+					"parameter_longname" : "solo[16]"
 				}
 ,
 				"obj-8::obj-169::obj-115" : 				{
@@ -2186,7 +2204,7 @@
 				}
 ,
 				"obj-8::obj-37::obj-24" : 				{
-					"parameter_longname" : "output[3]"
+					"parameter_longname" : "output[5]"
 				}
 ,
 				"obj-8::obj-38::obj-122" : 				{
@@ -2210,11 +2228,11 @@
 				}
 ,
 				"obj-8::obj-48::obj-113" : 				{
-					"parameter_longname" : "pan[13]"
+					"parameter_longname" : "pan[14]"
 				}
 ,
 				"obj-8::obj-48::obj-114" : 				{
-					"parameter_longname" : "solo[13]"
+					"parameter_longname" : "solo[14]"
 				}
 ,
 				"obj-8::obj-48::obj-115" : 				{
@@ -2254,11 +2272,11 @@
 				}
 ,
 				"obj-8::obj-58::obj-113" : 				{
-					"parameter_longname" : "pan[14]"
+					"parameter_longname" : "pan[15]"
 				}
 ,
 				"obj-8::obj-58::obj-114" : 				{
-					"parameter_longname" : "solo[14]"
+					"parameter_longname" : "solo[15]"
 				}
 ,
 				"obj-8::obj-58::obj-115" : 				{
@@ -2656,13 +2674,6 @@
 			}
 , 			{
 				"name" : "bp.Feedback.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Stereo.maxpat",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -3830,9 +3841,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3841,9 +3852,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3852,6 +3863,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3861,9 +3874,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3877,6 +3888,8 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontface" : [ 1 ],
+					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3885,9 +3898,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontsize" : [ 12.0 ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
