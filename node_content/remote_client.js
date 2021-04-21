@@ -8,6 +8,7 @@ const socket = io("https://radiant-plains-53693.herokuapp.com/");
 
 const maxApi = require("max-api");
 
+
 let uniqueName = "FriendName";
 let friend = {
 	x: 0, y: 0, name: "Josiah", active: false
