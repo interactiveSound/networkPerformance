@@ -100,7 +100,10 @@
 					"bp.CV LFO::SpectraShape" : [ 1.0 ],
 					"bp.CV LFO::SyncRate" : [ 5.0 ],
 					"bp.CV LFO::TimeMode" : [ 1.0 ],
-					"bp.CV LFO::re-trigger" : [ 0.0 ]
+					"bp.CV LFO::re-trigger" : [ 0.0 ],
+					"bp.Xfade::Fade" : [  ],
+					"bp.Xfade::Gain" : [  ],
+					"bp.Xfade::bypass" : [  ]
 				}
 
 			}
@@ -203,7 +206,10 @@
 					"bp.CV LFO::SpectraShape" : [ 1.0 ],
 					"bp.CV LFO::SyncRate" : [ 5.0 ],
 					"bp.CV LFO::TimeMode" : [ 1.0 ],
-					"bp.CV LFO::re-trigger" : [ 0.0 ]
+					"bp.CV LFO::re-trigger" : [ 0.0 ],
+					"bp.Xfade::Fade" : [  ],
+					"bp.Xfade::Gain" : [  ],
+					"bp.Xfade::bypass" : [  ]
 				}
 
 			}
@@ -306,7 +312,10 @@
 					"bp.CV LFO::SpectraShape" : [ 1.0 ],
 					"bp.CV LFO::SyncRate" : [ 5.0 ],
 					"bp.CV LFO::TimeMode" : [ 1.0 ],
-					"bp.CV LFO::re-trigger" : [ 0.0 ]
+					"bp.CV LFO::re-trigger" : [ 0.0 ],
+					"bp.Xfade::Fade" : [  ],
+					"bp.Xfade::Gain" : [  ],
+					"bp.Xfade::bypass" : [  ]
 				}
 
 			}
@@ -409,7 +418,10 @@
 					"bp.CV LFO::SpectraShape" : [ 1.0 ],
 					"bp.CV LFO::SyncRate" : [ 5.0 ],
 					"bp.CV LFO::TimeMode" : [ 1.0 ],
-					"bp.CV LFO::re-trigger" : [ 0.0 ]
+					"bp.CV LFO::re-trigger" : [ 0.0 ],
+					"bp.Xfade::Fade" : [  ],
+					"bp.Xfade::Gain" : [  ],
+					"bp.Xfade::bypass" : [  ]
 				}
 
 			}
@@ -512,7 +524,10 @@
 					"bp.CV LFO::SpectraShape" : [ 1.0 ],
 					"bp.CV LFO::SyncRate" : [ 5.0 ],
 					"bp.CV LFO::TimeMode" : [ 1.0 ],
-					"bp.CV LFO::re-trigger" : [ 0.0 ]
+					"bp.CV LFO::re-trigger" : [ 0.0 ],
+					"bp.Xfade::Fade" : [  ],
+					"bp.Xfade::Gain" : [  ],
+					"bp.Xfade::bypass" : [  ]
 				}
 
 			}
@@ -615,7 +630,116 @@
 					"bp.CV LFO::SpectraShape" : [ 1.0 ],
 					"bp.CV LFO::SyncRate" : [ 5.0 ],
 					"bp.CV LFO::TimeMode" : [ 1.0 ],
-					"bp.CV LFO::re-trigger" : [ 0.0 ]
+					"bp.CV LFO::re-trigger" : [ 0.0 ],
+					"bp.Xfade::Fade" : [  ],
+					"bp.Xfade::Gain" : [  ],
+					"bp.Xfade::bypass" : [  ]
+				}
+
+			}
+,
+			"19" : 			{
+				"id" : 19,
+				"data" : 				{
+					"bp.FM::Amt" : [ 0.0 ],
+					"bp.FM::Depth" : [ 0.15748031496063 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ -24.190000000000001 ],
+					"bp.FM::Ratio" : [ 0.74 ],
+					"bp.Oscil::CV2" : [ 0.0 ],
+					"bp.Oscil::CV3" : [ 0.0 ],
+					"bp.Oscil::Freq" : [ 43.653529010604075 ],
+					"bp.Oscil::FreqMode" : [ 1.0 ],
+					"bp.Oscil::Linear" : [ 0.0 ],
+					"bp.Oscil::Mute" : [ 0.0 ],
+					"bp.Oscil::Offset" : [ -31.0 ],
+					"bp.Oscil::PW" : [ 50.0 ],
+					"bp.Oscil::PWM" : [ 0.0 ],
+					"bp.Oscil::Waveform" : [ 0.0 ],
+					"AudioMix[13]::active" : [ 1.0 ],
+					"AudioMix[13]::gain" : [ -15.0 ],
+					"AudioMix[13]::pan" : [ 0.0 ],
+					"AudioMix[13]::solo" : [ 0.0 ],
+					"AudioSend[10]::active" : [ 1.0 ],
+					"AudioSend[10]::bus" : [ 1.0 ],
+					"AudioSend[10]::gain" : [ 0.0 ],
+					"AudioSend2[11]::active" : [ 1.0 ],
+					"AudioSend2[11]::bus" : [ "master" ],
+					"AudioSend2[11]::gain" : [ 0.0 ],
+					"AudioSend2[9]::active" : [ 1.0 ],
+					"AudioSend2[9]::bus" : [ "master" ],
+					"AudioSend2[9]::gain" : [ 0.0 ],
+					"AudioMix[10]::active" : [ 1.0 ],
+					"AudioMix[10]::gain" : [ -20.0 ],
+					"AudioMix[10]::pan" : [ 0.0 ],
+					"AudioMix[10]::solo" : [ 0.0 ],
+					"AudioReceive::active" : [ 1.0 ],
+					"AudioReceive::bus" : [ 1.0 ],
+					"AudioReceive::gain" : [ 0.0 ],
+					"AudioReceive2::active" : [ 1.0 ],
+					"AudioReceive2::bus" : [ "master" ],
+					"AudioReceive2::gain" : [ 0.0 ],
+					"AudioMix[11]::active" : [ 1.0 ],
+					"AudioMix[11]::gain" : [ -70.0 ],
+					"AudioMix[11]::pan" : [ 0.0 ],
+					"AudioMix[11]::solo" : [ 0.0 ],
+					"AudioOutput::output" : [ 1.0 ],
+					"AudioEQ::active" : [ 1.0 ],
+					"AudioEQ::hi" : [ 1.0 ],
+					"AudioEQ::hifreq" : [ 4000.000000000000455 ],
+					"AudioEQ::lo" : [ 0.0 ],
+					"AudioEQ::lofreq" : [ 400.000000000000114 ],
+					"AudioEQ::mid" : [ 0.0 ],
+					"AudioEQ[1]::active" : [ 1.0 ],
+					"AudioEQ[1]::hi" : [ -1.0 ],
+					"AudioEQ[1]::hifreq" : [ 4000.000000000000455 ],
+					"AudioEQ[1]::lo" : [ 0.0 ],
+					"AudioEQ[1]::lofreq" : [ 400.000000000000114 ],
+					"AudioEQ[1]::mid" : [ 0.0 ],
+					"bp.Gigaverb::Damp" : [ 0.7 ],
+					"bp.Gigaverb::Dry" : [ 1.0 ],
+					"bp.Gigaverb::Early" : [ 0.25 ],
+					"bp.Gigaverb::Regen" : [ 0.5 ],
+					"bp.Gigaverb::Size" : [ 74.999999999999972 ],
+					"bp.Gigaverb::Spread" : [ 23.0 ],
+					"bp.Gigaverb::Tail" : [ 0.25 ],
+					"bp.Gigaverb::Time" : [ 11.0 ],
+					"bp.Gigaverb::bypass" : [ 0.0 ],
+					"AudioReceive[1]::active" : [ 1.0 ],
+					"AudioReceive[1]::bus" : [ 1.0 ],
+					"AudioReceive[1]::gain" : [ 0.0 ],
+					"AudioSend2[1]::active" : [ 1.0 ],
+					"AudioSend2[1]::bus" : [ "master" ],
+					"AudioSend2[1]::gain" : [ 0.0 ],
+					"AudioMix[1]::active" : [ 1.0 ],
+					"AudioMix[1]::gain" : [ -15.0 ],
+					"AudioMix[1]::pan" : [ 0.0 ],
+					"AudioMix[1]::solo" : [ 0.0 ],
+					"bp.Sync Delay::Feedback" : [ -96.0 ],
+					"bp.Sync Delay::HPF" : [ 20.0 ],
+					"bp.Sync Delay::LPF" : [ 20000.0 ],
+					"bp.Sync Delay::Mix" : [ 50.0 ],
+					"bp.Sync Delay::bypass" : [ 0.0 ],
+					"bp.Sync Delay::delay_left" : [ 9.0 ],
+					"bp.Sync Delay::delay_right" : [ 3.0 ],
+					"bp.Sync Delay::durationl" : [ 9.0 ],
+					"bp.Sync Delay::durationr" : [ 10.0 ],
+					"bp.Quantizer::bypass" : [ 0.0 ],
+					"bp.Quantizer::notes" : [ 0, 10, 1, 10, 2, 10, 3, 10, 4, 55, 5, 48, 6, 10, 7, 36, 8, 10, 9, 36, 10, 10, 11, 10 ],
+					"bp.Quantizer::rounding" : [ 1.0 ],
+					"bp.Quantizer::score" : [ 1.0 ],
+					"bp.CV LFO::Amt" : [ 0.0 ],
+					"bp.CV LFO::FreqRate" : [ 0.0 ],
+					"bp.CV LFO::Mute" : [ 0.0 ],
+					"bp.CV LFO::Phase-Inversion" : [ 0.0 ],
+					"bp.CV LFO::SpectraLFOPhase[1]" : [ 0.02 ],
+					"bp.CV LFO::SpectraShape" : [ 3.0 ],
+					"bp.CV LFO::SyncRate" : [ 5.0 ],
+					"bp.CV LFO::TimeMode" : [ 1.0 ],
+					"bp.CV LFO::re-trigger" : [ 0.0 ],
+					"bp.Xfade::Fade" : [ 1.1 ],
+					"bp.Xfade::Gain" : [ 0.0 ],
+					"bp.Xfade::bypass" : [ 0.0 ]
 				}
 
 			}
