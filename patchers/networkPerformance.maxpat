@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 212.0, 79.0, 1327.0, 983.0 ],
+		"rect" : [ 360.0, 108.0, 989.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 257.0, 79.0, 983.0, 939.0 ],
+						"rect" : [ 806.0, 79.0, 949.0, 832.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,7 +84,75 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "float", "float", "float", "float", "float" ],
+									"patching_rect" : [ 450.0, 711.333334000000036, 263.373773960840026, 22.0 ],
+									"text" : "unpack f f f f f"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 678.373773960840026, 766.175346524604834, 35.0, 22.0 ],
+									"text" : "s mT"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 620.373773960840026, 766.175346524604834, 32.0, 22.0 ],
+									"text" : "s oT"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 564.373773960840026, 766.175346524604834, 28.0, 22.0 ],
+									"text" : "s fT"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 507.0, 766.175346524604834, 31.0, 22.0 ],
+									"text" : "s yT"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 450.0, 766.175346524604834, 31.0, 22.0 ],
+									"text" : "s xT"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
@@ -211,11 +279,11 @@
 								"box" : 								{
 									"id" : "obj-35",
 									"maxclass" : "newobj",
-									"numinlets" : 7,
+									"numinlets" : 10,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 209.0, 515.0, 192.142857142857167, 22.0 ],
-									"text" : "join 7"
+									"patching_rect" : [ 209.0, 515.0, 250.000000000000057, 22.0 ],
+									"text" : "join 10"
 								}
 
 							}
@@ -266,8 +334,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -340,10 +406,10 @@
 									"id" : "obj-45",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 8,
-									"outlettype" : [ "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 209.0, 451.6595458984375, 221.0, 22.0 ],
-									"text" : "dict.unpack name: x: y: z: w: f: o: active:"
+									"numoutlets" : 10,
+									"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 209.0, 451.6595458984375, 250.0, 22.0 ],
+									"text" : "dict.unpack name: x: y: z: w: f: o: c: m: active:"
 								}
 
 							}
@@ -502,6 +568,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-39", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
@@ -562,6 +635,27 @@
 									"destination" : [ "obj-46", 0 ],
 									"order" : 0,
 									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 9 ],
+									"source" : [ "obj-45", 9 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 8 ],
+									"source" : [ "obj-45", 8 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 7 ],
+									"source" : [ "obj-45", 7 ]
 								}
 
 							}
@@ -632,6 +726,41 @@
 								"patchline" : 								{
 									"destination" : [ "obj-45", 0 ],
 									"source" : [ "obj-53", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-6", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-6", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-6", 2 ]
 								}
 
 							}
@@ -718,7 +847,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 841.0, 527.0, 348.0, 474.0 ],
+					"patching_rect" : [ 841.0, 514.0, 348.0, 453.0 ],
 					"varname" : "alexmalone_networksynth[2]",
 					"viewvisibility" : 1
 				}
@@ -738,7 +867,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 425.5, 527.0, 362.0, 474.0 ],
+					"patching_rect" : [ 430.0, 514.0, 348.0, 453.0 ],
 					"varname" : "TREVOR_SYNTH[2]",
 					"viewvisibility" : 1
 				}
@@ -778,7 +907,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 423.5, 28.0, 366.0, 453.0 ],
+					"patching_rect" : [ 430.0, 28.0, 348.0, 453.0 ],
 					"varname" : "TREVOR_SYNTH[1]",
 					"viewvisibility" : 1
 				}
@@ -798,7 +927,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 24.0, 527.0, 348.0, 474.0 ],
+					"patching_rect" : [ 24.0, 514.0, 348.0, 453.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 514.0, 348.0, 453.0 ],
 					"varname" : "TREVOR_SYNTH",
@@ -830,60 +959,60 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-108::obj-12" : [ "Mute[27]", "Mute", 0 ],
-			"obj-1::obj-108::obj-20" : [ "Time[1]", "Time", 0 ],
-			"obj-1::obj-109::obj-12" : [ "Mute[28]", "Mute", 0 ],
-			"obj-1::obj-109::obj-20" : [ "Time[2]", "Time", 0 ],
+			"obj-1::obj-108::obj-12" : [ "Mute[14]", "Mute", 0 ],
+			"obj-1::obj-108::obj-20" : [ "Time[7]", "Time", 0 ],
+			"obj-1::obj-109::obj-12" : [ "Mute[15]", "Mute", 0 ],
+			"obj-1::obj-109::obj-20" : [ "Time[8]", "Time", 0 ],
 			"obj-1::obj-110" : [ "number[18]", "number[3]", 0 ],
 			"obj-1::obj-12" : [ "number[20]", "number", 0 ],
-			"obj-1::obj-19::obj-106" : [ "CV3[15]", "CV3", 0 ],
-			"obj-1::obj-19::obj-107" : [ "Linear[1]", "Linear", 0 ],
-			"obj-1::obj-19::obj-11" : [ "PWM[2]", "PWM", 0 ],
-			"obj-1::obj-19::obj-129" : [ "CV2[5]", "CV2", 0 ],
-			"obj-1::obj-19::obj-36" : [ "PW[2]", "PW", 0 ],
-			"obj-1::obj-19::obj-4" : [ "Waveform[2]", "Waveform", 0 ],
-			"obj-1::obj-19::obj-45" : [ "FreqMode[2]", "FreqMode", 0 ],
-			"obj-1::obj-19::obj-46" : [ "Offset[15]", "Offset", 0 ],
-			"obj-1::obj-19::obj-51" : [ "Freq[5]", "Freq", 0 ],
-			"obj-1::obj-19::obj-53" : [ "Mute[29]", "Mute", 0 ],
+			"obj-1::obj-19::obj-106" : [ "CV3[7]", "CV3", 0 ],
+			"obj-1::obj-19::obj-107" : [ "Linear[5]", "Linear", 0 ],
+			"obj-1::obj-19::obj-11" : [ "PWM[4]", "PWM", 0 ],
+			"obj-1::obj-19::obj-129" : [ "CV2[7]", "CV2", 0 ],
+			"obj-1::obj-19::obj-36" : [ "PW[4]", "PW", 0 ],
+			"obj-1::obj-19::obj-4" : [ "Waveform[4]", "Waveform", 0 ],
+			"obj-1::obj-19::obj-45" : [ "FreqMode[6]", "FreqMode", 0 ],
+			"obj-1::obj-19::obj-46" : [ "Offset[10]", "Offset", 0 ],
+			"obj-1::obj-19::obj-51" : [ "Freq[7]", "Freq", 0 ],
+			"obj-1::obj-19::obj-53" : [ "Mute[16]", "Mute", 0 ],
 			"obj-1::obj-3::obj-1" : [ "Time[5]", "Time", 0 ],
 			"obj-1::obj-3::obj-25" : [ "Cutoff[1]", "Cutoff", 0 ],
 			"obj-1::obj-3::obj-26" : [ "Reflections[1]", "Reflections", 0 ],
 			"obj-1::obj-3::obj-28" : [ "Mix[4]", "Mix", 0 ],
 			"obj-1::obj-3::obj-47" : [ "bypass[16]", "bypass", 0 ],
-			"obj-1::obj-4::obj-24" : [ "output[1]", "Output", 0 ],
+			"obj-1::obj-4::obj-24" : [ "output[2]", "Output", 0 ],
 			"obj-1::obj-58::obj-29" : [ "in3[1]", "in3", 0 ],
 			"obj-1::obj-58::obj-32" : [ "in2[1]", "in2", 0 ],
 			"obj-1::obj-58::obj-33" : [ "in4[1]", "in4", 0 ],
 			"obj-1::obj-58::obj-37" : [ "power[1]", "power", 0 ],
 			"obj-1::obj-58::obj-39" : [ "in1[1]", "in1", 0 ],
-			"obj-1::obj-6::obj-113" : [ "pan[4]", "Pan", 0 ],
-			"obj-1::obj-6::obj-114" : [ "solo[4]", "Solo", 0 ],
-			"obj-1::obj-6::obj-115" : [ "active[13]", "Active", 0 ],
-			"obj-1::obj-6::obj-116" : [ "gain[11]", "Gain", 0 ],
-			"obj-1::obj-6::obj-30" : [ "qlist[6]", "Qlist", 0 ],
-			"obj-1::obj-6::obj-4" : [ "setname[6]", "Setname", 0 ],
-			"obj-1::obj-71::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-1::obj-71::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-1::obj-71::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-1::obj-71::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-1::obj-71::obj-36" : [ "PW", "PW", 0 ],
-			"obj-1::obj-71::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-1::obj-71::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-1::obj-71::obj-46" : [ "Offset[1]", "Offset", 0 ],
-			"obj-1::obj-71::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-1::obj-71::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-1::obj-6::obj-113" : [ "pan[8]", "Pan", 0 ],
+			"obj-1::obj-6::obj-114" : [ "solo[8]", "Solo", 0 ],
+			"obj-1::obj-6::obj-115" : [ "active[30]", "Active", 0 ],
+			"obj-1::obj-6::obj-116" : [ "gain[30]", "Gain", 0 ],
+			"obj-1::obj-6::obj-30" : [ "qlist[15]", "Qlist", 0 ],
+			"obj-1::obj-6::obj-4" : [ "setname[15]", "Setname", 0 ],
+			"obj-1::obj-71::obj-106" : [ "CV3[5]", "CV3", 0 ],
+			"obj-1::obj-71::obj-107" : [ "Linear[3]", "Linear", 0 ],
+			"obj-1::obj-71::obj-11" : [ "PWM[2]", "PWM", 0 ],
+			"obj-1::obj-71::obj-129" : [ "CV2[5]", "CV2", 0 ],
+			"obj-1::obj-71::obj-36" : [ "PW[2]", "PW", 0 ],
+			"obj-1::obj-71::obj-4" : [ "Waveform[2]", "Waveform", 0 ],
+			"obj-1::obj-71::obj-45" : [ "FreqMode[4]", "FreqMode", 0 ],
+			"obj-1::obj-71::obj-46" : [ "Offset[8]", "Offset", 0 ],
+			"obj-1::obj-71::obj-51" : [ "Freq[5]", "Freq", 0 ],
+			"obj-1::obj-71::obj-53" : [ "Mute[11]", "Mute", 0 ],
 			"obj-1::obj-73" : [ "number[19]", "number[2]", 0 ],
-			"obj-1::obj-79::obj-106" : [ "CV3[14]", "CV3", 0 ],
-			"obj-1::obj-79::obj-107" : [ "Linear[9]", "Linear", 0 ],
-			"obj-1::obj-79::obj-11" : [ "PWM[1]", "PWM", 0 ],
-			"obj-1::obj-79::obj-129" : [ "CV2[1]", "CV2", 0 ],
-			"obj-1::obj-79::obj-36" : [ "PW[1]", "PW", 0 ],
-			"obj-1::obj-79::obj-4" : [ "Waveform[1]", "Waveform", 0 ],
-			"obj-1::obj-79::obj-45" : [ "FreqMode[1]", "FreqMode", 0 ],
-			"obj-1::obj-79::obj-46" : [ "Offset[8]", "Offset", 0 ],
-			"obj-1::obj-79::obj-51" : [ "Freq[1]", "Freq", 0 ],
-			"obj-1::obj-79::obj-53" : [ "Mute[26]", "Mute", 0 ],
+			"obj-1::obj-79::obj-106" : [ "CV3[6]", "CV3", 0 ],
+			"obj-1::obj-79::obj-107" : [ "Linear[4]", "Linear", 0 ],
+			"obj-1::obj-79::obj-11" : [ "PWM[3]", "PWM", 0 ],
+			"obj-1::obj-79::obj-129" : [ "CV2[6]", "CV2", 0 ],
+			"obj-1::obj-79::obj-36" : [ "PW[3]", "PW", 0 ],
+			"obj-1::obj-79::obj-4" : [ "Waveform[3]", "Waveform", 0 ],
+			"obj-1::obj-79::obj-45" : [ "FreqMode[5]", "FreqMode", 0 ],
+			"obj-1::obj-79::obj-46" : [ "Offset[9]", "Offset", 0 ],
+			"obj-1::obj-79::obj-51" : [ "Freq[6]", "Freq", 0 ],
+			"obj-1::obj-79::obj-53" : [ "Mute[12]", "Mute", 0 ],
 			"obj-1::obj-84::obj-12" : [ "Mute[13]", "Mute", 0 ],
 			"obj-1::obj-84::obj-20" : [ "Time[6]", "Time", 0 ],
 			"obj-1::obj-85::obj-29" : [ "in3[2]", "in3", 0 ],
@@ -892,11 +1021,11 @@
 			"obj-1::obj-85::obj-37" : [ "power[2]", "power", 0 ],
 			"obj-1::obj-85::obj-39" : [ "in1[2]", "in1", 0 ],
 			"obj-1::obj-86" : [ "number[17]", "number[1]", 0 ],
-			"obj-3::obj-1" : [ "number[10]", "number", 0 ],
-			"obj-3::obj-105" : [ "number[11]", "number", 0 ],
+			"obj-3::obj-1" : [ "number[4]", "number", 0 ],
+			"obj-3::obj-105" : [ "number[2]", "number", 0 ],
 			"obj-3::obj-11" : [ "number[6]", "number", 0 ],
 			"obj-3::obj-15::obj-12" : [ "Bypass", "Bypass", 0 ],
-			"obj-3::obj-15::obj-15::obj-2" : [ "pastebang[3]", "pastebang", 0 ],
+			"obj-3::obj-15::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-3::obj-15::obj-2" : [ "Output", "Output", 0 ],
 			"obj-3::obj-15::obj-28" : [ "Attack", "Attack", 0 ],
 			"obj-3::obj-15::obj-34" : [ "slider[3]", "slider[3]", 0 ],
@@ -905,20 +1034,20 @@
 			"obj-3::obj-15::obj-47" : [ "Release", "Release", 0 ],
 			"obj-3::obj-15::obj-52" : [ "Threshold", "Threshold", 0 ],
 			"obj-3::obj-15::obj-78" : [ "Ratio[1]", "Ratio", 0 ],
-			"obj-3::obj-17::obj-106" : [ "CV3[6]", "CV3", 0 ],
-			"obj-3::obj-17::obj-12" : [ "Mute[11]", "Mute", 0 ],
-			"obj-3::obj-17::obj-129" : [ "CV2[14]", "CV2", 0 ],
+			"obj-3::obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-3::obj-17::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-3::obj-17::obj-129" : [ "CV2", "CV2", 0 ],
 			"obj-3::obj-17::obj-25" : [ "TimbreCV", "CV", 0 ],
 			"obj-3::obj-17::obj-3" : [ "Timbre", "Timbre", 0 ],
-			"obj-3::obj-17::obj-35::obj-2" : [ "pastebang[4]", "pastebang", 0 ],
-			"obj-3::obj-17::obj-45" : [ "FreqMode[11]", "FreqMode", 0 ],
+			"obj-3::obj-17::obj-35::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
+			"obj-3::obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-3::obj-17::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-3::obj-17::obj-51" : [ "Freq[11]", "Freq", 0 ],
+			"obj-3::obj-17::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-3::obj-17::obj-80" : [ "ColorCV", "CV", 0 ],
 			"obj-3::obj-17::obj-81" : [ "Color", "Color", 0 ],
 			"obj-3::obj-17::obj-9" : [ "Macro", "Macro", 0 ],
-			"obj-3::obj-25" : [ "number[8]", "number", 0 ],
-			"obj-3::obj-3" : [ "number[7]", "number", 0 ],
+			"obj-3::obj-25" : [ "number[1]", "number", 0 ],
+			"obj-3::obj-3" : [ "number[5]", "number", 0 ],
 			"obj-3::obj-31::obj-1" : [ "Size[2]", "Size", 0 ],
 			"obj-3::obj-31::obj-20" : [ "Diffusion", "Diffusion", 0 ],
 			"obj-3::obj-31::obj-25" : [ "Damping", "Damping", 0 ],
@@ -927,11 +1056,11 @@
 			"obj-3::obj-31::obj-55" : [ "Mix[2]", "Mix", 0 ],
 			"obj-3::obj-42::obj-106" : [ "CV3[3]", "CV3", 0 ],
 			"obj-3::obj-42::obj-107" : [ "Linear[2]", "Linear", 0 ],
-			"obj-3::obj-42::obj-11" : [ "PWM[6]", "PWM", 0 ],
+			"obj-3::obj-42::obj-11" : [ "PWM[1]", "PWM", 0 ],
 			"obj-3::obj-42::obj-129" : [ "CV2[3]", "CV2", 0 ],
-			"obj-3::obj-42::obj-36" : [ "PW[6]", "PW", 0 ],
-			"obj-3::obj-42::obj-4" : [ "Waveform[6]", "Waveform", 0 ],
-			"obj-3::obj-42::obj-45" : [ "FreqMode[5]", "FreqMode", 0 ],
+			"obj-3::obj-42::obj-36" : [ "PW[1]", "PW", 0 ],
+			"obj-3::obj-42::obj-4" : [ "Waveform[1]", "Waveform", 0 ],
+			"obj-3::obj-42::obj-45" : [ "FreqMode[2]", "FreqMode", 0 ],
 			"obj-3::obj-42::obj-46" : [ "Offset[5]", "Offset", 0 ],
 			"obj-3::obj-42::obj-51" : [ "Freq[3]", "Freq", 0 ],
 			"obj-3::obj-42::obj-53" : [ "Mute[7]", "Mute", 0 ],
@@ -939,17 +1068,17 @@
 			"obj-3::obj-57::obj-52" : [ "Level", "Level", 0 ],
 			"obj-3::obj-57::obj-55" : [ "DSP", "DSP", 0 ],
 			"obj-3::obj-57::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-3::obj-58::obj-1" : [ "Time[7]", "Time", 0 ],
+			"obj-3::obj-58::obj-1" : [ "Time[2]", "Time", 0 ],
 			"obj-3::obj-58::obj-25" : [ "Cutoff", "Cutoff", 0 ],
 			"obj-3::obj-58::obj-26" : [ "Reflections", "Reflections", 0 ],
 			"obj-3::obj-58::obj-28" : [ "Mix[3]", "Mix", 0 ],
 			"obj-3::obj-58::obj-47" : [ "bypass[10]", "bypass", 0 ],
-			"obj-3::obj-67" : [ "number[9]", "number", 0 ],
+			"obj-3::obj-67" : [ "number", "number", 0 ],
 			"obj-3::obj-72::obj-1" : [ "Width", "Width", 0 ],
-			"obj-3::obj-72::obj-2" : [ "Rate[1]", "Rate", 0 ],
-			"obj-3::obj-72::obj-23" : [ "bypass[22]", "bypass", 0 ],
-			"obj-3::obj-72::obj-28" : [ "Center[1]", "Center", 0 ],
-			"obj-3::obj-72::obj-3" : [ "Regen[5]", "Regen", 0 ],
+			"obj-3::obj-72::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-3::obj-72::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-3::obj-72::obj-28" : [ "Center", "Center", 0 ],
+			"obj-3::obj-72::obj-3" : [ "Regen", "Regen", 0 ],
 			"obj-3::obj-97::obj-23" : [ "bypass[11]", "bypass", 0 ],
 			"obj-3::obj-97::obj-28" : [ "Size[3]", "Size", 0 ],
 			"obj-3::obj-97::obj-3" : [ "Regen[2]", "Regen", 0 ],
@@ -959,37 +1088,37 @@
 			"obj-3::obj-97::obj-64" : [ "Tail[2]", "Tail", 0 ],
 			"obj-3::obj-97::obj-65" : [ "Spread[2]", "Spread", 0 ],
 			"obj-3::obj-97::obj-66" : [ "Time[3]", "Time", 0 ],
-			"obj-5::obj-13::obj-113" : [ "pan[9]", "Pan", 0 ],
-			"obj-5::obj-13::obj-114" : [ "solo[9]", "Solo", 0 ],
-			"obj-5::obj-13::obj-115" : [ "active[27]", "Active", 0 ],
-			"obj-5::obj-13::obj-116" : [ "gain[23]", "Gain", 0 ],
-			"obj-5::obj-13::obj-30" : [ "qlist[13]", "Qlist", 0 ],
-			"obj-5::obj-13::obj-4" : [ "setname[13]", "Setname", 0 ],
-			"obj-5::obj-18" : [ "number[26]", "number", 0 ],
+			"obj-5::obj-13::obj-113" : [ "pan", "Pan", 0 ],
+			"obj-5::obj-13::obj-114" : [ "solo", "Solo", 0 ],
+			"obj-5::obj-13::obj-115" : [ "active", "Active", 0 ],
+			"obj-5::obj-13::obj-116" : [ "gain", "Gain", 0 ],
+			"obj-5::obj-13::obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-5::obj-13::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-5::obj-18" : [ "number[7]", "number", 0 ],
 			"obj-5::obj-20" : [ "number[15]", "number[1]", 0 ],
 			"obj-5::obj-29" : [ "number[16]", "number", 0 ],
-			"obj-5::obj-2::obj-24" : [ "output[3]", "Output", 0 ],
-			"obj-5::obj-30::obj-100" : [ "score", "score", 0 ],
-			"obj-5::obj-30::obj-105" : [ "rounding", "rounding", 0 ],
-			"obj-5::obj-30::obj-12" : [ "bypass[21]", "bypass", 0 ],
-			"obj-5::obj-30::obj-14::obj-2" : [ "pastebang[2]", "pastebang", 0 ],
-			"obj-5::obj-30::obj-71" : [ "notes", "notes", 1 ],
-			"obj-5::obj-42::obj-106" : [ "CV3[5]", "CV3", 0 ],
-			"obj-5::obj-42::obj-12" : [ "Mute[9]", "Mute", 0 ],
-			"obj-5::obj-42::obj-129" : [ "CV2[6]", "CV2", 0 ],
-			"obj-5::obj-42::obj-25" : [ "TimbreCV[2]", "CV", 0 ],
-			"obj-5::obj-42::obj-3" : [ "Timbre[2]", "Timbre", 0 ],
-			"obj-5::obj-42::obj-35::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
-			"obj-5::obj-42::obj-45" : [ "FreqMode[4]", "FreqMode", 0 ],
-			"obj-5::obj-42::obj-46" : [ "Offset[16]", "Offset", 0 ],
-			"obj-5::obj-42::obj-51" : [ "Freq[6]", "Freq", 0 ],
-			"obj-5::obj-42::obj-80" : [ "ColorCV[2]", "CV", 0 ],
-			"obj-5::obj-42::obj-81" : [ "Color[2]", "Color", 0 ],
-			"obj-5::obj-42::obj-9" : [ "Macro[2]", "Macro", 0 ],
+			"obj-5::obj-2::obj-24" : [ "output", "Output", 0 ],
+			"obj-5::obj-30::obj-100" : [ "score[1]", "score", 0 ],
+			"obj-5::obj-30::obj-105" : [ "rounding[1]", "rounding", 0 ],
+			"obj-5::obj-30::obj-12" : [ "bypass[3]", "bypass", 0 ],
+			"obj-5::obj-30::obj-14::obj-2" : [ "pastebang[11]", "pastebang", 0 ],
+			"obj-5::obj-30::obj-71" : [ "notes[1]", "notes", 1 ],
+			"obj-5::obj-42::obj-106" : [ "CV3[4]", "CV3", 0 ],
+			"obj-5::obj-42::obj-12" : [ "Mute[8]", "Mute", 0 ],
+			"obj-5::obj-42::obj-129" : [ "CV2[4]", "CV2", 0 ],
+			"obj-5::obj-42::obj-25" : [ "TimbreCV[1]", "CV", 0 ],
+			"obj-5::obj-42::obj-3" : [ "Timbre[1]", "Timbre", 0 ],
+			"obj-5::obj-42::obj-35::obj-2" : [ "pastebang[10]", "pastebang", 0 ],
+			"obj-5::obj-42::obj-45" : [ "FreqMode[3]", "FreqMode", 0 ],
+			"obj-5::obj-42::obj-46" : [ "Offset[7]", "Offset", 0 ],
+			"obj-5::obj-42::obj-51" : [ "Freq[4]", "Freq", 0 ],
+			"obj-5::obj-42::obj-80" : [ "ColorCV[1]", "CV", 0 ],
+			"obj-5::obj-42::obj-81" : [ "Color[1]", "Color", 0 ],
+			"obj-5::obj-42::obj-9" : [ "Macro[1]", "Macro", 0 ],
 			"obj-5::obj-72::obj-1" : [ "Depth[1]", "Depth", 0 ],
-			"obj-5::obj-72::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-5::obj-72::obj-2" : [ "Rate[1]", "Rate", 0 ],
 			"obj-5::obj-72::obj-23" : [ "bypass[14]", "bypass", 0 ],
-			"obj-5::obj-72::obj-28" : [ "Center", "Center", 0 ],
+			"obj-5::obj-72::obj-28" : [ "Center[1]", "Center", 0 ],
 			"obj-5::obj-72::obj-3" : [ "Regen[3]", "Regen", 0 ],
 			"obj-5::obj-75::obj-12" : [ "invert", "invert", 0 ],
 			"obj-5::obj-75::obj-20" : [ "mute[1]", "mute", 0 ],
@@ -999,7 +1128,7 @@
 			"obj-5::obj-77::obj-33" : [ "in4[3]", "in4", 0 ],
 			"obj-5::obj-77::obj-37" : [ "power[3]", "power", 0 ],
 			"obj-5::obj-77::obj-39" : [ "in1[3]", "in1", 0 ],
-			"obj-5::obj-80::obj-12" : [ "Mute[14]", "Mute", 0 ],
+			"obj-5::obj-80::obj-12" : [ "Mute[26]", "Mute", 0 ],
 			"obj-5::obj-80::obj-20" : [ "Time[12]", "Time", 0 ],
 			"obj-5::obj-89" : [ "number[13]", "number[2]", 0 ],
 			"obj-5::obj-91" : [ "number[14]", "number[3]", 0 ],
@@ -1042,13 +1171,13 @@
 			"obj-6::obj-42::obj-46" : [ "Offset[2]", "Offset", 0 ],
 			"obj-6::obj-42::obj-51" : [ "Freq[9]", "Freq", 0 ],
 			"obj-6::obj-42::obj-53" : [ "Mute[25]", "Mute", 0 ],
-			"obj-6::obj-45::obj-24" : [ "output", "Output", 0 ],
-			"obj-6::obj-46::obj-113" : [ "pan", "Pan", 0 ],
-			"obj-6::obj-46::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-6::obj-46::obj-115" : [ "active", "Active", 0 ],
-			"obj-6::obj-46::obj-116" : [ "gain", "Gain", 0 ],
-			"obj-6::obj-46::obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-6::obj-46::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-6::obj-46::obj-113" : [ "pan[1]", "Pan", 0 ],
+			"obj-6::obj-46::obj-114" : [ "solo[1]", "Solo", 0 ],
+			"obj-6::obj-46::obj-115" : [ "active[1]", "Active", 0 ],
+			"obj-6::obj-46::obj-116" : [ "gain[1]", "Gain", 0 ],
+			"obj-6::obj-46::obj-30" : [ "qlist[1]", "Qlist", 0 ],
+			"obj-6::obj-46::obj-4" : [ "setname[1]", "Setname", 0 ],
+			"obj-6::obj-47::obj-24" : [ "output[4]", "Output", 0 ],
 			"obj-6::obj-68" : [ "number[35]", "number", 0 ],
 			"obj-6::obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
 			"obj-6::obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
@@ -1065,21 +1194,21 @@
 			"obj-7::obj-112::obj-9" : [ "delay_right", "delay_right", 0 ],
 			"obj-7::obj-112::obj-957" : [ "duration.l", "duration.l", 0 ],
 			"obj-7::obj-112::obj-96" : [ "delay_left", "delay_left", 0 ],
-			"obj-7::obj-113::obj-113" : [ "pan[3]", "Pan", 0 ],
-			"obj-7::obj-113::obj-114" : [ "solo[3]", "Solo", 0 ],
-			"obj-7::obj-113::obj-115" : [ "active[12]", "Active", 0 ],
-			"obj-7::obj-113::obj-116" : [ "gain[12]", "Gain", 0 ],
-			"obj-7::obj-113::obj-30" : [ "qlist[7]", "Qlist", 0 ],
-			"obj-7::obj-113::obj-4" : [ "setname[7]", "Setname", 0 ],
-			"obj-7::obj-116::obj-122" : [ "active[11]", "Active", 0 ],
-			"obj-7::obj-116::obj-35" : [ "bus[6]", "Bus", 0 ],
-			"obj-7::obj-116::obj-88" : [ "gain[10]", "Gain", 0 ],
-			"obj-7::obj-117::obj-122" : [ "active[14]", "Active", 0 ],
-			"obj-7::obj-117::obj-35" : [ "bus[5]", "Bus", 0 ],
-			"obj-7::obj-117::obj-88" : [ "gain[9]", "Gain", 0 ],
-			"obj-7::obj-118::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-7::obj-113::obj-113" : [ "pan[12]", "Pan", 0 ],
+			"obj-7::obj-113::obj-114" : [ "solo[12]", "Solo", 0 ],
+			"obj-7::obj-113::obj-115" : [ "active[42]", "Active", 0 ],
+			"obj-7::obj-113::obj-116" : [ "gain[40]", "Gain", 0 ],
+			"obj-7::obj-113::obj-30" : [ "qlist[5]", "Qlist", 0 ],
+			"obj-7::obj-113::obj-4" : [ "setname[5]", "Setname", 0 ],
+			"obj-7::obj-116::obj-122" : [ "active[41]", "Active", 0 ],
+			"obj-7::obj-116::obj-35" : [ "bus[7]", "Bus", 0 ],
+			"obj-7::obj-116::obj-88" : [ "gain[39]", "Gain", 0 ],
+			"obj-7::obj-117::obj-122" : [ "active[40]", "Active", 0 ],
+			"obj-7::obj-117::obj-35" : [ "bus[6]", "Bus", 0 ],
+			"obj-7::obj-117::obj-88" : [ "gain[38]", "Gain", 0 ],
+			"obj-7::obj-118::obj-23" : [ "bypass[20]", "bypass", 0 ],
 			"obj-7::obj-118::obj-28" : [ "Size", "Size", 0 ],
-			"obj-7::obj-118::obj-3" : [ "Regen", "Regen", 0 ],
+			"obj-7::obj-118::obj-3" : [ "Regen[5]", "Regen", 0 ],
 			"obj-7::obj-118::obj-60" : [ "Damp", "Damp", 0 ],
 			"obj-7::obj-118::obj-62" : [ "Dry", "Dry", 0 ],
 			"obj-7::obj-118::obj-63" : [ "Early", "Early", 0 ],
@@ -1091,53 +1220,53 @@
 			"obj-7::obj-121::obj-18" : [ "hifreq[1]", "HiFreq", 0 ],
 			"obj-7::obj-121::obj-19" : [ "lo[1]", "Lo", 0 ],
 			"obj-7::obj-121::obj-28" : [ "init[1]", "Init", 0 ],
-			"obj-7::obj-121::obj-30" : [ "qlist[5]", "Qlist", 0 ],
+			"obj-7::obj-121::obj-30" : [ "qlist[4]", "Qlist", 0 ],
 			"obj-7::obj-121::obj-36" : [ "hi[1]", "Hi", 0 ],
-			"obj-7::obj-121::obj-4" : [ "setname[5]", "Setname", 0 ],
-			"obj-7::obj-121::obj-9" : [ "active[10]", "Active", 0 ],
+			"obj-7::obj-121::obj-4" : [ "setname[4]", "Setname", 0 ],
+			"obj-7::obj-121::obj-9" : [ "active[39]", "Active", 0 ],
 			"obj-7::obj-122::obj-16" : [ "lofreq", "LoFreq", 0 ],
 			"obj-7::obj-122::obj-17" : [ "mid", "Mid", 0 ],
 			"obj-7::obj-122::obj-18" : [ "hifreq", "HiFreq", 0 ],
 			"obj-7::obj-122::obj-19" : [ "lo", "Lo", 0 ],
 			"obj-7::obj-122::obj-28" : [ "init", "Init", 0 ],
-			"obj-7::obj-122::obj-30" : [ "qlist[4]", "Qlist", 0 ],
+			"obj-7::obj-122::obj-30" : [ "qlist[3]", "Qlist", 0 ],
 			"obj-7::obj-122::obj-36" : [ "hi", "Hi", 0 ],
-			"obj-7::obj-122::obj-4" : [ "setname[4]", "Setname", 0 ],
-			"obj-7::obj-122::obj-9" : [ "active[9]", "Active", 0 ],
-			"obj-7::obj-123::obj-24" : [ "output[4]", "Output", 0 ],
-			"obj-7::obj-125::obj-113" : [ "pan[2]", "Pan", 0 ],
-			"obj-7::obj-125::obj-114" : [ "solo[2]", "Solo", 0 ],
-			"obj-7::obj-125::obj-115" : [ "active[8]", "Active", 0 ],
-			"obj-7::obj-125::obj-116" : [ "gain[8]", "Gain", 0 ],
-			"obj-7::obj-125::obj-30" : [ "qlist[3]", "Qlist", 0 ],
-			"obj-7::obj-125::obj-4" : [ "setname[3]", "Setname", 0 ],
-			"obj-7::obj-126::obj-122" : [ "active[7]", "Active", 0 ],
-			"obj-7::obj-126::obj-35" : [ "bus[4]", "Bus", 0 ],
-			"obj-7::obj-126::obj-88" : [ "gain[7]", "Gain", 0 ],
-			"obj-7::obj-127::obj-122" : [ "active[6]", "Active", 0 ],
-			"obj-7::obj-127::obj-35" : [ "bus[3]", "Bus", 0 ],
-			"obj-7::obj-127::obj-88" : [ "gain[6]", "Gain", 0 ],
-			"obj-7::obj-128::obj-113" : [ "pan[1]", "Pan", 0 ],
-			"obj-7::obj-128::obj-114" : [ "solo[1]", "Solo", 0 ],
-			"obj-7::obj-128::obj-115" : [ "active[5]", "Active", 0 ],
-			"obj-7::obj-128::obj-116" : [ "gain[5]", "Gain", 0 ],
-			"obj-7::obj-128::obj-30" : [ "qlist[2]", "Qlist", 0 ],
-			"obj-7::obj-128::obj-4" : [ "setname[2]", "Setname", 0 ],
-			"obj-7::obj-129::obj-122" : [ "active[4]", "Active", 0 ],
-			"obj-7::obj-129::obj-35" : [ "bus[2]", "Bus", 0 ],
-			"obj-7::obj-129::obj-88" : [ "gain[4]", "Gain", 0 ],
-			"obj-7::obj-130::obj-122" : [ "active[3]", "Active", 0 ],
-			"obj-7::obj-130::obj-35" : [ "bus[1]", "Bus", 0 ],
-			"obj-7::obj-130::obj-88" : [ "gain[3]", "Gain", 0 ],
-			"obj-7::obj-131::obj-122" : [ "active[2]", "Active", 0 ],
-			"obj-7::obj-131::obj-35" : [ "bus", "Bus", 0 ],
-			"obj-7::obj-131::obj-88" : [ "gain[2]", "Gain", 0 ],
-			"obj-7::obj-133::obj-113" : [ "pan[5]", "Pan", 0 ],
-			"obj-7::obj-133::obj-114" : [ "solo[5]", "Solo", 0 ],
-			"obj-7::obj-133::obj-115" : [ "active[1]", "Active", 0 ],
-			"obj-7::obj-133::obj-116" : [ "gain[1]", "Gain", 0 ],
-			"obj-7::obj-133::obj-30" : [ "qlist[1]", "Qlist", 0 ],
-			"obj-7::obj-133::obj-4" : [ "setname[1]", "Setname", 0 ],
+			"obj-7::obj-122::obj-4" : [ "setname[3]", "Setname", 0 ],
+			"obj-7::obj-122::obj-9" : [ "active[38]", "Active", 0 ],
+			"obj-7::obj-123::obj-24" : [ "output[3]", "Output", 0 ],
+			"obj-7::obj-125::obj-113" : [ "pan[11]", "Pan", 0 ],
+			"obj-7::obj-125::obj-114" : [ "solo[11]", "Solo", 0 ],
+			"obj-7::obj-125::obj-115" : [ "active[37]", "Active", 0 ],
+			"obj-7::obj-125::obj-116" : [ "gain[37]", "Gain", 0 ],
+			"obj-7::obj-125::obj-30" : [ "qlist[2]", "Qlist", 0 ],
+			"obj-7::obj-125::obj-4" : [ "setname[2]", "Setname", 0 ],
+			"obj-7::obj-126::obj-122" : [ "active[36]", "Active", 0 ],
+			"obj-7::obj-126::obj-35" : [ "bus[5]", "Bus", 0 ],
+			"obj-7::obj-126::obj-88" : [ "gain[36]", "Gain", 0 ],
+			"obj-7::obj-127::obj-122" : [ "active[35]", "Active", 0 ],
+			"obj-7::obj-127::obj-35" : [ "bus[4]", "Bus", 0 ],
+			"obj-7::obj-127::obj-88" : [ "gain[35]", "Gain", 0 ],
+			"obj-7::obj-128::obj-113" : [ "pan[10]", "Pan", 0 ],
+			"obj-7::obj-128::obj-114" : [ "solo[10]", "Solo", 0 ],
+			"obj-7::obj-128::obj-115" : [ "active[34]", "Active", 0 ],
+			"obj-7::obj-128::obj-116" : [ "gain[34]", "Gain", 0 ],
+			"obj-7::obj-128::obj-30" : [ "qlist[17]", "Qlist", 0 ],
+			"obj-7::obj-128::obj-4" : [ "setname[17]", "Setname", 0 ],
+			"obj-7::obj-129::obj-122" : [ "active[33]", "Active", 0 ],
+			"obj-7::obj-129::obj-35" : [ "bus[3]", "Bus", 0 ],
+			"obj-7::obj-129::obj-88" : [ "gain[33]", "Gain", 0 ],
+			"obj-7::obj-130::obj-122" : [ "active[32]", "Active", 0 ],
+			"obj-7::obj-130::obj-35" : [ "bus[2]", "Bus", 0 ],
+			"obj-7::obj-130::obj-88" : [ "gain[32]", "Gain", 0 ],
+			"obj-7::obj-131::obj-122" : [ "active[31]", "Active", 0 ],
+			"obj-7::obj-131::obj-35" : [ "bus[1]", "Bus", 0 ],
+			"obj-7::obj-131::obj-88" : [ "gain[31]", "Gain", 0 ],
+			"obj-7::obj-133::obj-113" : [ "pan[9]", "Pan", 0 ],
+			"obj-7::obj-133::obj-114" : [ "solo[9]", "Solo", 0 ],
+			"obj-7::obj-133::obj-115" : [ "active[2]", "Active", 0 ],
+			"obj-7::obj-133::obj-116" : [ "gain[2]", "Gain", 0 ],
+			"obj-7::obj-133::obj-30" : [ "qlist[16]", "Qlist", 0 ],
+			"obj-7::obj-133::obj-4" : [ "setname[16]", "Setname", 0 ],
 			"obj-7::obj-140::obj-106" : [ "CV3[10]", "CV3", 0 ],
 			"obj-7::obj-140::obj-107" : [ "Linear[8]", "Linear", 0 ],
 			"obj-7::obj-140::obj-129" : [ "CV2[10]", "CV2", 0 ],
@@ -1147,64 +1276,64 @@
 			"obj-7::obj-140::obj-45" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-7::obj-140::obj-46" : [ "Offset[14]", "Offset", 0 ],
 			"obj-7::obj-140::obj-51" : [ "Fatness", "Fatness", 0 ],
-			"obj-7::obj-149::obj-106" : [ "CV3[4]", "CV3", 0 ],
-			"obj-7::obj-149::obj-12" : [ "Mute[8]", "Mute", 0 ],
-			"obj-7::obj-149::obj-129" : [ "CV2[4]", "CV2", 0 ],
-			"obj-7::obj-149::obj-25" : [ "TimbreCV[1]", "CV", 0 ],
-			"obj-7::obj-149::obj-3" : [ "Timbre[1]", "Timbre", 0 ],
-			"obj-7::obj-149::obj-35::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-7::obj-149::obj-45" : [ "FreqMode[3]", "FreqMode", 0 ],
-			"obj-7::obj-149::obj-46" : [ "Offset[7]", "Offset", 0 ],
-			"obj-7::obj-149::obj-51" : [ "Freq[4]", "Freq", 0 ],
-			"obj-7::obj-149::obj-80" : [ "ColorCV[1]", "CV", 0 ],
-			"obj-7::obj-149::obj-81" : [ "Color[1]", "Color", 0 ],
-			"obj-7::obj-149::obj-9" : [ "Macro[1]", "Macro", 0 ],
+			"obj-7::obj-149::obj-106" : [ "CV3[11]", "CV3", 0 ],
+			"obj-7::obj-149::obj-12" : [ "Mute[17]", "Mute", 0 ],
+			"obj-7::obj-149::obj-129" : [ "CV2[11]", "CV2", 0 ],
+			"obj-7::obj-149::obj-25" : [ "TimbreCV[2]", "CV", 0 ],
+			"obj-7::obj-149::obj-3" : [ "Timbre[2]", "Timbre", 0 ],
+			"obj-7::obj-149::obj-35::obj-2" : [ "pastebang[7]", "pastebang", 0 ],
+			"obj-7::obj-149::obj-45" : [ "FreqMode[8]", "FreqMode", 0 ],
+			"obj-7::obj-149::obj-46" : [ "Offset[15]", "Offset", 0 ],
+			"obj-7::obj-149::obj-51" : [ "Freq[8]", "Freq", 0 ],
+			"obj-7::obj-149::obj-80" : [ "ColorCV[2]", "CV", 0 ],
+			"obj-7::obj-149::obj-81" : [ "Color[2]", "Color", 0 ],
+			"obj-7::obj-149::obj-9" : [ "Macro[2]", "Macro", 0 ],
 			"obj-7::obj-150::obj-1" : [ "Fade[1]", "Fade", 0 ],
 			"obj-7::obj-150::obj-22" : [ "CV[1]", "CV", 0 ],
-			"obj-7::obj-150::obj-41" : [ "bypass[2]", "bypass", 0 ],
+			"obj-7::obj-150::obj-41" : [ "bypass[22]", "bypass", 0 ],
 			"obj-7::obj-151::obj-1" : [ "Fade", "Fade", 0 ],
 			"obj-7::obj-151::obj-22" : [ "CV", "CV", 0 ],
-			"obj-7::obj-151::obj-41" : [ "bypass[20]", "bypass", 0 ],
+			"obj-7::obj-151::obj-41" : [ "bypass[21]", "bypass", 0 ],
 			"obj-7::obj-152::obj-12" : [ "Mute[24]", "Mute", 0 ],
 			"obj-7::obj-152::obj-20" : [ "Frequency", "Freq", 0 ],
-			"obj-7::obj-175" : [ "number[1]", "number[1]", 0 ],
-			"obj-7::obj-178" : [ "number", "number", 0 ],
-			"obj-7::obj-22" : [ "number[2]", "number[2]", 0 ],
-			"obj-7::obj-78" : [ "number[4]", "number[3]", 0 ],
-			"obj-7::obj-83" : [ "number[5]", "number[3]", 0 ],
-			"obj-8::obj-101::obj-113" : [ "pan[6]", "Pan", 0 ],
-			"obj-8::obj-101::obj-114" : [ "solo[6]", "Solo", 0 ],
-			"obj-8::obj-101::obj-115" : [ "active[15]", "Active", 0 ],
-			"obj-8::obj-101::obj-116" : [ "gain[24]", "Gain", 0 ],
-			"obj-8::obj-101::obj-30" : [ "qlist[8]", "Qlist", 0 ],
-			"obj-8::obj-101::obj-4" : [ "setname[8]", "Setname", 0 ],
+			"obj-7::obj-175" : [ "number[26]", "number[1]", 0 ],
+			"obj-7::obj-178" : [ "number[29]", "number", 0 ],
+			"obj-7::obj-22" : [ "number[28]", "number[2]", 0 ],
+			"obj-7::obj-78" : [ "number[25]", "number[3]", 0 ],
+			"obj-7::obj-83" : [ "number[27]", "number[3]", 0 ],
+			"obj-8::obj-101::obj-113" : [ "pan[13]", "Pan", 0 ],
+			"obj-8::obj-101::obj-114" : [ "solo[13]", "Solo", 0 ],
+			"obj-8::obj-101::obj-115" : [ "active[3]", "Active", 0 ],
+			"obj-8::obj-101::obj-116" : [ "gain[3]", "Gain", 0 ],
+			"obj-8::obj-101::obj-30" : [ "qlist[6]", "Qlist", 0 ],
+			"obj-8::obj-101::obj-4" : [ "setname[6]", "Setname", 0 ],
 			"obj-8::obj-15" : [ "toggle", "toggle", 0 ],
-			"obj-8::obj-164::obj-122" : [ "active[28]", "Active", 0 ],
-			"obj-8::obj-164::obj-35" : [ "bus[12]", "Bus", 0 ],
-			"obj-8::obj-164::obj-88" : [ "gain[20]", "Gain", 0 ],
-			"obj-8::obj-169::obj-113" : [ "pan[8]", "Pan", 0 ],
-			"obj-8::obj-169::obj-114" : [ "solo[8]", "Solo", 0 ],
-			"obj-8::obj-169::obj-115" : [ "active[26]", "Active", 0 ],
-			"obj-8::obj-169::obj-116" : [ "gain[22]", "Gain", 0 ],
-			"obj-8::obj-169::obj-30" : [ "qlist[12]", "Qlist", 0 ],
-			"obj-8::obj-169::obj-4" : [ "setname[12]", "Setname", 0 ],
-			"obj-8::obj-17" : [ "number[23]", "number[3]", 0 ],
-			"obj-8::obj-170::obj-122" : [ "active[25]", "Active", 0 ],
-			"obj-8::obj-170::obj-35" : [ "bus[13]", "Bus", 0 ],
-			"obj-8::obj-170::obj-88" : [ "gain[21]", "Gain", 0 ],
-			"obj-8::obj-175" : [ "number[25]", "number[1]", 0 ],
+			"obj-8::obj-164::obj-122" : [ "active[58]", "Active", 0 ],
+			"obj-8::obj-164::obj-35" : [ "bus[29]", "Bus", 0 ],
+			"obj-8::obj-164::obj-88" : [ "gain[11]", "Gain", 0 ],
+			"obj-8::obj-169::obj-113" : [ "pan[16]", "Pan", 0 ],
+			"obj-8::obj-169::obj-114" : [ "solo[16]", "Solo", 0 ],
+			"obj-8::obj-169::obj-115" : [ "active[60]", "Active", 0 ],
+			"obj-8::obj-169::obj-116" : [ "gain[13]", "Gain", 0 ],
+			"obj-8::obj-169::obj-30" : [ "qlist[11]", "Qlist", 0 ],
+			"obj-8::obj-169::obj-4" : [ "setname[11]", "Setname", 0 ],
+			"obj-8::obj-17" : [ "number[32]", "number[3]", 0 ],
+			"obj-8::obj-170::obj-122" : [ "active[59]", "Active", 0 ],
+			"obj-8::obj-170::obj-35" : [ "bus[30]", "Bus", 0 ],
+			"obj-8::obj-170::obj-88" : [ "gain[12]", "Gain", 0 ],
+			"obj-8::obj-175" : [ "number[30]", "number[1]", 0 ],
 			"obj-8::obj-176::obj-118" : [ "Mix[7]", "Mix", 0 ],
 			"obj-8::obj-176::obj-27" : [ "Feedback[1]", "Feedback", 0 ],
 			"obj-8::obj-176::obj-49" : [ "HPF[1]", "HPF", 0 ],
 			"obj-8::obj-176::obj-50" : [ "LPF[1]", "LPF", 0 ],
-			"obj-8::obj-176::obj-7" : [ "bypass[23]", "bypass", 0 ],
+			"obj-8::obj-176::obj-7" : [ "bypass[25]", "bypass", 0 ],
 			"obj-8::obj-176::obj-708" : [ "duration.r[1]", "duration.r", 0 ],
 			"obj-8::obj-176::obj-9" : [ "delay_right[1]", "delay_right", 0 ],
 			"obj-8::obj-176::obj-957" : [ "duration.l[1]", "duration.l", 0 ],
 			"obj-8::obj-176::obj-96" : [ "delay_left[1]", "delay_left", 0 ],
-			"obj-8::obj-178" : [ "number[24]", "number", 0 ],
-			"obj-8::obj-22" : [ "number[22]", "number[2]", 0 ],
-			"obj-8::obj-35::obj-23" : [ "bypass[3]", "bypass", 0 ],
+			"obj-8::obj-178" : [ "number[34]", "number", 0 ],
+			"obj-8::obj-22" : [ "number[31]", "number[2]", 0 ],
+			"obj-8::obj-35::obj-23" : [ "bypass[24]", "bypass", 0 ],
 			"obj-8::obj-35::obj-28" : [ "Size[6]", "Size", 0 ],
 			"obj-8::obj-35::obj-3" : [ "Regen[6]", "Regen", 0 ],
 			"obj-8::obj-35::obj-60" : [ "Damp[4]", "Damp", 0 ],
@@ -1213,16 +1342,19 @@
 			"obj-8::obj-35::obj-64" : [ "Tail[4]", "Tail", 0 ],
 			"obj-8::obj-35::obj-65" : [ "Spread[4]", "Spread", 0 ],
 			"obj-8::obj-35::obj-66" : [ "Time[10]", "Time", 0 ],
-			"obj-8::obj-37::obj-24" : [ "output[2]", "Output", 0 ],
-			"obj-8::obj-38::obj-122" : [ "active[18]", "Active", 0 ],
-			"obj-8::obj-38::obj-35" : [ "bus[9]", "Bus", 0 ],
-			"obj-8::obj-38::obj-88" : [ "gain[15]", "Gain", 0 ],
-			"obj-8::obj-48::obj-113" : [ "pan[10]", "Pan", 0 ],
-			"obj-8::obj-48::obj-114" : [ "solo[10]", "Solo", 0 ],
-			"obj-8::obj-48::obj-115" : [ "active[19]", "Active", 0 ],
-			"obj-8::obj-48::obj-116" : [ "gain[16]", "Gain", 0 ],
-			"obj-8::obj-48::obj-30" : [ "qlist[9]", "Qlist", 0 ],
-			"obj-8::obj-48::obj-4" : [ "setname[9]", "Setname", 0 ],
+			"obj-8::obj-37::obj-24" : [ "output[5]", "Output", 0 ],
+			"obj-8::obj-38::obj-122" : [ "active[51]", "Active", 0 ],
+			"obj-8::obj-38::obj-35" : [ "bus[26]", "Bus", 0 ],
+			"obj-8::obj-38::obj-88" : [ "gain[6]", "Gain", 0 ],
+			"obj-8::obj-3::obj-1" : [ "Fade[2]", "Fade", 0 ],
+			"obj-8::obj-3::obj-22" : [ "CV[2]", "CV", 0 ],
+			"obj-8::obj-3::obj-41" : [ "bypass[4]", "bypass", 0 ],
+			"obj-8::obj-48::obj-113" : [ "pan[14]", "Pan", 0 ],
+			"obj-8::obj-48::obj-114" : [ "solo[14]", "Solo", 0 ],
+			"obj-8::obj-48::obj-115" : [ "active[52]", "Active", 0 ],
+			"obj-8::obj-48::obj-116" : [ "gain[7]", "Gain", 0 ],
+			"obj-8::obj-48::obj-30" : [ "qlist[7]", "Qlist", 0 ],
+			"obj-8::obj-48::obj-4" : [ "setname[7]", "Setname", 0 ],
 			"obj-8::obj-49::obj-12" : [ "Mute[1]", "Mute", 0 ],
 			"obj-8::obj-49::obj-144" : [ "Phase", "Phase", 0 ],
 			"obj-8::obj-49::obj-70" : [ "Amt[1]", "CV Amt", 0 ],
@@ -1232,186 +1364,274 @@
 			"obj-8::obj-49::obj-88" : [ "Time Mode", "Time Mode", 1 ],
 			"obj-8::obj-49::obj-89" : [ "FreqRate", "Rate", 0 ],
 			"obj-8::obj-49::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
-			"obj-8::obj-50::obj-122" : [ "active[20]", "Active", 0 ],
-			"obj-8::obj-50::obj-35" : [ "bus[10]", "Bus", 0 ],
-			"obj-8::obj-50::obj-88" : [ "gain[17]", "Gain", 0 ],
-			"obj-8::obj-54::obj-100" : [ "score[1]", "score", 0 ],
-			"obj-8::obj-54::obj-105" : [ "rounding[1]", "rounding", 0 ],
-			"obj-8::obj-54::obj-12" : [ "bypass[24]", "bypass", 0 ],
-			"obj-8::obj-54::obj-14::obj-2" : [ "pastebang[5]", "pastebang", 0 ],
-			"obj-8::obj-54::obj-71" : [ "notes[1]", "notes", 1 ],
-			"obj-8::obj-56::obj-122" : [ "active[21]", "Active", 0 ],
-			"obj-8::obj-56::obj-35" : [ "bus[11]", "Bus", 0 ],
-			"obj-8::obj-56::obj-88" : [ "gain[18]", "Gain", 0 ],
-			"obj-8::obj-58::obj-113" : [ "pan[7]", "Pan", 0 ],
-			"obj-8::obj-58::obj-114" : [ "solo[7]", "Solo", 0 ],
-			"obj-8::obj-58::obj-115" : [ "active[22]", "Active", 0 ],
-			"obj-8::obj-58::obj-116" : [ "gain[19]", "Gain", 0 ],
-			"obj-8::obj-58::obj-30" : [ "qlist[14]", "Qlist", 0 ],
-			"obj-8::obj-58::obj-4" : [ "setname[14]", "Setname", 0 ],
+			"obj-8::obj-50::obj-122" : [ "active[53]", "Active", 0 ],
+			"obj-8::obj-50::obj-35" : [ "bus[27]", "Bus", 0 ],
+			"obj-8::obj-50::obj-88" : [ "gain[8]", "Gain", 0 ],
+			"obj-8::obj-54::obj-100" : [ "score", "score", 0 ],
+			"obj-8::obj-54::obj-105" : [ "rounding", "rounding", 0 ],
+			"obj-8::obj-54::obj-12" : [ "bypass[2]", "bypass", 0 ],
+			"obj-8::obj-54::obj-14::obj-2" : [ "pastebang[8]", "pastebang", 0 ],
+			"obj-8::obj-54::obj-71" : [ "notes", "notes", 1 ],
+			"obj-8::obj-56::obj-122" : [ "active[54]", "Active", 0 ],
+			"obj-8::obj-56::obj-35" : [ "bus[28]", "Bus", 0 ],
+			"obj-8::obj-56::obj-88" : [ "gain[9]", "Gain", 0 ],
+			"obj-8::obj-58::obj-113" : [ "pan[15]", "Pan", 0 ],
+			"obj-8::obj-58::obj-114" : [ "solo[15]", "Solo", 0 ],
+			"obj-8::obj-58::obj-115" : [ "active[55]", "Active", 0 ],
+			"obj-8::obj-58::obj-116" : [ "gain[10]", "Gain", 0 ],
+			"obj-8::obj-58::obj-30" : [ "qlist[8]", "Qlist", 0 ],
+			"obj-8::obj-58::obj-4" : [ "setname[8]", "Setname", 0 ],
 			"obj-8::obj-62::obj-16" : [ "lofreq[2]", "LoFreq", 0 ],
 			"obj-8::obj-62::obj-17" : [ "mid[2]", "Mid", 0 ],
 			"obj-8::obj-62::obj-18" : [ "hifreq[2]", "HiFreq", 0 ],
 			"obj-8::obj-62::obj-19" : [ "lo[2]", "Lo", 0 ],
 			"obj-8::obj-62::obj-28" : [ "init[2]", "Init", 0 ],
-			"obj-8::obj-62::obj-30" : [ "qlist[10]", "Qlist", 0 ],
+			"obj-8::obj-62::obj-30" : [ "qlist[9]", "Qlist", 0 ],
 			"obj-8::obj-62::obj-36" : [ "hi[2]", "Hi", 0 ],
-			"obj-8::obj-62::obj-4" : [ "setname[10]", "Setname", 0 ],
-			"obj-8::obj-62::obj-9" : [ "active[23]", "Active", 0 ],
-			"obj-8::obj-63::obj-16" : [ "lofreq[3]", "LoFreq", 0 ],
-			"obj-8::obj-63::obj-17" : [ "mid[3]", "Mid", 0 ],
-			"obj-8::obj-63::obj-18" : [ "hifreq[3]", "HiFreq", 0 ],
-			"obj-8::obj-63::obj-19" : [ "lo[3]", "Lo", 0 ],
-			"obj-8::obj-63::obj-28" : [ "init[3]", "Init", 0 ],
-			"obj-8::obj-63::obj-30" : [ "qlist[11]", "Qlist", 0 ],
-			"obj-8::obj-63::obj-36" : [ "hi[3]", "Hi", 0 ],
-			"obj-8::obj-63::obj-4" : [ "setname[11]", "Setname", 0 ],
-			"obj-8::obj-63::obj-9" : [ "active[24]", "Active", 0 ],
-			"obj-8::obj-74" : [ "number[21]", "number[3]", 0 ],
-			"obj-8::obj-79::obj-122" : [ "active[17]", "Active", 0 ],
-			"obj-8::obj-79::obj-35" : [ "bus[8]", "Bus", 0 ],
-			"obj-8::obj-79::obj-88" : [ "gain[14]", "Gain", 0 ],
+			"obj-8::obj-62::obj-4" : [ "setname[9]", "Setname", 0 ],
+			"obj-8::obj-62::obj-9" : [ "active[56]", "Active", 0 ],
+			"obj-8::obj-63::obj-16" : [ "lofreq[7]", "LoFreq", 0 ],
+			"obj-8::obj-63::obj-17" : [ "mid[7]", "Mid", 0 ],
+			"obj-8::obj-63::obj-18" : [ "hifreq[7]", "HiFreq", 0 ],
+			"obj-8::obj-63::obj-19" : [ "lo[7]", "Lo", 0 ],
+			"obj-8::obj-63::obj-28" : [ "init[7]", "Init", 0 ],
+			"obj-8::obj-63::obj-30" : [ "qlist[10]", "Qlist", 0 ],
+			"obj-8::obj-63::obj-36" : [ "hi[7]", "Hi", 0 ],
+			"obj-8::obj-63::obj-4" : [ "setname[10]", "Setname", 0 ],
+			"obj-8::obj-63::obj-9" : [ "active[57]", "Active", 0 ],
+			"obj-8::obj-74" : [ "number[33]", "number[3]", 0 ],
+			"obj-8::obj-79::obj-122" : [ "active[50]", "Active", 0 ],
+			"obj-8::obj-79::obj-35" : [ "bus[25]", "Bus", 0 ],
+			"obj-8::obj-79::obj-88" : [ "gain[5]", "Gain", 0 ],
 			"obj-8::obj-8::obj-20" : [ "mute", "mute", 0 ],
 			"obj-8::obj-8::obj-56" : [ "Depth", "Depth", 0 ],
 			"obj-8::obj-8::obj-80" : [ "Ratio[5]", "Ratio", 0 ],
 			"obj-8::obj-8::obj-86" : [ "Amt", "Amt", 0 ],
-			"obj-8::obj-8::obj-91" : [ "Offset[3]", "Offset", 0 ],
-			"obj-8::obj-93::obj-122" : [ "active[16]", "Active", 0 ],
-			"obj-8::obj-93::obj-35" : [ "bus[7]", "Bus", 0 ],
-			"obj-8::obj-93::obj-88" : [ "gain[13]", "Gain", 0 ],
-			"obj-8::obj-9::obj-106" : [ "CV3[7]", "CV3", 0 ],
-			"obj-8::obj-9::obj-107" : [ "Linear[10]", "Linear", 0 ],
-			"obj-8::obj-9::obj-11" : [ "PWM[7]", "PWM", 0 ],
-			"obj-8::obj-9::obj-129" : [ "CV2[7]", "CV2", 0 ],
-			"obj-8::obj-9::obj-36" : [ "PW[7]", "PW", 0 ],
-			"obj-8::obj-9::obj-4" : [ "Waveform[7]", "Waveform", 0 ],
-			"obj-8::obj-9::obj-45" : [ "FreqMode[12]", "FreqMode", 0 ],
-			"obj-8::obj-9::obj-46" : [ "Offset[6]", "Offset", 0 ],
-			"obj-8::obj-9::obj-51" : [ "Freq[12]", "Freq", 0 ],
-			"obj-8::obj-9::obj-53" : [ "Mute[15]", "Mute", 0 ],
+			"obj-8::obj-8::obj-91" : [ "Offset[16]", "Offset", 0 ],
+			"obj-8::obj-93::obj-122" : [ "active[49]", "Active", 0 ],
+			"obj-8::obj-93::obj-35" : [ "bus[8]", "Bus", 0 ],
+			"obj-8::obj-93::obj-88" : [ "gain[4]", "Gain", 0 ],
+			"obj-8::obj-9::obj-106" : [ "CV3[12]", "CV3", 0 ],
+			"obj-8::obj-9::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-8::obj-9::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-8::obj-9::obj-129" : [ "CV2[12]", "CV2", 0 ],
+			"obj-8::obj-9::obj-36" : [ "PW", "PW", 0 ],
+			"obj-8::obj-9::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-8::obj-9::obj-45" : [ "FreqMode[9]", "FreqMode", 0 ],
+			"obj-8::obj-9::obj-46" : [ "Offset[1]", "Offset", 0 ],
+			"obj-8::obj-9::obj-51" : [ "Freq[13]", "Freq", 0 ],
+			"obj-8::obj-9::obj-53" : [ "Mute[21]", "Mute", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
 				"obj-1::obj-108::obj-12" : 				{
-					"parameter_longname" : "Mute[27]"
+					"parameter_longname" : "Mute[14]"
 				}
 ,
 				"obj-1::obj-108::obj-20" : 				{
-					"parameter_longname" : "Time[1]"
+					"parameter_longname" : "Time[7]"
 				}
 ,
 				"obj-1::obj-109::obj-12" : 				{
-					"parameter_longname" : "Mute[28]"
+					"parameter_longname" : "Mute[15]"
 				}
 ,
 				"obj-1::obj-109::obj-20" : 				{
-					"parameter_longname" : "Time[2]"
+					"parameter_longname" : "Time[8]"
 				}
 ,
 				"obj-1::obj-19::obj-106" : 				{
-					"parameter_longname" : "CV3[15]"
+					"parameter_longname" : "CV3[7]"
 				}
 ,
 				"obj-1::obj-19::obj-107" : 				{
-					"parameter_longname" : "Linear[1]"
+					"parameter_longname" : "Linear[5]"
 				}
 ,
 				"obj-1::obj-19::obj-11" : 				{
-					"parameter_longname" : "PWM[2]"
+					"parameter_longname" : "PWM[4]"
 				}
 ,
 				"obj-1::obj-19::obj-129" : 				{
-					"parameter_longname" : "CV2[5]"
+					"parameter_longname" : "CV2[7]"
 				}
 ,
 				"obj-1::obj-19::obj-36" : 				{
-					"parameter_longname" : "PW[2]"
+					"parameter_longname" : "PW[4]"
 				}
 ,
 				"obj-1::obj-19::obj-4" : 				{
-					"parameter_longname" : "Waveform[2]"
+					"parameter_longname" : "Waveform[4]"
 				}
 ,
 				"obj-1::obj-19::obj-45" : 				{
-					"parameter_longname" : "FreqMode[2]"
+					"parameter_longname" : "FreqMode[6]"
 				}
 ,
 				"obj-1::obj-19::obj-46" : 				{
-					"parameter_longname" : "Offset[15]"
+					"parameter_longname" : "Offset[10]"
 				}
 ,
 				"obj-1::obj-19::obj-51" : 				{
-					"parameter_longname" : "Freq[5]"
+					"parameter_longname" : "Freq[7]"
 				}
 ,
 				"obj-1::obj-19::obj-53" : 				{
-					"parameter_longname" : "Mute[29]"
+					"parameter_longname" : "Mute[16]"
+				}
+,
+				"obj-1::obj-3::obj-1" : 				{
+					"parameter_longname" : "Time[5]"
+				}
+,
+				"obj-1::obj-3::obj-25" : 				{
+					"parameter_longname" : "Cutoff[1]"
+				}
+,
+				"obj-1::obj-3::obj-26" : 				{
+					"parameter_longname" : "Reflections[1]"
+				}
+,
+				"obj-1::obj-3::obj-28" : 				{
+					"parameter_longname" : "Mix[4]"
+				}
+,
+				"obj-1::obj-3::obj-47" : 				{
+					"parameter_longname" : "bypass[16]"
 				}
 ,
 				"obj-1::obj-4::obj-24" : 				{
-					"parameter_longname" : "output[1]"
+					"parameter_longname" : "output[2]"
+				}
+,
+				"obj-1::obj-58::obj-29" : 				{
+					"parameter_longname" : "in3[1]"
+				}
+,
+				"obj-1::obj-58::obj-32" : 				{
+					"parameter_longname" : "in2[1]"
+				}
+,
+				"obj-1::obj-58::obj-33" : 				{
+					"parameter_longname" : "in4[1]"
+				}
+,
+				"obj-1::obj-58::obj-37" : 				{
+					"parameter_longname" : "power[1]"
+				}
+,
+				"obj-1::obj-58::obj-39" : 				{
+					"parameter_longname" : "in1[1]"
 				}
 ,
 				"obj-1::obj-6::obj-113" : 				{
-					"parameter_longname" : "pan[4]"
+					"parameter_longname" : "pan[8]"
 				}
 ,
 				"obj-1::obj-6::obj-114" : 				{
-					"parameter_longname" : "solo[4]"
+					"parameter_longname" : "solo[8]"
 				}
 ,
 				"obj-1::obj-6::obj-115" : 				{
-					"parameter_longname" : "active[13]"
+					"parameter_longname" : "active[30]"
 				}
 ,
 				"obj-1::obj-6::obj-116" : 				{
-					"parameter_longname" : "gain[11]"
+					"parameter_longname" : "gain[30]"
 				}
 ,
 				"obj-1::obj-6::obj-30" : 				{
-					"parameter_longname" : "qlist[6]"
+					"parameter_longname" : "qlist[15]"
 				}
 ,
-				"obj-1::obj-79::obj-106" : 				{
-					"parameter_longname" : "CV3[14]"
+				"obj-1::obj-71::obj-106" : 				{
+					"parameter_longname" : "CV3[5]"
 				}
 ,
-				"obj-1::obj-79::obj-107" : 				{
-					"parameter_longname" : "Linear[9]"
+				"obj-1::obj-71::obj-107" : 				{
+					"parameter_longname" : "Linear[3]"
 				}
 ,
-				"obj-1::obj-79::obj-11" : 				{
-					"parameter_longname" : "PWM[1]"
+				"obj-1::obj-71::obj-11" : 				{
+					"parameter_longname" : "PWM[2]"
 				}
 ,
-				"obj-1::obj-79::obj-129" : 				{
-					"parameter_longname" : "CV2[1]"
+				"obj-1::obj-71::obj-129" : 				{
+					"parameter_longname" : "CV2[5]"
 				}
 ,
-				"obj-1::obj-79::obj-36" : 				{
-					"parameter_longname" : "PW[1]"
+				"obj-1::obj-71::obj-36" : 				{
+					"parameter_longname" : "PW[2]"
 				}
 ,
-				"obj-1::obj-79::obj-4" : 				{
-					"parameter_longname" : "Waveform[1]"
+				"obj-1::obj-71::obj-4" : 				{
+					"parameter_longname" : "Waveform[2]"
 				}
 ,
-				"obj-1::obj-79::obj-45" : 				{
-					"parameter_longname" : "FreqMode[1]"
+				"obj-1::obj-71::obj-45" : 				{
+					"parameter_longname" : "FreqMode[4]"
 				}
 ,
-				"obj-1::obj-79::obj-46" : 				{
+				"obj-1::obj-71::obj-46" : 				{
 					"parameter_longname" : "Offset[8]"
 				}
 ,
+				"obj-1::obj-71::obj-51" : 				{
+					"parameter_longname" : "Freq[5]"
+				}
+,
+				"obj-1::obj-71::obj-53" : 				{
+					"parameter_longname" : "Mute[11]"
+				}
+,
+				"obj-1::obj-79::obj-106" : 				{
+					"parameter_longname" : "CV3[6]"
+				}
+,
+				"obj-1::obj-79::obj-107" : 				{
+					"parameter_longname" : "Linear[4]"
+				}
+,
+				"obj-1::obj-79::obj-11" : 				{
+					"parameter_longname" : "PWM[3]"
+				}
+,
+				"obj-1::obj-79::obj-129" : 				{
+					"parameter_longname" : "CV2[6]"
+				}
+,
+				"obj-1::obj-79::obj-36" : 				{
+					"parameter_longname" : "PW[3]"
+				}
+,
+				"obj-1::obj-79::obj-4" : 				{
+					"parameter_longname" : "Waveform[3]"
+				}
+,
+				"obj-1::obj-79::obj-45" : 				{
+					"parameter_longname" : "FreqMode[5]"
+				}
+,
+				"obj-1::obj-79::obj-46" : 				{
+					"parameter_longname" : "Offset[9]"
+				}
+,
 				"obj-1::obj-79::obj-51" : 				{
-					"parameter_longname" : "Freq[1]"
+					"parameter_longname" : "Freq[6]"
 				}
 ,
 				"obj-1::obj-79::obj-53" : 				{
-					"parameter_longname" : "Mute[26]"
+					"parameter_longname" : "Mute[12]"
+				}
+,
+				"obj-1::obj-84::obj-12" : 				{
+					"parameter_longname" : "Mute[13]"
+				}
+,
+				"obj-1::obj-84::obj-20" : 				{
+					"parameter_longname" : "Time[6]"
 				}
 ,
 				"obj-1::obj-85::obj-29" : 				{
@@ -1434,144 +1654,36 @@
 					"parameter_longname" : "in1[2]"
 				}
 ,
-				"obj-3::obj-15::obj-15::obj-2" : 				{
-					"parameter_longname" : "pastebang[3]"
-				}
-,
-				"obj-3::obj-17::obj-106" : 				{
-					"parameter_longname" : "CV3[6]"
-				}
-,
-				"obj-3::obj-17::obj-12" : 				{
-					"parameter_longname" : "Mute[11]"
-				}
-,
-				"obj-3::obj-17::obj-129" : 				{
-					"parameter_longname" : "CV2[14]"
-				}
-,
 				"obj-3::obj-17::obj-35::obj-2" : 				{
-					"parameter_longname" : "pastebang[4]"
-				}
-,
-				"obj-3::obj-17::obj-45" : 				{
-					"parameter_longname" : "FreqMode[11]"
-				}
-,
-				"obj-3::obj-17::obj-51" : 				{
-					"parameter_longname" : "Freq[11]"
-				}
-,
-				"obj-3::obj-42::obj-11" : 				{
-					"parameter_longname" : "PWM[6]"
-				}
-,
-				"obj-3::obj-42::obj-36" : 				{
-					"parameter_longname" : "PW[6]"
-				}
-,
-				"obj-3::obj-42::obj-4" : 				{
-					"parameter_longname" : "Waveform[6]"
-				}
-,
-				"obj-3::obj-42::obj-45" : 				{
-					"parameter_longname" : "FreqMode[5]"
-				}
-,
-				"obj-3::obj-58::obj-1" : 				{
-					"parameter_longname" : "Time[7]"
-				}
-,
-				"obj-3::obj-72::obj-2" : 				{
-					"parameter_longname" : "Rate[1]"
-				}
-,
-				"obj-3::obj-72::obj-23" : 				{
-					"parameter_longname" : "bypass[22]"
-				}
-,
-				"obj-3::obj-72::obj-28" : 				{
-					"parameter_longname" : "Center[1]"
-				}
-,
-				"obj-3::obj-72::obj-3" : 				{
-					"parameter_longname" : "Regen[5]"
-				}
-,
-				"obj-5::obj-13::obj-113" : 				{
-					"parameter_longname" : "pan[9]"
-				}
-,
-				"obj-5::obj-13::obj-114" : 				{
-					"parameter_longname" : "solo[9]"
-				}
-,
-				"obj-5::obj-13::obj-115" : 				{
-					"parameter_longname" : "active[27]"
-				}
-,
-				"obj-5::obj-13::obj-116" : 				{
-					"parameter_longname" : "gain[23]"
-				}
-,
-				"obj-5::obj-13::obj-30" : 				{
-					"parameter_longname" : "qlist[13]"
-				}
-,
-				"obj-5::obj-2::obj-24" : 				{
-					"parameter_longname" : "output[3]"
-				}
-,
-				"obj-5::obj-30::obj-12" : 				{
-					"parameter_longname" : "bypass[21]"
-				}
-,
-				"obj-5::obj-30::obj-14::obj-2" : 				{
-					"parameter_longname" : "pastebang[2]"
-				}
-,
-				"obj-5::obj-42::obj-106" : 				{
-					"parameter_longname" : "CV3[5]"
-				}
-,
-				"obj-5::obj-42::obj-12" : 				{
-					"parameter_longname" : "Mute[9]"
-				}
-,
-				"obj-5::obj-42::obj-129" : 				{
-					"parameter_longname" : "CV2[6]"
-				}
-,
-				"obj-5::obj-42::obj-25" : 				{
-					"parameter_longname" : "TimbreCV[2]"
-				}
-,
-				"obj-5::obj-42::obj-3" : 				{
-					"parameter_longname" : "Timbre[2]"
-				}
-,
-				"obj-5::obj-42::obj-35::obj-2" : 				{
 					"parameter_longname" : "pastebang[1]"
 				}
 ,
-				"obj-5::obj-42::obj-45" : 				{
-					"parameter_longname" : "FreqMode[4]"
+				"obj-5::obj-30::obj-100" : 				{
+					"parameter_longname" : "score[1]"
 				}
 ,
-				"obj-5::obj-42::obj-46" : 				{
-					"parameter_longname" : "Offset[16]"
+				"obj-5::obj-30::obj-105" : 				{
+					"parameter_longname" : "rounding[1]"
 				}
 ,
-				"obj-5::obj-42::obj-51" : 				{
-					"parameter_longname" : "Freq[6]"
+				"obj-5::obj-30::obj-12" : 				{
+					"parameter_longname" : "bypass[3]"
 				}
 ,
-				"obj-5::obj-42::obj-80" : 				{
-					"parameter_longname" : "ColorCV[2]"
+				"obj-5::obj-30::obj-14::obj-2" : 				{
+					"parameter_longname" : "pastebang[11]"
 				}
 ,
-				"obj-5::obj-42::obj-81" : 				{
-					"parameter_longname" : "Color[2]"
+				"obj-5::obj-42::obj-35::obj-2" : 				{
+					"parameter_longname" : "pastebang[10]"
+				}
+,
+				"obj-5::obj-72::obj-2" : 				{
+					"parameter_longname" : "Rate[1]"
+				}
+,
+				"obj-5::obj-72::obj-28" : 				{
+					"parameter_longname" : "Center[1]"
 				}
 ,
 				"obj-5::obj-77::obj-29" : 				{
@@ -1595,7 +1707,7 @@
 				}
 ,
 				"obj-5::obj-80::obj-12" : 				{
-					"parameter_longname" : "Mute[14]"
+					"parameter_longname" : "Mute[26]"
 				}
 ,
 				"obj-5::obj-80::obj-20" : 				{
@@ -1674,44 +1786,76 @@
 					"parameter_longname" : "Mute[25]"
 				}
 ,
+				"obj-6::obj-46::obj-113" : 				{
+					"parameter_longname" : "pan[1]"
+				}
+,
+				"obj-6::obj-46::obj-114" : 				{
+					"parameter_longname" : "solo[1]"
+				}
+,
+				"obj-6::obj-46::obj-115" : 				{
+					"parameter_longname" : "active[1]"
+				}
+,
+				"obj-6::obj-46::obj-116" : 				{
+					"parameter_longname" : "gain[1]"
+				}
+,
+				"obj-6::obj-46::obj-30" : 				{
+					"parameter_longname" : "qlist[1]"
+				}
+,
+				"obj-6::obj-47::obj-24" : 				{
+					"parameter_longname" : "output[4]"
+				}
+,
 				"obj-7::obj-113::obj-113" : 				{
-					"parameter_longname" : "pan[3]"
+					"parameter_longname" : "pan[12]"
 				}
 ,
 				"obj-7::obj-113::obj-114" : 				{
-					"parameter_longname" : "solo[3]"
+					"parameter_longname" : "solo[12]"
 				}
 ,
 				"obj-7::obj-113::obj-115" : 				{
-					"parameter_longname" : "active[12]"
+					"parameter_longname" : "active[42]"
 				}
 ,
 				"obj-7::obj-113::obj-116" : 				{
-					"parameter_longname" : "gain[12]"
+					"parameter_longname" : "gain[40]"
 				}
 ,
 				"obj-7::obj-113::obj-30" : 				{
-					"parameter_longname" : "qlist[7]"
+					"parameter_longname" : "qlist[5]"
 				}
 ,
 				"obj-7::obj-116::obj-122" : 				{
-					"parameter_longname" : "active[11]"
+					"parameter_longname" : "active[41]"
 				}
 ,
 				"obj-7::obj-116::obj-88" : 				{
-					"parameter_longname" : "gain[10]"
+					"parameter_longname" : "gain[39]"
 				}
 ,
 				"obj-7::obj-117::obj-122" : 				{
-					"parameter_longname" : "active[14]"
+					"parameter_longname" : "active[40]"
 				}
 ,
 				"obj-7::obj-117::obj-35" : 				{
-					"parameter_longname" : "bus[5]"
+					"parameter_longname" : "bus[6]"
 				}
 ,
 				"obj-7::obj-117::obj-88" : 				{
-					"parameter_longname" : "gain[9]"
+					"parameter_longname" : "gain[38]"
+				}
+,
+				"obj-7::obj-118::obj-23" : 				{
+					"parameter_longname" : "bypass[20]"
+				}
+,
+				"obj-7::obj-118::obj-3" : 				{
+					"parameter_longname" : "Regen[5]"
 				}
 ,
 				"obj-7::obj-121::obj-16" : 				{
@@ -1735,7 +1879,7 @@
 				}
 ,
 				"obj-7::obj-121::obj-30" : 				{
-					"parameter_longname" : "qlist[5]"
+					"parameter_longname" : "qlist[4]"
 				}
 ,
 				"obj-7::obj-121::obj-36" : 				{
@@ -1743,123 +1887,171 @@
 				}
 ,
 				"obj-7::obj-121::obj-9" : 				{
-					"parameter_longname" : "active[10]"
+					"parameter_longname" : "active[39]"
 				}
 ,
 				"obj-7::obj-122::obj-30" : 				{
-					"parameter_longname" : "qlist[4]"
-				}
-,
-				"obj-7::obj-122::obj-9" : 				{
-					"parameter_longname" : "active[9]"
-				}
-,
-				"obj-7::obj-123::obj-24" : 				{
-					"parameter_longname" : "output[4]"
-				}
-,
-				"obj-7::obj-125::obj-113" : 				{
-					"parameter_longname" : "pan[2]"
-				}
-,
-				"obj-7::obj-125::obj-114" : 				{
-					"parameter_longname" : "solo[2]"
-				}
-,
-				"obj-7::obj-125::obj-115" : 				{
-					"parameter_longname" : "active[8]"
-				}
-,
-				"obj-7::obj-125::obj-116" : 				{
-					"parameter_longname" : "gain[8]"
-				}
-,
-				"obj-7::obj-125::obj-30" : 				{
 					"parameter_longname" : "qlist[3]"
 				}
 ,
-				"obj-7::obj-126::obj-122" : 				{
-					"parameter_longname" : "active[7]"
+				"obj-7::obj-122::obj-9" : 				{
+					"parameter_longname" : "active[38]"
 				}
 ,
-				"obj-7::obj-126::obj-88" : 				{
-					"parameter_longname" : "gain[7]"
+				"obj-7::obj-123::obj-24" : 				{
+					"parameter_longname" : "output[3]"
 				}
 ,
-				"obj-7::obj-127::obj-122" : 				{
-					"parameter_longname" : "active[6]"
+				"obj-7::obj-125::obj-113" : 				{
+					"parameter_longname" : "pan[11]"
 				}
 ,
-				"obj-7::obj-127::obj-35" : 				{
-					"parameter_longname" : "bus[3]"
+				"obj-7::obj-125::obj-114" : 				{
+					"parameter_longname" : "solo[11]"
 				}
 ,
-				"obj-7::obj-127::obj-88" : 				{
-					"parameter_longname" : "gain[6]"
+				"obj-7::obj-125::obj-115" : 				{
+					"parameter_longname" : "active[37]"
 				}
 ,
-				"obj-7::obj-128::obj-113" : 				{
-					"parameter_longname" : "pan[1]"
+				"obj-7::obj-125::obj-116" : 				{
+					"parameter_longname" : "gain[37]"
 				}
 ,
-				"obj-7::obj-128::obj-114" : 				{
-					"parameter_longname" : "solo[1]"
-				}
-,
-				"obj-7::obj-128::obj-115" : 				{
-					"parameter_longname" : "active[5]"
-				}
-,
-				"obj-7::obj-128::obj-116" : 				{
-					"parameter_longname" : "gain[5]"
-				}
-,
-				"obj-7::obj-128::obj-30" : 				{
+				"obj-7::obj-125::obj-30" : 				{
 					"parameter_longname" : "qlist[2]"
 				}
 ,
+				"obj-7::obj-126::obj-122" : 				{
+					"parameter_longname" : "active[36]"
+				}
+,
+				"obj-7::obj-126::obj-88" : 				{
+					"parameter_longname" : "gain[36]"
+				}
+,
+				"obj-7::obj-127::obj-122" : 				{
+					"parameter_longname" : "active[35]"
+				}
+,
+				"obj-7::obj-127::obj-35" : 				{
+					"parameter_longname" : "bus[4]"
+				}
+,
+				"obj-7::obj-127::obj-88" : 				{
+					"parameter_longname" : "gain[35]"
+				}
+,
+				"obj-7::obj-128::obj-113" : 				{
+					"parameter_longname" : "pan[10]"
+				}
+,
+				"obj-7::obj-128::obj-114" : 				{
+					"parameter_longname" : "solo[10]"
+				}
+,
+				"obj-7::obj-128::obj-115" : 				{
+					"parameter_longname" : "active[34]"
+				}
+,
+				"obj-7::obj-128::obj-116" : 				{
+					"parameter_longname" : "gain[34]"
+				}
+,
+				"obj-7::obj-128::obj-30" : 				{
+					"parameter_longname" : "qlist[17]"
+				}
+,
 				"obj-7::obj-129::obj-122" : 				{
-					"parameter_longname" : "active[4]"
+					"parameter_longname" : "active[33]"
 				}
 ,
 				"obj-7::obj-129::obj-88" : 				{
-					"parameter_longname" : "gain[4]"
+					"parameter_longname" : "gain[33]"
 				}
 ,
 				"obj-7::obj-130::obj-122" : 				{
-					"parameter_longname" : "active[3]"
+					"parameter_longname" : "active[32]"
 				}
 ,
 				"obj-7::obj-130::obj-88" : 				{
-					"parameter_longname" : "gain[3]"
+					"parameter_longname" : "gain[32]"
 				}
 ,
 				"obj-7::obj-131::obj-122" : 				{
-					"parameter_longname" : "active[2]"
+					"parameter_longname" : "active[31]"
+				}
+,
+				"obj-7::obj-131::obj-35" : 				{
+					"parameter_longname" : "bus[1]"
 				}
 ,
 				"obj-7::obj-131::obj-88" : 				{
-					"parameter_longname" : "gain[2]"
+					"parameter_longname" : "gain[31]"
 				}
 ,
 				"obj-7::obj-133::obj-113" : 				{
-					"parameter_longname" : "pan[5]"
+					"parameter_longname" : "pan[9]"
 				}
 ,
 				"obj-7::obj-133::obj-114" : 				{
-					"parameter_longname" : "solo[5]"
+					"parameter_longname" : "solo[9]"
 				}
 ,
 				"obj-7::obj-133::obj-115" : 				{
-					"parameter_longname" : "active[1]"
+					"parameter_longname" : "active[2]"
 				}
 ,
 				"obj-7::obj-133::obj-116" : 				{
-					"parameter_longname" : "gain[1]"
+					"parameter_longname" : "gain[2]"
 				}
 ,
 				"obj-7::obj-133::obj-30" : 				{
-					"parameter_longname" : "qlist[1]"
+					"parameter_longname" : "qlist[16]"
+				}
+,
+				"obj-7::obj-149::obj-106" : 				{
+					"parameter_longname" : "CV3[11]"
+				}
+,
+				"obj-7::obj-149::obj-12" : 				{
+					"parameter_longname" : "Mute[17]"
+				}
+,
+				"obj-7::obj-149::obj-129" : 				{
+					"parameter_longname" : "CV2[11]"
+				}
+,
+				"obj-7::obj-149::obj-25" : 				{
+					"parameter_longname" : "TimbreCV[2]"
+				}
+,
+				"obj-7::obj-149::obj-3" : 				{
+					"parameter_longname" : "Timbre[2]"
+				}
+,
+				"obj-7::obj-149::obj-35::obj-2" : 				{
+					"parameter_longname" : "pastebang[7]"
+				}
+,
+				"obj-7::obj-149::obj-45" : 				{
+					"parameter_longname" : "FreqMode[8]"
+				}
+,
+				"obj-7::obj-149::obj-46" : 				{
+					"parameter_longname" : "Offset[15]"
+				}
+,
+				"obj-7::obj-149::obj-51" : 				{
+					"parameter_longname" : "Freq[8]"
+				}
+,
+				"obj-7::obj-149::obj-80" : 				{
+					"parameter_longname" : "ColorCV[2]"
+				}
+,
+				"obj-7::obj-149::obj-81" : 				{
+					"parameter_longname" : "Color[2]"
 				}
 ,
 				"obj-7::obj-150::obj-1" : 				{
@@ -1871,67 +2063,71 @@
 				}
 ,
 				"obj-7::obj-150::obj-41" : 				{
-					"parameter_longname" : "bypass[2]"
+					"parameter_longname" : "bypass[22]"
+				}
+,
+				"obj-7::obj-151::obj-41" : 				{
+					"parameter_longname" : "bypass[21]"
 				}
 ,
 				"obj-8::obj-101::obj-113" : 				{
-					"parameter_longname" : "pan[6]"
+					"parameter_longname" : "pan[13]"
 				}
 ,
 				"obj-8::obj-101::obj-114" : 				{
-					"parameter_longname" : "solo[6]"
+					"parameter_longname" : "solo[13]"
 				}
 ,
 				"obj-8::obj-101::obj-115" : 				{
-					"parameter_longname" : "active[15]"
+					"parameter_longname" : "active[3]"
 				}
 ,
 				"obj-8::obj-101::obj-116" : 				{
-					"parameter_longname" : "gain[24]"
+					"parameter_longname" : "gain[3]"
 				}
 ,
 				"obj-8::obj-101::obj-30" : 				{
-					"parameter_longname" : "qlist[8]"
+					"parameter_longname" : "qlist[6]"
 				}
 ,
 				"obj-8::obj-164::obj-122" : 				{
-					"parameter_longname" : "active[28]"
+					"parameter_longname" : "active[58]"
 				}
 ,
 				"obj-8::obj-164::obj-35" : 				{
-					"parameter_longname" : "bus[12]"
+					"parameter_longname" : "bus[29]"
 				}
 ,
 				"obj-8::obj-164::obj-88" : 				{
-					"parameter_longname" : "gain[20]"
+					"parameter_longname" : "gain[11]"
 				}
 ,
 				"obj-8::obj-169::obj-113" : 				{
-					"parameter_longname" : "pan[8]"
+					"parameter_longname" : "pan[16]"
 				}
 ,
 				"obj-8::obj-169::obj-114" : 				{
-					"parameter_longname" : "solo[8]"
+					"parameter_longname" : "solo[16]"
 				}
 ,
 				"obj-8::obj-169::obj-115" : 				{
-					"parameter_longname" : "active[26]"
+					"parameter_longname" : "active[60]"
 				}
 ,
 				"obj-8::obj-169::obj-116" : 				{
-					"parameter_longname" : "gain[22]"
+					"parameter_longname" : "gain[13]"
 				}
 ,
 				"obj-8::obj-169::obj-30" : 				{
-					"parameter_longname" : "qlist[12]"
+					"parameter_longname" : "qlist[11]"
 				}
 ,
 				"obj-8::obj-170::obj-122" : 				{
-					"parameter_longname" : "active[25]"
+					"parameter_longname" : "active[59]"
 				}
 ,
 				"obj-8::obj-170::obj-88" : 				{
-					"parameter_longname" : "gain[21]"
+					"parameter_longname" : "gain[12]"
 				}
 ,
 				"obj-8::obj-176::obj-118" : 				{
@@ -1951,7 +2147,7 @@
 				}
 ,
 				"obj-8::obj-176::obj-7" : 				{
-					"parameter_longname" : "bypass[23]"
+					"parameter_longname" : "bypass[25]"
 				}
 ,
 				"obj-8::obj-176::obj-708" : 				{
@@ -1971,7 +2167,7 @@
 				}
 ,
 				"obj-8::obj-35::obj-23" : 				{
-					"parameter_longname" : "bypass[3]"
+					"parameter_longname" : "bypass[24]"
 				}
 ,
 				"obj-8::obj-35::obj-28" : 				{
@@ -2007,91 +2203,91 @@
 				}
 ,
 				"obj-8::obj-37::obj-24" : 				{
-					"parameter_longname" : "output[2]"
+					"parameter_longname" : "output[5]"
 				}
 ,
 				"obj-8::obj-38::obj-122" : 				{
-					"parameter_longname" : "active[18]"
+					"parameter_longname" : "active[51]"
 				}
 ,
 				"obj-8::obj-38::obj-88" : 				{
-					"parameter_longname" : "gain[15]"
+					"parameter_longname" : "gain[6]"
+				}
+,
+				"obj-8::obj-3::obj-1" : 				{
+					"parameter_longname" : "Fade[2]"
+				}
+,
+				"obj-8::obj-3::obj-22" : 				{
+					"parameter_longname" : "CV[2]"
+				}
+,
+				"obj-8::obj-3::obj-41" : 				{
+					"parameter_longname" : "bypass[4]"
 				}
 ,
 				"obj-8::obj-48::obj-113" : 				{
-					"parameter_longname" : "pan[10]"
+					"parameter_longname" : "pan[14]"
 				}
 ,
 				"obj-8::obj-48::obj-114" : 				{
-					"parameter_longname" : "solo[10]"
+					"parameter_longname" : "solo[14]"
 				}
 ,
 				"obj-8::obj-48::obj-115" : 				{
-					"parameter_longname" : "active[19]"
+					"parameter_longname" : "active[52]"
 				}
 ,
 				"obj-8::obj-48::obj-116" : 				{
-					"parameter_longname" : "gain[16]"
+					"parameter_longname" : "gain[7]"
 				}
 ,
 				"obj-8::obj-48::obj-30" : 				{
-					"parameter_longname" : "qlist[9]"
+					"parameter_longname" : "qlist[7]"
 				}
 ,
 				"obj-8::obj-50::obj-122" : 				{
-					"parameter_longname" : "active[20]"
+					"parameter_longname" : "active[53]"
 				}
 ,
 				"obj-8::obj-50::obj-35" : 				{
-					"parameter_longname" : "bus[10]"
+					"parameter_longname" : "bus[27]"
 				}
 ,
 				"obj-8::obj-50::obj-88" : 				{
-					"parameter_longname" : "gain[17]"
-				}
-,
-				"obj-8::obj-54::obj-100" : 				{
-					"parameter_longname" : "score[1]"
-				}
-,
-				"obj-8::obj-54::obj-105" : 				{
-					"parameter_longname" : "rounding[1]"
-				}
-,
-				"obj-8::obj-54::obj-12" : 				{
-					"parameter_longname" : "bypass[24]"
+					"parameter_longname" : "gain[8]"
 				}
 ,
 				"obj-8::obj-54::obj-14::obj-2" : 				{
-					"parameter_longname" : "pastebang[5]"
+					"parameter_longname" : "pastebang[8]"
 				}
 ,
 				"obj-8::obj-56::obj-122" : 				{
-					"parameter_longname" : "active[21]"
+					"parameter_longname" : "active[54]"
 				}
 ,
 				"obj-8::obj-56::obj-88" : 				{
-					"parameter_longname" : "gain[18]"
+					"parameter_longname" : "gain[9]"
 				}
 ,
 				"obj-8::obj-58::obj-113" : 				{
-					"parameter_longname" : "pan[7]"
+					"parameter_longname" : "pan[15]"
 				}
 ,
 				"obj-8::obj-58::obj-114" : 				{
-					"parameter_longname" : "solo[7]"
+					"parameter_longname" : "solo[15]"
 				}
 ,
 				"obj-8::obj-58::obj-115" : 				{
-					"parameter_longname" : "active[22]"
+					"parameter_longname" : "active[55]"
 				}
 ,
 				"obj-8::obj-58::obj-116" : 				{
-					"parameter_longname" : "gain[19]"
+					"parameter_longname" : "gain[10]"
 				}
 ,
 				"obj-8::obj-58::obj-30" : 				{
-					"parameter_longname" : "qlist[14]"
+					"parameter_longname" : "qlist[8]"
 				}
 ,
 				"obj-8::obj-62::obj-16" : 				{
@@ -2115,7 +2311,7 @@
 				}
 ,
 				"obj-8::obj-62::obj-30" : 				{
-					"parameter_longname" : "qlist[10]"
+					"parameter_longname" : "qlist[9]"
 				}
 ,
 				"obj-8::obj-62::obj-36" : 				{
@@ -2123,47 +2319,47 @@
 				}
 ,
 				"obj-8::obj-62::obj-9" : 				{
-					"parameter_longname" : "active[23]"
+					"parameter_longname" : "active[56]"
 				}
 ,
 				"obj-8::obj-63::obj-16" : 				{
-					"parameter_longname" : "lofreq[3]"
+					"parameter_longname" : "lofreq[7]"
 				}
 ,
 				"obj-8::obj-63::obj-17" : 				{
-					"parameter_longname" : "mid[3]"
+					"parameter_longname" : "mid[7]"
 				}
 ,
 				"obj-8::obj-63::obj-18" : 				{
-					"parameter_longname" : "hifreq[3]"
+					"parameter_longname" : "hifreq[7]"
 				}
 ,
 				"obj-8::obj-63::obj-19" : 				{
-					"parameter_longname" : "lo[3]"
+					"parameter_longname" : "lo[7]"
 				}
 ,
 				"obj-8::obj-63::obj-28" : 				{
-					"parameter_longname" : "init[3]"
+					"parameter_longname" : "init[7]"
 				}
 ,
 				"obj-8::obj-63::obj-30" : 				{
-					"parameter_longname" : "qlist[11]"
+					"parameter_longname" : "qlist[10]"
 				}
 ,
 				"obj-8::obj-63::obj-36" : 				{
-					"parameter_longname" : "hi[3]"
+					"parameter_longname" : "hi[7]"
 				}
 ,
 				"obj-8::obj-63::obj-9" : 				{
-					"parameter_longname" : "active[24]"
+					"parameter_longname" : "active[57]"
 				}
 ,
 				"obj-8::obj-79::obj-122" : 				{
-					"parameter_longname" : "active[17]"
+					"parameter_longname" : "active[50]"
 				}
 ,
 				"obj-8::obj-79::obj-88" : 				{
-					"parameter_longname" : "gain[14]"
+					"parameter_longname" : "gain[5]"
 				}
 ,
 				"obj-8::obj-8::obj-80" : 				{
@@ -2171,59 +2367,39 @@
 				}
 ,
 				"obj-8::obj-8::obj-91" : 				{
-					"parameter_longname" : "Offset[3]"
+					"parameter_longname" : "Offset[16]"
 				}
 ,
 				"obj-8::obj-93::obj-122" : 				{
-					"parameter_longname" : "active[16]"
+					"parameter_longname" : "active[49]"
 				}
 ,
 				"obj-8::obj-93::obj-35" : 				{
-					"parameter_longname" : "bus[7]"
+					"parameter_longname" : "bus[8]"
 				}
 ,
 				"obj-8::obj-93::obj-88" : 				{
-					"parameter_longname" : "gain[13]"
+					"parameter_longname" : "gain[4]"
 				}
 ,
 				"obj-8::obj-9::obj-106" : 				{
-					"parameter_longname" : "CV3[7]"
-				}
-,
-				"obj-8::obj-9::obj-107" : 				{
-					"parameter_longname" : "Linear[10]"
-				}
-,
-				"obj-8::obj-9::obj-11" : 				{
-					"parameter_longname" : "PWM[7]"
+					"parameter_longname" : "CV3[12]"
 				}
 ,
 				"obj-8::obj-9::obj-129" : 				{
-					"parameter_longname" : "CV2[7]"
-				}
-,
-				"obj-8::obj-9::obj-36" : 				{
-					"parameter_longname" : "PW[7]"
-				}
-,
-				"obj-8::obj-9::obj-4" : 				{
-					"parameter_longname" : "Waveform[7]"
+					"parameter_longname" : "CV2[12]"
 				}
 ,
 				"obj-8::obj-9::obj-45" : 				{
-					"parameter_longname" : "FreqMode[12]"
-				}
-,
-				"obj-8::obj-9::obj-46" : 				{
-					"parameter_longname" : "Offset[6]"
+					"parameter_longname" : "FreqMode[9]"
 				}
 ,
 				"obj-8::obj-9::obj-51" : 				{
-					"parameter_longname" : "Freq[12]"
+					"parameter_longname" : "Freq[13]"
 				}
 ,
 				"obj-8::obj-9::obj-53" : 				{
-					"parameter_longname" : "Mute[15]"
+					"parameter_longname" : "Mute[21]"
 				}
 
 			}
@@ -2258,48 +2434,6 @@
 					"srcname" : "3.ctrl.0.chan.midi",
 					"min" : -5.0,
 					"max" : 5.0,
-					"flags" : 2
-				}
-,
-				"number[36]" : 				{
-					"srcname" : "16.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[35]" : 				{
-					"srcname" : "17.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[38]" : 				{
-					"srcname" : "18.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[3]" : 				{
-					"srcname" : "19.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[39]" : 				{
-					"srcname" : "20.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[37]" : 				{
-					"srcname" : "21.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
 					"flags" : 2
 				}
 
@@ -2709,6 +2843,13 @@
 				"name" : "Alex.json",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Xfade (Alex).maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3699,9 +3840,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3710,9 +3851,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3721,7 +3862,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3731,8 +3873,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3746,6 +3887,8 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontface" : [ 1 ],
+					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3754,9 +3897,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 12.0 ]
+
 				}
 ,
 				"parentstyle" : "",

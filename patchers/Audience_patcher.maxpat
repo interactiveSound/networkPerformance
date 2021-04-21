@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "A stereo/dual mono audio output chooser.",
+					"args" : [ "Bus_sam", "@bus", "1-2" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-47",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "AudioOutput.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "" ],
+					"patching_rect" : [ 22.0, 1040.0, 69.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 85.0, 112.5, 69.0, 29.0 ],
+					"varname" : "AudioOutput",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-48",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -48,29 +73,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1297.5, 542.0, 111.0, 35.0 ],
 					"text" : ";\rSamR-mix gain $1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "A stereo/dual mono audio output chooser.",
-					"args" : [ "outBus", "@output", "1-2" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-45",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "AudioOutput.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 22.000007033348083, 1045.0, 69.0, 29.0 ],
-					"varname" : "AudioOutput",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -708,7 +710,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.777826130390167, 32.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 84.506403207778931, 113.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 182.506403207778931, 117.0, 150.0, 20.0 ],
 					"text" : "Sam"
 				}
 
@@ -1239,14 +1241,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
+					"destination" : [ "obj-47", 1 ],
 					"source" : [ "obj-46", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
+					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1361,13 +1363,13 @@
 			"obj-42::obj-46" : [ "Offset[5]", "Offset", 0 ],
 			"obj-42::obj-51" : [ "Freq[3]", "Freq", 0 ],
 			"obj-42::obj-53" : [ "Mute[7]", "Mute", 0 ],
-			"obj-45::obj-24" : [ "output", "Output", 0 ],
 			"obj-46::obj-113" : [ "pan", "Pan", 0 ],
 			"obj-46::obj-114" : [ "solo", "Solo", 0 ],
 			"obj-46::obj-115" : [ "active", "Active", 0 ],
 			"obj-46::obj-116" : [ "gain", "Gain", 0 ],
 			"obj-46::obj-30" : [ "qlist", "Qlist", 0 ],
 			"obj-46::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-47::obj-24" : [ "output", "Output", 0 ],
 			"obj-68" : [ "number[1]", "number", 0 ],
 			"obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
 			"obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
@@ -1740,9 +1742,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1751,9 +1753,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1762,7 +1764,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1772,6 +1773,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
@@ -1799,7 +1801,6 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1809,6 +1810,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontsize" : [ 12.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
