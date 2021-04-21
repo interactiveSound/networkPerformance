@@ -39,8 +39,8 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"bp.Stereo::DSP" : [ 0.0 ],
-					"bp.Stereo::Level" : [ 0.0 ],
+					"bp.Stereo::DSP" : [ 1.0 ],
+					"bp.Stereo::Level" : [ -70.0 ],
 					"bp.Stereo::Mute" : [ 0.0 ],
 					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}

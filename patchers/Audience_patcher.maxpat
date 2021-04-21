@@ -40,25 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"annotation" : "A remote stereo audio  sender.",
-					"args" : [ "mainsender", "@bus", "sam" ],
+					"annotation" : "A stereo/dual mono audio output chooser.",
+					"args" : [ "Bus_sam", "@bus", "1-2" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-37",
+					"id" : "obj-47",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "AudioSend2.maxpat",
+					"name" : "AudioOutput.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 27.577826619148254, 1037.0, 69.0, 39.0 ],
+					"patching_rect" : [ 22.0, 1040.0, 69.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.577826619148254, 101.129816025495529, 69.0, 39.0 ],
-					"varname" : "AudioSend2",
+					"presentation_rect" : [ 85.0, 112.5, 69.0, 29.0 ],
+					"varname" : "AudioOutput",
 					"viewvisibility" : 1
 				}
 
@@ -1241,14 +1241,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 1 ],
+					"destination" : [ "obj-47", 1 ],
 					"source" : [ "obj-46", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
+					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1352,9 +1352,6 @@
 			"obj-30::obj-55" : [ "Mix[6]", "Mix", 0 ],
 			"obj-32" : [ "number", "number", 0 ],
 			"obj-36" : [ "number[4]", "number", 0 ],
-			"obj-37::obj-122" : [ "active[1]", "Active", 0 ],
-			"obj-37::obj-35" : [ "bus", "Bus", 0 ],
-			"obj-37::obj-88" : [ "gain[1]", "Gain", 0 ],
 			"obj-39" : [ "number[5]", "number", 0 ],
 			"obj-42::obj-106" : [ "CV3[3]", "CV3", 0 ],
 			"obj-42::obj-107" : [ "Linear[2]", "Linear", 0 ],
@@ -1372,6 +1369,7 @@
 			"obj-46::obj-116" : [ "gain", "Gain", 0 ],
 			"obj-46::obj-30" : [ "qlist", "Qlist", 0 ],
 			"obj-46::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-47::obj-24" : [ "output", "Output", 0 ],
 			"obj-68" : [ "number[1]", "number", 0 ],
 			"obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
 			"obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
@@ -1380,17 +1378,6 @@
 			"obj-72::obj-47" : [ "bypass[17]", "bypass", 0 ],
 			"obj-96" : [ "number[2]", "number", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-37::obj-122" : 				{
-					"parameter_longname" : "active[1]"
-				}
-,
-				"obj-37::obj-88" : 				{
-					"parameter_longname" : "gain[1]"
-				}
 
 			}
 ,
@@ -1572,7 +1559,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AudioSend2.maxpat",
+				"name" : "AudioOutput.maxpat",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1755,9 +1742,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1766,9 +1753,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1777,7 +1764,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1787,6 +1773,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
@@ -1814,7 +1801,6 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1824,6 +1810,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontsize" : [ 12.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
