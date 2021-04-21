@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 454.0, 101.0, 691.0, 913.0 ],
+		"rect" : [ 360.0, 79.0, 1060.0, 944.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,8 +71,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 843.965295871098988, 18.0, 26.0, 22.0 ],
-					"text" : "r m"
+					"patching_rect" : [ 843.965295871098988, 18.0, 33.0, 22.0 ],
+					"text" : "r mT"
 				}
 
 			}
@@ -96,8 +96,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 787.912667473157398, 18.0, 23.0, 22.0 ],
-					"text" : "r o"
+					"patching_rect" : [ 787.912667473157398, 18.0, 30.0, 22.0 ],
+					"text" : "r oT"
 				}
 
 			}
@@ -108,8 +108,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 732.730991721153259, 18.0, 19.0, 22.0 ],
-					"text" : "r f"
+					"patching_rect" : [ 732.730991721153259, 18.0, 26.0, 22.0 ],
+					"text" : "r fT"
 				}
 
 			}
@@ -120,8 +120,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 678.397658387819774, 18.0, 22.0, 22.0 ],
-					"text" : "r y"
+					"patching_rect" : [ 678.397658387819774, 18.0, 29.0, 22.0 ],
+					"text" : "r yT"
 				}
 
 			}
@@ -132,8 +132,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 624.730991721153259, 18.0, 22.0, 22.0 ],
-					"text" : "r x"
+					"patching_rect" : [ 624.730991721153259, 18.0, 29.0, 22.0 ],
+					"text" : "r xT"
 				}
 
 			}
@@ -529,8 +529,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 961.349585981596192, 845.802844524383545, 26.0, 22.0 ],
-					"text" : "r m"
+					"patching_rect" : [ 961.349585981596192, 845.802844524383545, 33.0, 22.0 ],
+					"text" : "r mT"
 				}
 
 			}
@@ -541,8 +541,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 920.2354035888402, 900.644946932792664, 23.0, 22.0 ],
-					"text" : "r o"
+					"patching_rect" : [ 920.2354035888402, 900.644946932792664, 30.0, 22.0 ],
+					"text" : "r oT"
 				}
 
 			}
@@ -553,8 +553,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 920.2354035888402, 845.802844524383545, 19.0, 22.0 ],
-					"text" : "r f"
+					"patching_rect" : [ 920.2354035888402, 845.802844524383545, 26.0, 22.0 ],
+					"text" : "r fT"
 				}
 
 			}
@@ -565,8 +565,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 678.130159190723134, 915.381787896156311, 22.0, 22.0 ],
-					"text" : "r y"
+					"patching_rect" : [ 678.130159190723134, 915.381787896156311, 29.0, 22.0 ],
+					"text" : "r yT"
 				}
 
 			}
@@ -577,8 +577,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 718.32577645778656, 845.802844524383545, 22.0, 22.0 ],
-					"text" : "r x"
+					"patching_rect" : [ 718.32577645778656, 845.802844524383545, 29.0, 22.0 ],
+					"text" : "r xT"
 				}
 
 			}
@@ -624,8 +624,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 822.189569473266602, 1191.881514072418213, 28.0, 22.0 ],
-					"text" : "s m"
+					"patching_rect" : [ 822.189569473266602, 1191.881514072418213, 35.0, 22.0 ],
+					"text" : "s mT"
 				}
 
 			}
@@ -764,8 +764,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 718.32577645778656, 993.473928689956665, 135.0, 22.0 ],
-					"text" : "udpsend localhost 9001"
+					"patching_rect" : [ 718.32577645778656, 993.473928689956665, 84.0, 22.0 ],
+					"text" : "s Trevor_Data"
 				}
 
 			}
@@ -847,8 +847,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.689569473266602, 1191.881514072418213, 25.0, 22.0 ],
-					"text" : "s o"
+					"patching_rect" : [ 389.689569473266602, 1191.881514072418213, 32.0, 22.0 ],
+					"text" : "s oT"
 				}
 
 			}
@@ -858,8 +858,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.689569473266602, 1191.881514072418213, 21.0, 22.0 ],
-					"text" : "s f"
+					"patching_rect" : [ 232.689569473266602, 1191.881514072418213, 28.0, 22.0 ],
+					"text" : "s fT"
 				}
 
 			}
@@ -940,8 +940,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.689569473266602, 1106.881514072418213, 111.0, 62.0 ],
-					"text" : ";\rmacro Color $2;\rcloud Fatness $1;\rmaster-mix gain $3"
+					"patching_rect" : [ 40.689569473266602, 1106.881514072418213, 117.0, 62.0 ],
+					"text" : ";\rmacro Color $2;\rcloud Fatness $1;\rmasterT-mix gain $3"
 				}
 
 			}
@@ -963,8 +963,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 669.689569473266602, 1191.881514072418213, 24.0, 22.0 ],
-					"text" : "s y"
+					"patching_rect" : [ 669.689569473266602, 1191.881514072418213, 31.0, 22.0 ],
+					"text" : "s yT"
 				}
 
 			}
@@ -974,8 +974,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 531.32577645778656, 1191.881514072418213, 24.0, 22.0 ],
-					"text" : "s x"
+					"patching_rect" : [ 531.32577645778656, 1191.881514072418213, 31.0, 22.0 ],
+					"text" : "s xT"
 				}
 
 			}
@@ -995,11 +995,11 @@
 				"box" : 				{
 					"id" : "obj-96",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.560814698537229, 119.0, 97.0, 22.0 ],
-					"text" : "udpreceive 9001"
+					"patching_rect" : [ 40.560814698537229, 119.0, 82.0, 22.0 ],
+					"text" : "r Trevor_Data"
 				}
 
 			}
@@ -1291,8 +1291,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1302,8 +1302,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1314,6 +1314,7 @@
 								"name" : "Default M4L-1",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1323,7 +1324,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
 ,
@@ -1638,8 +1638,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1649,8 +1649,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1661,6 +1661,7 @@
 								"name" : "Default M4L-1",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1670,7 +1671,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
 ,
@@ -1761,7 +1761,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  sender.",
-					"args" : [ "sender4", "@bus", "master" ],
+					"args" : [ "sender2", "@bus", "master_t" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1912,7 +1912,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
-					"args" : [ "master", "@gain", -74 ],
+					"args" : [ "masterT", "@gain", -74 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1938,7 +1938,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  receiver.",
-					"args" : [ "receive", "@bus", "master" ],
+					"args" : [ "receive", "@bus", "master_t" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -2016,7 +2016,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  sender.",
-					"args" : [ "sender3", "@bus", "master" ],
+					"args" : [ "sender2", "@bus", "master_t" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -2042,7 +2042,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  sender.",
-					"args" : [ "sender2", "@bus", "master" ],
+					"args" : [ "sender2", "@bus", "master_t" ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -3433,8 +3433,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -3444,8 +3444,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -3456,6 +3456,7 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3465,7 +3466,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
 ,
