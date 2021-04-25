@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 408.0, 79.0, 693.0, 928.0 ],
+		"rect" : [ 124.0, 79.0, 644.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -250,7 +250,7 @@
 					"patching_rect" : [ 1302.5, 407.53679096698761, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[5]",
+							"parameter_longname" : "number[37]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
 						}
@@ -286,7 +286,7 @@
 					"patching_rect" : [ 1180.661174297332764, 422.71481865644455, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[4]",
+							"parameter_longname" : "number[39]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
 						}
@@ -441,7 +441,7 @@
 					"patching_rect" : [ 920.739000916481018, 330.320553660392761, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[2]",
+							"parameter_longname" : "number[38]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
 						}
@@ -489,7 +489,7 @@
 					"patching_rect" : [ 792.405667583147533, 417.073718249797821, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[1]",
+							"parameter_longname" : "number[35]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
 						}
@@ -635,7 +635,7 @@
 					"patching_rect" : [ 598.739000916481018, 409.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number",
+							"parameter_longname" : "number[36]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
 						}
@@ -679,12 +679,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1233.0, 140.000006914138794, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 38 ],
-						"number[1]" : [ 125 ],
-						"number[2]" : [ 92 ],
-						"number[3]" : [ 101 ],
-						"number[4]" : [ 123 ],
-						"number[5]" : [ 73 ]
+						"number" : [ 17 ],
+						"number[1]" : [ 97 ],
+						"number[2]" : [ 127 ],
+						"number[3]" : [ 113 ],
+						"number[4]" : [ 127 ],
+						"number[5]" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1325,505 +1325,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-101::obj-23" : [ "bypass[18]", "bypass", 0 ],
-			"obj-101::obj-28" : [ "Size[4]", "Size", 0 ],
-			"obj-101::obj-3" : [ "Regen[4]", "Regen", 0 ],
-			"obj-101::obj-60" : [ "Damp[3]", "Damp", 0 ],
-			"obj-101::obj-62" : [ "Dry[3]", "Dry", 0 ],
-			"obj-101::obj-63" : [ "Early[3]", "Early", 0 ],
-			"obj-101::obj-64" : [ "Tail[3]", "Tail", 0 ],
-			"obj-101::obj-65" : [ "Spread[3]", "Spread", 0 ],
-			"obj-101::obj-66" : [ "Time[11]", "Time", 0 ],
-			"obj-109" : [ "number[3]", "number", 0 ],
-			"obj-20::obj-12" : [ "Bypass", "Bypass", 0 ],
-			"obj-20::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-20::obj-2" : [ "Output", "Output", 0 ],
-			"obj-20::obj-28" : [ "Attack", "Attack", 0 ],
-			"obj-20::obj-34" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-20::obj-35" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-20::obj-44" : [ "Input", "Input", 0 ],
-			"obj-20::obj-47" : [ "Release", "Release", 0 ],
-			"obj-20::obj-52" : [ "Threshold", "Threshold", 0 ],
-			"obj-20::obj-78" : [ "Ratio[1]", "Ratio", 0 ],
-			"obj-30::obj-1" : [ "Size[5]", "Size", 0 ],
-			"obj-30::obj-20" : [ "Diffusion[1]", "Diffusion", 0 ],
-			"obj-30::obj-25" : [ "Damping[1]", "Damping", 0 ],
-			"obj-30::obj-26" : [ "Decay[1]", "Decay", 0 ],
-			"obj-30::obj-50" : [ "bypass[19]", "bypass", 0 ],
-			"obj-30::obj-55" : [ "Mix[6]", "Mix", 0 ],
-			"obj-32" : [ "number", "number", 0 ],
-			"obj-36" : [ "number[4]", "number", 0 ],
-			"obj-39" : [ "number[5]", "number", 0 ],
-			"obj-42::obj-106" : [ "CV3[3]", "CV3", 0 ],
-			"obj-42::obj-107" : [ "Linear[2]", "Linear", 0 ],
-			"obj-42::obj-11" : [ "PWM[1]", "PWM", 0 ],
-			"obj-42::obj-129" : [ "CV2[3]", "CV2", 0 ],
-			"obj-42::obj-36" : [ "PW[1]", "PW", 0 ],
-			"obj-42::obj-4" : [ "Waveform[1]", "Waveform", 0 ],
-			"obj-42::obj-45" : [ "FreqMode[2]", "FreqMode", 0 ],
-			"obj-42::obj-46" : [ "Offset[5]", "Offset", 0 ],
-			"obj-42::obj-51" : [ "Freq[3]", "Freq", 0 ],
-			"obj-42::obj-53" : [ "Mute[7]", "Mute", 0 ],
-			"obj-46::obj-113" : [ "pan", "Pan", 0 ],
-			"obj-46::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-46::obj-115" : [ "active", "Active", 0 ],
-			"obj-46::obj-116" : [ "gain", "Gain", 0 ],
-			"obj-46::obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-46::obj-4" : [ "setname", "Setname", 0 ],
-			"obj-47::obj-24" : [ "output", "Output", 0 ],
-			"obj-68" : [ "number[1]", "number", 0 ],
-			"obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
-			"obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
-			"obj-72::obj-26" : [ "Reflections[2]", "Reflections", 0 ],
-			"obj-72::obj-28" : [ "Mix[5]", "Mix", 0 ],
-			"obj-72::obj-47" : [ "bypass[17]", "bypass", 0 ],
-			"obj-96" : [ "number[2]", "number", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"parameter_map" : 		{
-			"midi" : 			{
-				"number" : 				{
-					"srcname" : "16.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[1]" : 				{
-					"srcname" : "17.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[2]" : 				{
-					"srcname" : "18.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[3]" : 				{
-					"srcname" : "19.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[4]" : 				{
-					"srcname" : "20.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[5]" : 				{
-					"srcname" : "21.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "kontrol.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[1].maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[2].maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[3].maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[1]_20210407.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[2]_20210407.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol[3]_20210407.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kontrol_20210407.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "oscillator.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sine.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "updown.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "up.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "square.svg",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "reverb.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gig.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "reverbtwoo.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "compressor.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sam.json",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
-		"snapshot" : 		{
-			"filetype" : "C74Snapshot",
-			"version" : 2,
-			"minorversion" : 0,
-			"name" : "snapshotlist",
-			"origin" : "jpatcher",
-			"type" : "list",
-			"subtype" : "Undefined",
-			"embed" : 1,
-			"snapshot" : 			{
-				"valuedictionary" : 				{
-					"parameter_values" : 					{
-						"Attack" : 133.0,
-						"Bypass" : 0.0,
-						"CV2" : 0.0,
-						"CV3" : 0.0,
-						"Cutoff" : 15830.94488212896249,
-						"DSP" : 0.0,
-						"Damp" : 0.7,
-						"Damping" : 7457.853399123739109,
-						"Decay" : 45.0,
-						"Diffusion" : 0.2,
-						"Dry" : 1.0,
-						"Early" : 0.25,
-						"Freq" : 6477.063681835433272,
-						"FreqMode" : 1.0,
-						"Input" : 0.0,
-						"Level" : -20.0,
-						"Linear" : 0.0,
-						"Mix" : 0.0,
-						"Mix[1]" : 0.0,
-						"Mute" : 0.0,
-						"Mute[1]" : 0.0,
-						"Mute[2]" : 0.0,
-						"NoiseType" : 0.0,
-						"Offset" : -3.0,
-						"Offset[1]" : 0.0,
-						"Output" : -14.088188299212611,
-						"OutputChannel" : 0.0,
-						"PW" : 50.0,
-						"PWM" : 0.0,
-						"Ratio" : 44.0,
-						"Reflections" : 88.661417,
-						"Regen" : 0.5,
-						"Release" : 135.0,
-						"Scale" : 100.0,
-						"Size" : 216.295461649395548,
-						"Size[1]" : 25.0,
-						"Skew" : 0.0,
-						"Spread" : 0.0,
-						"Tail" : 1.0,
-						"Threshold" : -26.929134000000001,
-						"Time" : 2141.732282999999825,
-						"Time[1]" : 0.1,
-						"Waveform" : 0.0,
-						"XCV" : 0.0,
-						"YCV" : 0.0,
-						"bypass" : 0.0,
-						"bypass[1]" : 0.0,
-						"bypass[2]" : 0.0,
-						"number" : 61.0,
-						"number[1]" : 0.0,
-						"number[2]" : 127.0,
-						"number[3]" : 66.0,
-						"source" : 1.0,
-						"blob" : 						{
-							"slider[2]" : [ 133 ],
-							"slider[3]" : [ 135 ]
-						}
-
-					}
-
-				}
-
-			}
-,
-			"snapshotlist" : 			{
-				"current_snapshot" : 0,
-				"entries" : [ 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol",
-							"filename" : "kontrol.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "ed12dbc5c017f1234acc06de1a34d759"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[1]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[1]",
-							"filename" : "kontrol[1].maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "32f170dde05a78256b968a416d1d19b9"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[2]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[2]",
-							"filename" : "kontrol[2].maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "a313da969f5bc6c756bbfd7cf58e5238"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[3]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[3]",
-							"filename" : "kontrol[3].maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "46298f0559375870d3ad403dc137947d"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[1]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[1]",
-							"filename" : "kontrol[1]_20210407.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "865891a7849c61fe3bf3378c053a5229"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[2]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[2]",
-							"filename" : "kontrol[2]_20210407.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "b79f856c3113ae614d4833818899a50c"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol[3]",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol[3]",
-							"filename" : "kontrol[3]_20210407.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "ab51fc9869ae05e5188715d0687d332c"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "kontrol",
-						"origin" : "Audience_patcher",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "kontrol",
-							"filename" : "kontrol_20210407.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "36ff149c26f750e78a12d4704cea4e89"
-						}
-
-					}
- ]
-			}
-
-		}
-,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
@@ -1844,9 +1345,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1855,9 +1356,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1866,8 +1367,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1877,7 +1378,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1904,6 +1405,7 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontface" : [ 1 ],
+					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1912,8 +1414,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontsize" : [ 12.0 ]
+
 				}
 ,
 				"parentstyle" : "",
