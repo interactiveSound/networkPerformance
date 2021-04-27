@@ -2569,6 +2569,13 @@
 					"max" : 127.0,
 					"flags" : 2
 				}
+,
+				"number[7]" : 				{
+					"srcname" : "4.ctrl.0.chan.midi",
+					"min" : -75.0,
+					"max" : 1.0,
+					"flags" : 2
+				}
 
 			}
 
