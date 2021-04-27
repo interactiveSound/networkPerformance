@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 366.0, 79.0, 989.0, 939.0 ],
+		"rect" : [ 34.0, 76.0, 1469.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -369,6 +369,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -2527,6 +2529,48 @@
 					"max" : 127.0,
 					"flags" : 2
 				}
+,
+				"number" : 				{
+					"srcname" : "16.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"number[1]" : 				{
+					"srcname" : "17.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"number[5]" : 				{
+					"srcname" : "18.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"number[2]" : 				{
+					"srcname" : "19.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"number[4]" : 				{
+					"srcname" : "20.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"number[6]" : 				{
+					"srcname" : "21.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
 
 			}
 
@@ -2716,7 +2760,7 @@
 			}
 , 			{
 				"name" : "bp.Flanger.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3924,9 +3968,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3935,9 +3979,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3946,8 +3990,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3957,7 +3999,9 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3971,8 +4015,6 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3981,7 +4023,9 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
