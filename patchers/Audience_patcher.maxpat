@@ -174,7 +174,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 671.920676668485157, 42.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.920676668485157, 33.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 214.920676668485157, 58.629816025495529, 24.0, 24.0 ]
 				}
 
 			}
@@ -679,11 +679,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1233.0, 140.000006914138794, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 17 ],
-						"number[1]" : [ 97 ],
-						"number[2]" : [ 127 ],
-						"number[3]" : [ 113 ],
-						"number[4]" : [ 127 ],
+						"number" : [ 0 ],
+						"number[1]" : [ 0 ],
+						"number[2]" : [ 0 ],
+						"number[3]" : [ 0 ],
+						"number[4]" : [ 0 ],
 						"number[5]" : [ 0 ]
 					}
 ,
@@ -1325,6 +1325,290 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-101::obj-23" : [ "bypass[18]", "bypass", 0 ],
+			"obj-101::obj-28" : [ "Size[4]", "Size", 0 ],
+			"obj-101::obj-3" : [ "Regen[4]", "Regen", 0 ],
+			"obj-101::obj-60" : [ "Damp[3]", "Damp", 0 ],
+			"obj-101::obj-62" : [ "Dry[3]", "Dry", 0 ],
+			"obj-101::obj-63" : [ "Early[3]", "Early", 0 ],
+			"obj-101::obj-64" : [ "Tail[3]", "Tail", 0 ],
+			"obj-101::obj-65" : [ "Spread[3]", "Spread", 0 ],
+			"obj-101::obj-66" : [ "Time[11]", "Time", 0 ],
+			"obj-109" : [ "number[3]", "number", 0 ],
+			"obj-20::obj-12" : [ "Bypass", "Bypass", 0 ],
+			"obj-20::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-20::obj-2" : [ "Output", "Output", 0 ],
+			"obj-20::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-20::obj-34" : [ "slider[3]", "slider[3]", 0 ],
+			"obj-20::obj-35" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-20::obj-44" : [ "Input", "Input", 0 ],
+			"obj-20::obj-47" : [ "Release", "Release", 0 ],
+			"obj-20::obj-52" : [ "Threshold", "Threshold", 0 ],
+			"obj-20::obj-78" : [ "Ratio[1]", "Ratio", 0 ],
+			"obj-30::obj-1" : [ "Size[5]", "Size", 0 ],
+			"obj-30::obj-20" : [ "Diffusion[1]", "Diffusion", 0 ],
+			"obj-30::obj-25" : [ "Damping[1]", "Damping", 0 ],
+			"obj-30::obj-26" : [ "Decay[1]", "Decay", 0 ],
+			"obj-30::obj-50" : [ "bypass[19]", "bypass", 0 ],
+			"obj-30::obj-55" : [ "Mix[6]", "Mix", 0 ],
+			"obj-32" : [ "number[36]", "number", 0 ],
+			"obj-36" : [ "number[39]", "number", 0 ],
+			"obj-39" : [ "number[37]", "number", 0 ],
+			"obj-42::obj-106" : [ "CV3[3]", "CV3", 0 ],
+			"obj-42::obj-107" : [ "Linear[2]", "Linear", 0 ],
+			"obj-42::obj-11" : [ "PWM[1]", "PWM", 0 ],
+			"obj-42::obj-129" : [ "CV2[3]", "CV2", 0 ],
+			"obj-42::obj-36" : [ "PW[1]", "PW", 0 ],
+			"obj-42::obj-4" : [ "Waveform[1]", "Waveform", 0 ],
+			"obj-42::obj-45" : [ "FreqMode[2]", "FreqMode", 0 ],
+			"obj-42::obj-46" : [ "Offset[5]", "Offset", 0 ],
+			"obj-42::obj-51" : [ "Freq[3]", "Freq", 0 ],
+			"obj-42::obj-53" : [ "Mute[7]", "Mute", 0 ],
+			"obj-46::obj-113" : [ "pan", "Pan", 0 ],
+			"obj-46::obj-114" : [ "solo", "Solo", 0 ],
+			"obj-46::obj-115" : [ "active", "Active", 0 ],
+			"obj-46::obj-116" : [ "gain", "Gain", 0 ],
+			"obj-46::obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-46::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-47::obj-24" : [ "output", "Output", 0 ],
+			"obj-68" : [ "number[35]", "number", 0 ],
+			"obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
+			"obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
+			"obj-72::obj-26" : [ "Reflections[2]", "Reflections", 0 ],
+			"obj-72::obj-28" : [ "Mix[5]", "Mix", 0 ],
+			"obj-72::obj-47" : [ "bypass[17]", "bypass", 0 ],
+			"obj-96" : [ "number[38]", "number", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "kontrol[1]_20210407.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol[2]_20210407.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol[3]_20210407.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kontrol_20210407.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oscillator.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "updown.svg",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "up.svg",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverb.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.cross1~.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gig.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverbtwoo.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "compressor.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pastebang.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sam.json",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "AudioMix.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "AudioOutput.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"snapshot" : 		{
+			"filetype" : "C74Snapshot",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
+			"subtype" : "Undefined",
+			"embed" : 1,
+			"snapshotlist" : 			{
+				"current_snapshot" : -1,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[1]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[1]",
+							"filename" : "kontrol[1]_20210407.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "865891a7849c61fe3bf3378c053a5229"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[2]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[2]",
+							"filename" : "kontrol[2]_20210407.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "b79f856c3113ae614d4833818899a50c"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol[3]",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol[3]",
+							"filename" : "kontrol[3]_20210407.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "ab51fc9869ae05e5188715d0687d332c"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "kontrol",
+						"origin" : "Audience_patcher",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "kontrol",
+							"filename" : "kontrol_20210407.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "36ff149c26f750e78a12d4704cea4e89"
+						}
+
+					}
+ ]
+			}
+
+		}
+,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
@@ -1345,9 +1629,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1356,9 +1640,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1367,8 +1651,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1378,7 +1662,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1405,7 +1689,6 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontface" : [ 1 ],
-					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1414,7 +1697,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
