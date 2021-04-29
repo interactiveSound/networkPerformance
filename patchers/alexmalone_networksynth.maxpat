@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 285.0, 177.0, 1852.0, 929.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -136,6 +136,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -153,7 +154,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 176.541422247886658, 1102.881514072418213, 167.0, 22.0 ],
-					"text" : "bp.Xfade::Fade 1.1"
+					"text" : "AudioReceive2::gain 0."
 				}
 
 			}
@@ -164,10 +165,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 135.5, 150.0, 33.0 ],
+					"patching_rect" : [ 426.0, 135.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 62.0, 54.5, 150.0, 33.0 ],
+					"presentation_rect" : [ 62.0, 54.5, 150.0, 34.0 ],
 					"text" : "On --> Performance Mode\nOff ----> Audience Mode"
 				}
 
@@ -203,6 +204,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -546,7 +548,7 @@
 					"patching_rect" : [ 1027.5, 925.083334416151047, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[4]",
+							"parameter_longname" : "number[32]",
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 0
 						}
@@ -605,7 +607,7 @@
 					"patching_rect" : [ 875.0, 925.083334416151047, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[3]",
+							"parameter_longname" : "number[33]",
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 0
 						}
@@ -641,7 +643,7 @@
 					"patching_rect" : [ 736.636206984519958, 925.083334416151047, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[2]",
+							"parameter_longname" : "number[31]",
 							"parameter_shortname" : "number[2]",
 							"parameter_type" : 0
 						}
@@ -734,7 +736,7 @@
 					"patching_rect" : [ 438.0, 925.083334416151047, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number",
+							"parameter_longname" : "number[34]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
 						}
@@ -758,7 +760,7 @@
 					"patching_rect" : [ 595.0, 925.083334416151047, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[1]",
+							"parameter_longname" : "number[30]",
 							"parameter_shortname" : "number[1]",
 							"parameter_type" : 0
 						}
@@ -867,8 +869,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.5, 1074.881514072418213, 114.0, 76.0 ],
-					"text" : ";\rfmcontrol Depth $1;\roscil CV2 $2;\rmaster-mix gain $3;\rcvlfo FreqRate $4"
+					"patching_rect" : [ 47.5, 1074.881514072418213, 114.0, 77.0 ],
+					"text" : ";\r\nfmcontrol Depth $1;\r\noscil CV2 $2;\r\nmaster-mix gain $3;\r\ncvlfo FreqRate $4"
 				}
 
 			}
@@ -1042,7 +1044,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1318,9 +1320,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1329,9 +1331,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1340,8 +1342,9 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1350,8 +1353,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1389,7 +1391,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1665,9 +1667,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1676,9 +1678,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1687,8 +1689,9 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1697,8 +1700,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1960,7 +1962,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  receiver.",
-					"args" : [ "receive", "@bus", "master" ],
+					"args" : [ "receive", "@bus", "master", "@gain", 0.0 ],
 					"bgcolor" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -2853,512 +2855,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-101::obj-113" : [ "pan", "Pan", 0 ],
-			"obj-101::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-101::obj-115" : [ "active", "Active", 0 ],
-			"obj-101::obj-116" : [ "gain", "Gain", 0 ],
-			"obj-101::obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-101::obj-4" : [ "setname", "Setname", 0 ],
-			"obj-15" : [ "toggle", "toggle", 0 ],
-			"obj-164::obj-122" : [ "active[10]", "Active", 0 ],
-			"obj-164::obj-35" : [ "bus[5]", "Bus", 0 ],
-			"obj-164::obj-88" : [ "gain[8]", "Gain", 0 ],
-			"obj-169::obj-113" : [ "pan[3]", "Pan", 0 ],
-			"obj-169::obj-114" : [ "solo[3]", "Solo", 0 ],
-			"obj-169::obj-115" : [ "active[12]", "Active", 0 ],
-			"obj-169::obj-116" : [ "gain[10]", "Gain", 0 ],
-			"obj-169::obj-30" : [ "qlist[5]", "Qlist", 0 ],
-			"obj-169::obj-4" : [ "setname[5]", "Setname", 0 ],
-			"obj-17" : [ "number[4]", "number[3]", 0 ],
-			"obj-170::obj-122" : [ "active[11]", "Active", 0 ],
-			"obj-170::obj-35" : [ "bus[6]", "Bus", 0 ],
-			"obj-170::obj-88" : [ "gain[9]", "Gain", 0 ],
-			"obj-175" : [ "number[1]", "number[1]", 0 ],
-			"obj-176::obj-118" : [ "Mix", "Mix", 0 ],
-			"obj-176::obj-27" : [ "Feedback", "Feedback", 0 ],
-			"obj-176::obj-49" : [ "HPF", "HPF", 0 ],
-			"obj-176::obj-50" : [ "LPF", "LPF", 0 ],
-			"obj-176::obj-7" : [ "bypass[1]", "bypass", 0 ],
-			"obj-176::obj-708" : [ "duration.r", "duration.r", 0 ],
-			"obj-176::obj-9" : [ "delay_right", "delay_right", 0 ],
-			"obj-176::obj-957" : [ "duration.l", "duration.l", 0 ],
-			"obj-176::obj-96" : [ "delay_left", "delay_left", 0 ],
-			"obj-178" : [ "number", "number", 0 ],
-			"obj-22" : [ "number[2]", "number[2]", 0 ],
-			"obj-35::obj-23" : [ "bypass", "bypass", 0 ],
-			"obj-35::obj-28" : [ "Size", "Size", 0 ],
-			"obj-35::obj-3" : [ "Regen", "Regen", 0 ],
-			"obj-35::obj-60" : [ "Damp", "Damp", 0 ],
-			"obj-35::obj-62" : [ "Dry", "Dry", 0 ],
-			"obj-35::obj-63" : [ "Early", "Early", 0 ],
-			"obj-35::obj-64" : [ "Tail", "Tail", 0 ],
-			"obj-35::obj-65" : [ "Spread", "Spread", 0 ],
-			"obj-35::obj-66" : [ "Time", "Time", 0 ],
-			"obj-37::obj-24" : [ "output", "Output", 0 ],
-			"obj-38::obj-122" : [ "active[3]", "Active", 0 ],
-			"obj-38::obj-35" : [ "bus[2]", "Bus", 0 ],
-			"obj-38::obj-88" : [ "gain[3]", "Gain", 0 ],
-			"obj-3::obj-1" : [ "Fade", "Fade", 0 ],
-			"obj-3::obj-22" : [ "CV", "CV", 0 ],
-			"obj-3::obj-41" : [ "bypass[20]", "bypass", 0 ],
-			"obj-48::obj-113" : [ "pan[1]", "Pan", 0 ],
-			"obj-48::obj-114" : [ "solo[1]", "Solo", 0 ],
-			"obj-48::obj-115" : [ "active[4]", "Active", 0 ],
-			"obj-48::obj-116" : [ "gain[4]", "Gain", 0 ],
-			"obj-48::obj-30" : [ "qlist[1]", "Qlist", 0 ],
-			"obj-48::obj-4" : [ "setname[1]", "Setname", 0 ],
-			"obj-49::obj-12" : [ "Mute[1]", "Mute", 0 ],
-			"obj-49::obj-144" : [ "Phase", "Phase", 0 ],
-			"obj-49::obj-70" : [ "Amt[1]", "CV Amt", 0 ],
-			"obj-49::obj-74" : [ "SyncRate", "Rate", 0 ],
-			"obj-49::obj-75" : [ "Shape", "Shape", 0 ],
-			"obj-49::obj-81" : [ "Phase-Inversion", "Phase-Inversion", 1 ],
-			"obj-49::obj-88" : [ "Time Mode", "Time Mode", 1 ],
-			"obj-49::obj-89" : [ "FreqRate", "Rate", 0 ],
-			"obj-49::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
-			"obj-50::obj-122" : [ "active[5]", "Active", 0 ],
-			"obj-50::obj-35" : [ "bus[3]", "Bus", 0 ],
-			"obj-50::obj-88" : [ "gain[5]", "Gain", 0 ],
-			"obj-54::obj-100" : [ "score", "score", 0 ],
-			"obj-54::obj-105" : [ "rounding", "rounding", 0 ],
-			"obj-54::obj-12" : [ "bypass[2]", "bypass", 0 ],
-			"obj-54::obj-14::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-54::obj-71" : [ "notes", "notes", 1 ],
-			"obj-56::obj-122" : [ "active[6]", "Active", 0 ],
-			"obj-56::obj-35" : [ "bus[4]", "Bus", 0 ],
-			"obj-56::obj-88" : [ "gain[6]", "Gain", 0 ],
-			"obj-58::obj-113" : [ "pan[2]", "Pan", 0 ],
-			"obj-58::obj-114" : [ "solo[2]", "Solo", 0 ],
-			"obj-58::obj-115" : [ "active[7]", "Active", 0 ],
-			"obj-58::obj-116" : [ "gain[7]", "Gain", 0 ],
-			"obj-58::obj-30" : [ "qlist[2]", "Qlist", 0 ],
-			"obj-58::obj-4" : [ "setname[2]", "Setname", 0 ],
-			"obj-62::obj-16" : [ "lofreq", "LoFreq", 0 ],
-			"obj-62::obj-17" : [ "mid", "Mid", 0 ],
-			"obj-62::obj-18" : [ "hifreq", "HiFreq", 0 ],
-			"obj-62::obj-19" : [ "lo", "Lo", 0 ],
-			"obj-62::obj-28" : [ "init", "Init", 0 ],
-			"obj-62::obj-30" : [ "qlist[3]", "Qlist", 0 ],
-			"obj-62::obj-36" : [ "hi", "Hi", 0 ],
-			"obj-62::obj-4" : [ "setname[3]", "Setname", 0 ],
-			"obj-62::obj-9" : [ "active[8]", "Active", 0 ],
-			"obj-63::obj-16" : [ "lofreq[1]", "LoFreq", 0 ],
-			"obj-63::obj-17" : [ "mid[1]", "Mid", 0 ],
-			"obj-63::obj-18" : [ "hifreq[1]", "HiFreq", 0 ],
-			"obj-63::obj-19" : [ "lo[1]", "Lo", 0 ],
-			"obj-63::obj-28" : [ "init[1]", "Init", 0 ],
-			"obj-63::obj-30" : [ "qlist[4]", "Qlist", 0 ],
-			"obj-63::obj-36" : [ "hi[1]", "Hi", 0 ],
-			"obj-63::obj-4" : [ "setname[4]", "Setname", 0 ],
-			"obj-63::obj-9" : [ "active[9]", "Active", 0 ],
-			"obj-74" : [ "number[3]", "number[3]", 0 ],
-			"obj-79::obj-122" : [ "active[2]", "Active", 0 ],
-			"obj-79::obj-35" : [ "bus[1]", "Bus", 0 ],
-			"obj-79::obj-88" : [ "gain[2]", "Gain", 0 ],
-			"obj-8::obj-20" : [ "mute", "mute", 0 ],
-			"obj-8::obj-56" : [ "Depth", "Depth", 0 ],
-			"obj-8::obj-80" : [ "Ratio", "Ratio", 0 ],
-			"obj-8::obj-86" : [ "Amt", "Amt", 0 ],
-			"obj-8::obj-91" : [ "Offset", "Offset", 0 ],
-			"obj-93::obj-122" : [ "active[1]", "Active", 0 ],
-			"obj-93::obj-35" : [ "bus", "Bus", 0 ],
-			"obj-93::obj-88" : [ "gain[1]", "Gain", 0 ],
-			"obj-9::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-9::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-9::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-9::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-9::obj-36" : [ "PW", "PW", 0 ],
-			"obj-9::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-9::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-9::obj-46" : [ "Offset[1]", "Offset", 0 ],
-			"obj-9::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-9::obj-53" : [ "Mute", "Mute", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-164::obj-122" : 				{
-					"parameter_longname" : "active[10]"
-				}
-,
-				"obj-164::obj-35" : 				{
-					"parameter_longname" : "bus[5]"
-				}
-,
-				"obj-164::obj-88" : 				{
-					"parameter_longname" : "gain[8]"
-				}
-,
-				"obj-169::obj-113" : 				{
-					"parameter_longname" : "pan[3]"
-				}
-,
-				"obj-169::obj-114" : 				{
-					"parameter_longname" : "solo[3]"
-				}
-,
-				"obj-169::obj-115" : 				{
-					"parameter_longname" : "active[12]"
-				}
-,
-				"obj-169::obj-116" : 				{
-					"parameter_longname" : "gain[10]"
-				}
-,
-				"obj-169::obj-30" : 				{
-					"parameter_longname" : "qlist[5]"
-				}
-,
-				"obj-170::obj-122" : 				{
-					"parameter_longname" : "active[11]"
-				}
-,
-				"obj-170::obj-88" : 				{
-					"parameter_longname" : "gain[9]"
-				}
-,
-				"obj-38::obj-122" : 				{
-					"parameter_longname" : "active[3]"
-				}
-,
-				"obj-38::obj-88" : 				{
-					"parameter_longname" : "gain[3]"
-				}
-,
-				"obj-48::obj-113" : 				{
-					"parameter_longname" : "pan[1]"
-				}
-,
-				"obj-48::obj-114" : 				{
-					"parameter_longname" : "solo[1]"
-				}
-,
-				"obj-48::obj-115" : 				{
-					"parameter_longname" : "active[4]"
-				}
-,
-				"obj-48::obj-116" : 				{
-					"parameter_longname" : "gain[4]"
-				}
-,
-				"obj-48::obj-30" : 				{
-					"parameter_longname" : "qlist[1]"
-				}
-,
-				"obj-50::obj-122" : 				{
-					"parameter_longname" : "active[5]"
-				}
-,
-				"obj-50::obj-35" : 				{
-					"parameter_longname" : "bus[3]"
-				}
-,
-				"obj-50::obj-88" : 				{
-					"parameter_longname" : "gain[5]"
-				}
-,
-				"obj-56::obj-122" : 				{
-					"parameter_longname" : "active[6]"
-				}
-,
-				"obj-56::obj-88" : 				{
-					"parameter_longname" : "gain[6]"
-				}
-,
-				"obj-58::obj-113" : 				{
-					"parameter_longname" : "pan[2]"
-				}
-,
-				"obj-58::obj-114" : 				{
-					"parameter_longname" : "solo[2]"
-				}
-,
-				"obj-58::obj-115" : 				{
-					"parameter_longname" : "active[7]"
-				}
-,
-				"obj-58::obj-116" : 				{
-					"parameter_longname" : "gain[7]"
-				}
-,
-				"obj-58::obj-30" : 				{
-					"parameter_longname" : "qlist[2]"
-				}
-,
-				"obj-62::obj-30" : 				{
-					"parameter_longname" : "qlist[3]"
-				}
-,
-				"obj-62::obj-9" : 				{
-					"parameter_longname" : "active[8]"
-				}
-,
-				"obj-63::obj-16" : 				{
-					"parameter_longname" : "lofreq[1]"
-				}
-,
-				"obj-63::obj-17" : 				{
-					"parameter_longname" : "mid[1]"
-				}
-,
-				"obj-63::obj-18" : 				{
-					"parameter_longname" : "hifreq[1]"
-				}
-,
-				"obj-63::obj-19" : 				{
-					"parameter_longname" : "lo[1]"
-				}
-,
-				"obj-63::obj-28" : 				{
-					"parameter_longname" : "init[1]"
-				}
-,
-				"obj-63::obj-30" : 				{
-					"parameter_longname" : "qlist[4]"
-				}
-,
-				"obj-63::obj-36" : 				{
-					"parameter_longname" : "hi[1]"
-				}
-,
-				"obj-63::obj-9" : 				{
-					"parameter_longname" : "active[9]"
-				}
-,
-				"obj-79::obj-122" : 				{
-					"parameter_longname" : "active[2]"
-				}
-,
-				"obj-79::obj-88" : 				{
-					"parameter_longname" : "gain[2]"
-				}
-,
-				"obj-93::obj-122" : 				{
-					"parameter_longname" : "active[1]"
-				}
-,
-				"obj-93::obj-88" : 				{
-					"parameter_longname" : "gain[1]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"parameter_map" : 		{
-			"midi" : 			{
-				"number" : 				{
-					"srcname" : "bend.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[1]" : 				{
-					"srcname" : "bend.1.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[2]" : 				{
-					"srcname" : "bend.2.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[3]" : 				{
-					"srcname" : "bend.3.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[4]" : 				{
-					"srcname" : "bend.4.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "bp.FM (Alex).maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Oscillator (Alex).maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sine.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "updown.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "up.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "square.svg",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioSend.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioSend2.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioReceive.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioReceive2.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioEQ.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Gigaverb.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Sync Delay.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.CV LFO (Alex).maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Alex.json",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Xfade (Alex).maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
@@ -3379,9 +2875,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3390,9 +2886,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3401,8 +2897,9 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3411,8 +2908,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -3426,8 +2922,8 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
