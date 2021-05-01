@@ -9,7 +9,7 @@
 					"number[1]" : [  ],
 					"number[2]" : [  ],
 					"number[3]" : [ 0 ],
-					"number[4]" : [  ],
+					"number[4]" : [ -75.0 ],
 					"bp.Macro Oscillator::CV2" : [ 100.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 0.0 ],
@@ -41,7 +41,7 @@
 					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
 					"AudioMix[1]::active" : [  ],
-					"AudioMix[1]::gain" : [  ],
+					"AudioMix[1]::gain" : [ -70.0 ],
 					"AudioMix[1]::pan" : [  ],
 					"AudioMix[1]::solo" : [  ],
 					"AudioOutput::output" : [  ]
