@@ -2,7 +2,7 @@
 	"name" : "networkPerformance",
 	"version" : 1,
 	"creationdate" : 3701107559,
-	"modificationdate" : 3701108589,
+	"modificationdate" : 3702493727,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,6 +29,10 @@
 		"data" : 		{
 
 		}
+,
+		"other" : 		{
+
+		}
 
 	}
 ,
@@ -38,12 +42,30 @@
 ,
 	"searchpath" : 	{
 		"0" : 		{
-			"bootpath" : "~/Desktop/Interactive_Sound_Project/node_content",
-			"projectrelativepath" : "../Interactive_Sound_Project/node_content",
+			"bootpath" : "~/Downloads/networkPerformance-946494e27eb5e961b6bdad947d6b0f7958580119-2/node_content",
+			"projectrelativepath" : "./node_content",
 			"label" : "node_contents",
 			"recursive" : 1,
 			"enabled" : 1,
-			"includeincollective" : 0
+			"includeincollective" : 1
+		}
+,
+		"1" : 		{
+			"bootpath" : "~/Downloads/networkPerformance-946494e27eb5e961b6bdad947d6b0f7958580119-2/patchers",
+			"projectrelativepath" : "./patchers",
+			"label" : "",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 1
+		}
+,
+		"2" : 		{
+			"bootpath" : "~/Downloads/networkPerformance-946494e27eb5e961b6bdad947d6b0f7958580119-2/media",
+			"projectrelativepath" : "./media",
+			"label" : "",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 1
 		}
 
 	}
