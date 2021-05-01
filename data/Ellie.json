@@ -9,7 +9,6 @@
 					"number[1]" : [  ],
 					"number[2]" : [  ],
 					"number[3]" : [ 0 ],
-					"number[4]" : [ -75.0 ],
 					"bp.Macro Oscillator::CV2" : [ 100.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 0.0 ],
@@ -40,11 +39,10 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"AudioMix[1]::active" : [ 1.0 ],
-					"AudioMix[1]::gain" : [ -70.0 ],
-					"AudioMix[1]::pan" : [ 0.0 ],
-					"AudioMix[1]::solo" : [ 0.0 ],
-					"AudioOutput::output" : [ 1.0 ]
+					"bp.Stereo::DSP" : [ 1.0 ],
+					"bp.Stereo::Level" : [ -70.0 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -56,7 +54,6 @@
 					"number[1]" : [  ],
 					"number[2]" : [  ],
 					"number[3]" : [  ],
-					"number[4]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 3.070866141732282 ],
@@ -87,11 +84,10 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 99.999999999999972 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"AudioMix[1]::active" : [  ],
-					"AudioMix[1]::gain" : [  ],
-					"AudioMix[1]::pan" : [  ],
-					"AudioMix[1]::solo" : [  ],
-					"AudioOutput::output" : [  ]
+					"bp.Stereo::DSP" : [ 1.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -103,7 +99,6 @@
 					"number[1]" : [ 0.0 ],
 					"number[2]" : [ 0 ],
 					"number[3]" : [ -5 ],
-					"number[4]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -134,11 +129,10 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"AudioMix[1]::active" : [  ],
-					"AudioMix[1]::gain" : [  ],
-					"AudioMix[1]::pan" : [  ],
-					"AudioMix[1]::solo" : [  ],
-					"AudioOutput::output" : [  ]
+					"bp.Stereo::DSP" : [ 0.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -150,7 +144,6 @@
 					"number[1]" : [ 0.0 ],
 					"number[2]" : [ 5 ],
 					"number[3]" : [ 5 ],
-					"number[4]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -181,11 +174,10 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"AudioMix[1]::active" : [  ],
-					"AudioMix[1]::gain" : [  ],
-					"AudioMix[1]::pan" : [  ],
-					"AudioMix[1]::solo" : [  ],
-					"AudioOutput::output" : [  ]
+					"bp.Stereo::DSP" : [ 0.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -197,7 +189,6 @@
 					"number[1]" : [ 0.0 ],
 					"number[2]" : [ -5 ],
 					"number[3]" : [ 5 ],
-					"number[4]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -228,11 +219,10 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"AudioMix[1]::active" : [  ],
-					"AudioMix[1]::gain" : [  ],
-					"AudioMix[1]::pan" : [  ],
-					"AudioMix[1]::solo" : [  ],
-					"AudioOutput::output" : [  ]
+					"bp.Stereo::DSP" : [ 0.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -244,7 +234,6 @@
 					"number[1]" : [ 0.0 ],
 					"number[2]" : [ 0 ],
 					"number[3]" : [ 5 ],
-					"number[4]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -275,11 +264,10 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"AudioMix[1]::active" : [  ],
-					"AudioMix[1]::gain" : [  ],
-					"AudioMix[1]::pan" : [  ],
-					"AudioMix[1]::solo" : [  ],
-					"AudioOutput::output" : [  ]
+					"bp.Stereo::DSP" : [ 0.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -291,7 +279,6 @@
 					"number[1]" : [  ],
 					"number[2]" : [  ],
 					"number[3]" : [  ],
-					"number[4]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ -5.0 ],
@@ -322,11 +309,10 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 10000.0 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"AudioMix[1]::active" : [  ],
-					"AudioMix[1]::gain" : [  ],
-					"AudioMix[1]::pan" : [  ],
-					"AudioMix[1]::solo" : [  ],
-					"AudioOutput::output" : [  ]
+					"bp.Stereo::DSP" : [ 0.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
@@ -338,7 +324,6 @@
 					"number[1]" : [  ],
 					"number[2]" : [  ],
 					"number[3]" : [  ],
-					"number[4]" : [  ],
 					"bp.Macro Oscillator::CV2" : [ 0.0 ],
 					"bp.Macro Oscillator::CV3" : [ 0.0 ],
 					"bp.Macro Oscillator::Color" : [ 2.125984251968502 ],
@@ -369,11 +354,10 @@
 					"bp.Signal Mixer[2]::power[1]" : [ 0.0 ],
 					"bp.Smooth Delay[3]::Time" : [ 651.119543636943035 ],
 					"bp.Smooth Delay[3]::bypass" : [ 0.0 ],
-					"AudioMix[1]::active" : [  ],
-					"AudioMix[1]::gain" : [  ],
-					"AudioMix[1]::pan" : [  ],
-					"AudioMix[1]::solo" : [  ],
-					"AudioOutput::output" : [  ]
+					"bp.Stereo::DSP" : [ 0.0 ],
+					"bp.Stereo::Level" : [ -31.293474 ],
+					"bp.Stereo::Mute" : [ 0.0 ],
+					"bp.Stereo::OutputChannel" : [ 0.0 ]
 				}
 
 			}
