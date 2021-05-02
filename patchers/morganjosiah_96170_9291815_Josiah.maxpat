@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1212.0, 929.0 ],
+		"rect" : [ 34.0, 76.0, 1469.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -101,7 +101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 109.0, 188.0, 33.0 ],
+					"patching_rect" : [ 190.0, 109.0, 188.0, 34.0 ],
 					"text" : "On---> Perfomance Mode\nOff ---> Audience Mode"
 				}
 
@@ -109,7 +109,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -136,7 +135,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -213,7 +211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.0, 1234.666672468185425, 150.0, 51.0 ],
+					"patching_rect" : [ 86.0, 1234.666672468185425, 150.0, 52.0 ],
 					"text" : "Not sure what the argument is supposed to be here."
 				}
 
@@ -310,8 +308,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.333349704742432, 567.0, 114.0, 76.0 ],
-					"text" : ";\rJosiah-mix active 1;\rJosiah-mix gain $1;\rJosiah-mix pan 0.;\rJosiah-mix solo 0."
+					"patching_rect" : [ 488.333349704742432, 567.0, 114.0, 77.0 ],
+					"text" : ";\r\nJosiah-mix active 1;\r\nJosiah-mix gain $1;\r\nJosiah-mix pan 0.;\r\nJosiah-mix solo 0."
 				}
 
 			}
@@ -396,20 +394,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 71.0, 158.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 82.333349704742432, 3.0, 50.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "number[17]",
-							"parameter_mmax" : 13.0,
-							"parameter_shortname" : "number[1]",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"varname" : "number[1]"
 				}
 
@@ -423,21 +411,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 175.0, 158.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 186.333349704742432, 3.0, 50.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "number[18]",
-							"parameter_mmax" : 0.0,
-							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "number[3]",
-							"parameter_type" : 1
-						}
-
-					}
-,
 					"varname" : "number[3]"
 				}
 
@@ -571,20 +548,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 123.0, 158.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 134.333349704742432, 3.0, 50.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "number[19]",
-							"parameter_mmax" : 13.0,
-							"parameter_shortname" : "number[2]",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"varname" : "number[2]"
 				}
 
@@ -669,21 +636,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 19.0, 158.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.333349704742432, 3.0, 50.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "number[20]",
-							"parameter_mmax" : 2.0,
-							"parameter_mmin" : -5.0,
-							"parameter_shortname" : "number",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"varname" : "number"
 				}
 
@@ -1041,8 +997,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1052,8 +1008,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1071,9 +1027,9 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1108,8 +1064,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
