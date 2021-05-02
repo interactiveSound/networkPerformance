@@ -379,6 +379,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -2468,34 +2470,6 @@
 ,
 		"parameter_map" : 		{
 			"midi" : 			{
-				"number[16]" : 				{
-					"srcname" : "0.ctrl.0.chan.midi",
-					"min" : -2.0,
-					"max" : 5.0,
-					"flags" : 2
-				}
-,
-				"number[15]" : 				{
-					"srcname" : "1.ctrl.0.chan.midi",
-					"min" : -5.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"number[13]" : 				{
-					"srcname" : "2.ctrl.0.chan.midi",
-					"min" : -5.0,
-					"max" : 5.0,
-					"flags" : 2
-				}
-,
-				"number[14]" : 				{
-					"srcname" : "3.ctrl.0.chan.midi",
-					"min" : -5.0,
-					"max" : 5.0,
-					"flags" : 2
-				}
-,
 				"number[36]" : 				{
 					"srcname" : "16.ctrl.0.chan.midi",
 					"min" : 0.0,
@@ -2535,34 +2509,6 @@
 					"srcname" : "20.ctrl.0.chan.midi",
 					"min" : 0.0,
 					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[20]" : 				{
-					"srcname" : "16.ctrl.0.chan.midi",
-					"min" : -5.0,
-					"max" : 2.0,
-					"flags" : 2
-				}
-,
-				"number[17]" : 				{
-					"srcname" : "17.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 13.0,
-					"flags" : 2
-				}
-,
-				"number[19]" : 				{
-					"srcname" : "18.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 13.0,
-					"flags" : 2
-				}
-,
-				"number[18]" : 				{
-					"srcname" : "19.ctrl.0.chan.midi",
-					"min" : -70.0,
-					"max" : 0.0,
 					"flags" : 2
 				}
 
@@ -3962,9 +3908,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 11.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3973,9 +3919,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 10.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3984,7 +3930,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3995,7 +3940,8 @@
 					}
 ,
 					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
