@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -12760.0, -12718.0, 1469.0, 755.0 ],
+		"rect" : [ 40.0, 82.0, 1469.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -154,7 +154,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 961.0, 142.440444648265839, 164.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 4, 79, 343, 580 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -187,7 +187,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 814.577826619148254, 142.440444648265839, 105.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 4, 79, 343, 580 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -278,8 +278,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1083.808578014373779, 328.679456114768982, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[6]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[5]"
 				}
 
@@ -317,8 +326,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 900.333347678184509, 695.679456114768982, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[5]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[3]"
 				}
 
@@ -332,8 +350,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1004.0625, 446.679456114768982, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[4]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[4]"
 				}
 
@@ -379,8 +406,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 954.077840963999279, 570.330984592437744, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[2]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[2]"
 				}
 
@@ -505,8 +541,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 846.000014344851024, 805.012792587280273, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[1]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[1]"
 				}
 
@@ -655,8 +700,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 780.077840963999279, 900.415786266326904, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number"
 				}
 
@@ -1148,6 +1202,215 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1" : [ "number[4]", "number", 0 ],
+			"obj-105" : [ "number[2]", "number", 0 ],
+			"obj-11" : [ "number[6]", "number", 0 ],
+			"obj-15::obj-12" : [ "Bypass", "Bypass", 0 ],
+			"obj-15::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-15::obj-2" : [ "Output", "Output", 0 ],
+			"obj-15::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-15::obj-34" : [ "slider[3]", "slider[3]", 0 ],
+			"obj-15::obj-35" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-15::obj-44" : [ "Input", "Input", 0 ],
+			"obj-15::obj-47" : [ "Release", "Release", 0 ],
+			"obj-15::obj-52" : [ "Threshold", "Threshold", 0 ],
+			"obj-15::obj-78" : [ "Ratio[1]", "Ratio", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-17::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-17::obj-25" : [ "TimbreCV", "CV", 0 ],
+			"obj-17::obj-3" : [ "Timbre", "Timbre", 0 ],
+			"obj-17::obj-35::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
+			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-17::obj-80" : [ "ColorCV", "CV", 0 ],
+			"obj-17::obj-81" : [ "Color", "Color", 0 ],
+			"obj-17::obj-9" : [ "Macro", "Macro", 0 ],
+			"obj-25" : [ "number[1]", "number", 0 ],
+			"obj-3" : [ "number[5]", "number", 0 ],
+			"obj-31::obj-1" : [ "Size[2]", "Size", 0 ],
+			"obj-31::obj-20" : [ "Diffusion", "Diffusion", 0 ],
+			"obj-31::obj-25" : [ "Damping", "Damping", 0 ],
+			"obj-31::obj-26" : [ "Decay", "Decay", 0 ],
+			"obj-31::obj-50" : [ "bypass[9]", "bypass", 0 ],
+			"obj-31::obj-55" : [ "Mix[2]", "Mix", 0 ],
+			"obj-42::obj-106" : [ "CV3[3]", "CV3", 0 ],
+			"obj-42::obj-107" : [ "Linear[2]", "Linear", 0 ],
+			"obj-42::obj-11" : [ "PWM[1]", "PWM", 0 ],
+			"obj-42::obj-129" : [ "CV2[3]", "CV2", 0 ],
+			"obj-42::obj-36" : [ "PW[1]", "PW", 0 ],
+			"obj-42::obj-4" : [ "Waveform[1]", "Waveform", 0 ],
+			"obj-42::obj-45" : [ "FreqMode[2]", "FreqMode", 0 ],
+			"obj-42::obj-46" : [ "Offset[5]", "Offset", 0 ],
+			"obj-42::obj-51" : [ "Freq[3]", "Freq", 0 ],
+			"obj-42::obj-53" : [ "Mute[7]", "Mute", 0 ],
+			"obj-57::obj-22" : [ "Mute[6]", "Mute", 0 ],
+			"obj-57::obj-52" : [ "Level", "Level", 0 ],
+			"obj-57::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-57::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-58::obj-1" : [ "Time[2]", "Time", 0 ],
+			"obj-58::obj-25" : [ "Cutoff", "Cutoff", 0 ],
+			"obj-58::obj-26" : [ "Reflections", "Reflections", 0 ],
+			"obj-58::obj-28" : [ "Mix[3]", "Mix", 0 ],
+			"obj-58::obj-47" : [ "bypass[10]", "bypass", 0 ],
+			"obj-67" : [ "number", "number", 0 ],
+			"obj-72::obj-1" : [ "Width", "Width", 0 ],
+			"obj-72::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-72::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-72::obj-28" : [ "Center", "Center", 0 ],
+			"obj-72::obj-3" : [ "Regen", "Regen", 0 ],
+			"obj-97::obj-23" : [ "bypass[11]", "bypass", 0 ],
+			"obj-97::obj-28" : [ "Size[3]", "Size", 0 ],
+			"obj-97::obj-3" : [ "Regen[2]", "Regen", 0 ],
+			"obj-97::obj-60" : [ "Damp[2]", "Damp", 0 ],
+			"obj-97::obj-62" : [ "Dry[2]", "Dry", 0 ],
+			"obj-97::obj-63" : [ "Early[2]", "Early", 0 ],
+			"obj-97::obj-64" : [ "Tail[2]", "Tail", 0 ],
+			"obj-97::obj-65" : [ "Spread[2]", "Spread", 0 ],
+			"obj-97::obj-66" : [ "Time[3]", "Time", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-17::obj-35::obj-2" : 				{
+					"parameter_longname" : "pastebang[1]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "stereo.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "oscillator.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "updown.svg",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "up.svg",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverb2.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.cross1~.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverb1.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gigaverb.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "compressor.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pastebang.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "macro_oscillator.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "background_sm.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Annie.json",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Flanger.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Effects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
@@ -1190,6 +1453,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1200,8 +1464,7 @@
 					}
 ,
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1215,6 +1478,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1224,8 +1488,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 12.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",

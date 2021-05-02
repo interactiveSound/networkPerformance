@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 76.0, 1469.0, 755.0 ],
+		"rect" : [ 124.0, 79.0, 644.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -71,8 +71,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1297.5, 542.0, 111.0, 36.0 ],
-					"text" : ";\r\nSamR-mix gain $1."
+					"patching_rect" : [ 1297.5, 542.0, 111.0, 35.0 ],
+					"text" : ";\rSamR-mix gain $1."
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 697.920676668485157, 5.0, 150.0, 48.0 ],
+					"patching_rect" : [ 697.920676668485157, 5.0, 150.0, 47.0 ],
 					"text" : "ON = PERFORMANCE MODE\nOFF= AUDIENCE MODE"
 				}
 
@@ -244,8 +244,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1302.5, 407.53679096698761, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[37]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[5]"
 				}
 
@@ -271,8 +280,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1180.661174297332764, 422.71481865644455, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[39]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[4]"
 				}
 
@@ -369,8 +387,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1040.920676668485157, 418.74038177728653, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[3]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[3]"
 				}
 
@@ -408,8 +435,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 920.739000916481018, 330.320553660392761, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[38]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[2]"
 				}
 
@@ -447,8 +483,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 792.405667583147533, 417.073718249797821, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[35]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number[1]"
 				}
 
@@ -584,8 +629,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 598.739000916481018, 409.0, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "number[36]",
+							"parameter_shortname" : "number",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "number"
 				}
 
@@ -624,11 +678,11 @@
 					"patching_rect" : [ 1233.0, 140.000006914138794, 56.0, 22.0 ],
 					"restore" : 					{
 						"number" : [ 0 ],
-						"number[1]" : [ 24 ],
-						"number[2]" : [ 127 ],
+						"number[1]" : [ 0 ],
+						"number[2]" : [ 0 ],
 						"number[3]" : [ 0 ],
-						"number[4]" : [ 127 ],
-						"number[5]" : [ 127 ]
+						"number[4]" : [ 0 ],
+						"number[5]" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1289,9 +1343,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1300,9 +1354,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1311,6 +1365,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1320,7 +1375,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
@@ -1348,6 +1402,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1357,7 +1412,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 12.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
