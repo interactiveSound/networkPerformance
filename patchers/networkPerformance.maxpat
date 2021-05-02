@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 40.0, 82.0, 1469.0, 755.0 ],
+		"rect" : [ 34.0, 76.0, 1469.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -379,6 +379,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -1080,6 +1082,9 @@
 			"obj-1::obj-85::obj-37" : [ "power[2]", "power", 0 ],
 			"obj-1::obj-85::obj-39" : [ "in1[2]", "in1", 0 ],
 			"obj-1::obj-86" : [ "number[17]", "number[1]", 0 ],
+			"obj-3::obj-1" : [ "number[4]", "number[4]", 0 ],
+			"obj-3::obj-105" : [ "number[2]", "number[2]", 0 ],
+			"obj-3::obj-11" : [ "number[5]", "number[5]", 0 ],
 			"obj-3::obj-15::obj-12" : [ "Bypass", "Bypass", 0 ],
 			"obj-3::obj-15::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-3::obj-15::obj-2" : [ "Output", "Output", 0 ],
@@ -1102,6 +1107,8 @@
 			"obj-3::obj-17::obj-80" : [ "ColorCV", "CV", 0 ],
 			"obj-3::obj-17::obj-81" : [ "Color", "Color", 0 ],
 			"obj-3::obj-17::obj-9" : [ "Macro", "Macro", 0 ],
+			"obj-3::obj-25" : [ "number[1]", "number[1]", 0 ],
+			"obj-3::obj-3" : [ "number[3]", "number[3]", 0 ],
 			"obj-3::obj-31::obj-1" : [ "Size[2]", "Size", 0 ],
 			"obj-3::obj-31::obj-20" : [ "Diffusion", "Diffusion", 0 ],
 			"obj-3::obj-31::obj-25" : [ "Damping", "Damping", 0 ],
@@ -1127,6 +1134,7 @@
 			"obj-3::obj-58::obj-26" : [ "Reflections", "Reflections", 0 ],
 			"obj-3::obj-58::obj-28" : [ "Mix[3]", "Mix", 0 ],
 			"obj-3::obj-58::obj-47" : [ "bypass[10]", "bypass", 0 ],
+			"obj-3::obj-67" : [ "number", "number", 0 ],
 			"obj-3::obj-72::obj-1" : [ "Width", "Width", 0 ],
 			"obj-3::obj-72::obj-2" : [ "Rate", "Rate", 0 ],
 			"obj-3::obj-72::obj-23" : [ "bypass", "bypass", 0 ],
@@ -2472,13 +2480,6 @@
 ,
 				"number[35]" : 				{
 					"srcname" : "17.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"number[3]" : 				{
-					"srcname" : "19.ctrl.0.chan.midi",
 					"min" : 0.0,
 					"max" : 127.0,
 					"flags" : 2
