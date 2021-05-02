@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -60,7 +60,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -379,6 +379,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -1022,8 +1024,6 @@
 			"obj-1::obj-108::obj-20" : [ "Time[7]", "Time", 0 ],
 			"obj-1::obj-109::obj-12" : [ "Mute[15]", "Mute", 0 ],
 			"obj-1::obj-109::obj-20" : [ "Time[8]", "Time", 0 ],
-			"obj-1::obj-110" : [ "number[18]", "number[3]", 0 ],
-			"obj-1::obj-12" : [ "number[20]", "number", 0 ],
 			"obj-1::obj-19::obj-106" : [ "CV3[7]", "CV3", 0 ],
 			"obj-1::obj-19::obj-107" : [ "Linear[5]", "Linear", 0 ],
 			"obj-1::obj-19::obj-11" : [ "PWM[4]", "PWM", 0 ],
@@ -1061,7 +1061,6 @@
 			"obj-1::obj-71::obj-46" : [ "Offset[8]", "Offset", 0 ],
 			"obj-1::obj-71::obj-51" : [ "Freq[5]", "Freq", 0 ],
 			"obj-1::obj-71::obj-53" : [ "Mute[11]", "Mute", 0 ],
-			"obj-1::obj-73" : [ "number[19]", "number[2]", 0 ],
 			"obj-1::obj-79::obj-106" : [ "CV3[6]", "CV3", 0 ],
 			"obj-1::obj-79::obj-107" : [ "Linear[4]", "Linear", 0 ],
 			"obj-1::obj-79::obj-11" : [ "PWM[3]", "PWM", 0 ],
@@ -1079,7 +1078,6 @@
 			"obj-1::obj-85::obj-33" : [ "in4[2]", "in4", 0 ],
 			"obj-1::obj-85::obj-37" : [ "power[2]", "power", 0 ],
 			"obj-1::obj-85::obj-39" : [ "in1[2]", "in1", 0 ],
-			"obj-1::obj-86" : [ "number[17]", "number[1]", 0 ],
 			"obj-3::obj-1" : [ "number[4]", "number", 0 ],
 			"obj-3::obj-105" : [ "number[2]", "number", 0 ],
 			"obj-3::obj-11" : [ "number[6]", "number", 0 ],
@@ -2539,182 +2537,182 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "morganjosiah_96170_9291815_Josiah.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Reverb 1.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Signal Mixer.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "~/Desktop/networkPerformance/media",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Smooth Delay.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Josiah.json",
-				"bootpath" : "~/Desktop/networkPerformance/data",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "n4m-handpose.main.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stereo.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oscillator.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb2.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb1.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gigaverb.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "macro_oscillator.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers/marco_osc",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers/marco_osc",
 				"patcherrelativepath" : "./marco_osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Annie.json",
-				"bootpath" : "~/Desktop/networkPerformance/data",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2727,224 +2725,224 @@
 			}
 , 			{
 				"name" : "Ellie's Synth.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Macro Oscillator.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "~/Desktop/networkPerformance/code",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Chorus.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Feedback.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ellie.json",
-				"bootpath" : "~/Desktop/networkPerformance/data",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Audience_patcher.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gig.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverbtwoo.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sam.json",
-				"bootpath" : "~/Desktop/networkPerformance/data",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TREVOR_SYNTH.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend2.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive2.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioEQ.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Gigaverb.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Sync Delay.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Trevor.json",
-				"bootpath" : "~/Desktop/networkPerformance/data",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Cloud.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.LFO.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Xfade.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alexmalone_networksynth.maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.FM (Alex).maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator (Alex).maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.CV LFO (Alex).maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Alex.json",
-				"bootpath" : "~/Desktop/networkPerformance/data",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Xfade (Alex).maxpat",
-				"bootpath" : "~/Desktop/networkPerformance/patchers",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "remote_client.js",
-				"bootpath" : "~/Desktop/networkPerformance/node_content",
+				"bootpath" : "~/Documents/GitHub/networkPerformance/node_content",
 				"patcherrelativepath" : "../node_content",
 				"type" : "TEXT",
 				"implicit" : 1
