@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
+		"rect" : [ 34.0, 76.0, 1469.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1153,9 +1153,6 @@
 			"obj-5::obj-13::obj-116" : [ "gain", "Gain", 0 ],
 			"obj-5::obj-13::obj-30" : [ "qlist", "Qlist", 0 ],
 			"obj-5::obj-13::obj-4" : [ "setname", "Setname", 0 ],
-			"obj-5::obj-18" : [ "number[7]", "number", 0 ],
-			"obj-5::obj-20" : [ "number[15]", "number[1]", 0 ],
-			"obj-5::obj-29" : [ "number[16]", "number", 0 ],
 			"obj-5::obj-2::obj-24" : [ "output", "Output", 0 ],
 			"obj-5::obj-30::obj-100" : [ "score[1]", "score", 0 ],
 			"obj-5::obj-30::obj-105" : [ "rounding[1]", "rounding", 0 ],
@@ -1189,8 +1186,6 @@
 			"obj-5::obj-77::obj-39" : [ "in1[3]", "in1", 0 ],
 			"obj-5::obj-80::obj-12" : [ "Mute[26]", "Mute", 0 ],
 			"obj-5::obj-80::obj-20" : [ "Time[12]", "Time", 0 ],
-			"obj-5::obj-89" : [ "number[13]", "number[2]", 0 ],
-			"obj-5::obj-91" : [ "number[14]", "number[3]", 0 ],
 			"obj-6::obj-101::obj-23" : [ "bypass[18]", "bypass", 0 ],
 			"obj-6::obj-101::obj-28" : [ "Size[4]", "Size", 0 ],
 			"obj-6::obj-101::obj-3" : [ "Regen[4]", "Regen", 0 ],
@@ -2537,34 +2532,6 @@
 					"max" : 127.0,
 					"flags" : 2
 				}
-,
-				"number[20]" : 				{
-					"srcname" : "16.ctrl.0.chan.midi",
-					"min" : -5.0,
-					"max" : 2.0,
-					"flags" : 2
-				}
-,
-				"number[17]" : 				{
-					"srcname" : "17.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 13.0,
-					"flags" : 2
-				}
-,
-				"number[19]" : 				{
-					"srcname" : "18.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 13.0,
-					"flags" : 2
-				}
-,
-				"number[18]" : 				{
-					"srcname" : "19.ctrl.0.chan.midi",
-					"min" : -70.0,
-					"max" : 0.0,
-					"flags" : 2
-				}
 
 			}
 
@@ -2754,7 +2721,7 @@
 			}
 , 			{
 				"name" : "bp.Flanger.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3963,8 +3930,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3974,8 +3941,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3984,7 +3951,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3994,8 +3961,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4009,6 +3976,7 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
+					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4018,8 +3986,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 12.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
