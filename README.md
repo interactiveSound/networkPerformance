@@ -15,6 +15,7 @@ About project
 Given the limitations of performance art during this pandemic, how can we offer a virtual space that enables people to develop their own medium through a web environment? So we created a network performance, which is similar to an online game experience. After the software is downloaded, performers can communicate through a server and exchange data to control synthesizers and produce new sounds. Thus our work allows us to collaborate and creatively experiment with new interactive sounds through this network environment. 
 
 ### Release 
+-------------------
 https://github.com/interactiveSound/networkPerformance/releases/tag/networkPeromance
 
 License
