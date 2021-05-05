@@ -27,5 +27,5 @@ License
 
 [MIT](LICENSE.md)
 
-[replacement shader]: https://docs.unity3d.com/Manual/SL-ShaderReplacement.html
-[Releases]: https://github.com/interactiveSound/networkPerformance/releases/tag/networkPeromance
+ https://docs.unity3d.com/Manual/SL-ShaderReplacement.html
+ https://github.com/interactiveSound/networkPerformance/releases/tag/networkPeromance
