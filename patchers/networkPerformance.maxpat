@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 907.5, 0.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 12.0, 530.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1477.0, 158.0, 211.0, 35.0 ],
+					"text" : ";\rdsp open opens Audio Status Window"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "A stereo \"double-shelving\" EQ module.",
 					"args" : [ "auido_JEQ", "@", "eq", "hi", -7 ],
 					"bgmode" : 0,
@@ -3472,6 +3499,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 1 ],
 					"source" : [ "obj-92", 1 ]
 				}
@@ -5967,7 +6001,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Duo-2.jpeg",
+				"name" : "Duo-1.jpeg",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
