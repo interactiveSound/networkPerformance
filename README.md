@@ -17,10 +17,6 @@ Testtest
 
 ### networkPerformance
 
-A *Test* is a simplified variant of a mesh asset that only has
-vertices and skin weights. When converted from an original mesh, all the
-topological data of triangles is removed and overlapped vertices are
-stripped out.
 
 License
 -------
