@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 185.0, 79.0, 1175.0, 1005.0 ],
+		"rect" : [ 185.0, 79.0, 1165.0, 1005.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "A stereo \"double-shelving\" EQ module.",
+					"args" : [ "auido_JEQ", "@", "eq", "hi", -7 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-78",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "AudioEQ.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "" ],
+					"patching_rect" : [ 1679.0, 1274.5, 69.0, 149.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1667.0, 1264.5, 69.0, 149.0 ],
+					"varname" : "AudioEQ[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-79",
 					"linecount" : 7,
@@ -69,8 +94,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1679.0, 953.5, 69.0, 149.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1180.0, 215.5, 69.0, 149.0 ],
 					"varname" : "AudioEQ",
 					"viewvisibility" : 1
 				}
@@ -224,7 +247,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 286.5, 695.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1041.0, 540.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1029.0, 530.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -267,7 +290,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 907.5, 428.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1072.0, 278.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1060.0, 268.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -310,7 +333,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 564.5, 418.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 712.0, 278.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 700.0, 268.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -367,7 +390,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 167.5, 422.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 278.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 340.0, 268.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -396,7 +419,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 938.5, 79.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1072.0, 8.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1060.0, -2.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -425,7 +448,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 625.0, 72.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 707.0, 8.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 695.0, -2.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -468,7 +491,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 224.0, 68.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 8.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 340.0, -2.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -830,7 +853,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1270.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 496.999999999999943, 69.0, 39.0 ],
+					"presentation_rect" : [ 1086.0, 486.999999999999943, 69.0, 39.0 ],
 					"varname" : "AudioSend2[2]",
 					"viewvisibility" : 1
 				}
@@ -853,9 +876,9 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 1344.0, 1270.0, 69.0, 39.0 ],
+					"patching_rect" : [ 1344.0, 1373.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 262.5, 69.0, 39.0 ],
+					"presentation_rect" : [ 1086.0, 252.5, 69.0, 39.0 ],
 					"varname" : "AudioSend2[1]",
 					"viewvisibility" : 1
 				}
@@ -949,7 +972,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1208.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 452.166666666666629, 69.0, 39.0 ],
+					"presentation_rect" : [ 1086.0, 442.166666666666629, 69.0, 39.0 ],
 					"varname" : "AudioSend[7]",
 					"viewvisibility" : 1
 				}
@@ -972,9 +995,9 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 1344.0, 1208.0, 69.0, 39.0 ],
+					"patching_rect" : [ 1344.0, 1311.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 217.666666666666686, 69.0, 39.0 ],
+					"presentation_rect" : [ 1086.0, 207.666666666666686, 69.0, 39.0 ],
 					"varname" : "AudioSend[5]",
 					"viewvisibility" : 1
 				}
@@ -1068,7 +1091,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1050.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 307.333333333333314, 69.0, 139.0 ],
+					"presentation_rect" : [ 1086.0, 297.333333333333314, 69.0, 139.0 ],
 					"varname" : "AudioMix[3]",
 					"viewvisibility" : 1
 				}
@@ -1093,7 +1116,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1050.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 72.833333333333329, 69.0, 139.0 ],
+					"presentation_rect" : [ 1086.0, 62.833333333333329, 69.0, 139.0 ],
 					"varname" : "AudioMix[2]",
 					"viewvisibility" : 1
 				}
@@ -1210,7 +1233,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 969.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 28.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1086.0, 18.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[1]",
 					"viewvisibility" : 1
 				}
@@ -1258,7 +1281,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1272.0, 768.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1067.0, 540.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 1055.0, 530.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -1306,7 +1329,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 788.0, 1061.0, 600.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 564.0, 1143.0, 591.0 ],
+					"presentation_rect" : [ 12.0, 554.0, 1143.0, 591.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1334,7 +1357,7 @@
 					"patching_rect" : [ 24.0, 690.5, 1061.0, 596.0 ],
 					"pic" : "Trio-2.jpeg",
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 564.0, 1143.0, 591.0 ]
+					"presentation_rect" : [ 12.0, 554.0, 1143.0, 591.0 ]
 				}
 
 			}
@@ -1406,7 +1429,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 345.0, 183.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 298.0, 183.0, 33.0 ],
+					"presentation_rect" : [ 12.0, 288.0, 183.0, 33.0 ],
 					"text" : "Josiah Morgan"
 				}
 
@@ -1420,7 +1443,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 28.0, 155.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 28.0, 155.0, 33.0 ],
+					"presentation_rect" : [ 372.0, 18.0, 155.0, 33.0 ],
 					"text" : "Annie Wang"
 				}
 
@@ -1434,7 +1457,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 345.0, 155.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 298.0, 155.0, 33.0 ],
+					"presentation_rect" : [ 372.0, 288.0, 155.0, 33.0 ],
 					"text" : "Sam Rice"
 				}
 
@@ -1448,7 +1471,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 733.0, 23.666665999999964, 155.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 28.0, 155.0, 33.0 ],
+					"presentation_rect" : [ 732.0, 18.0, 155.0, 33.0 ],
 					"text" : "Ellie Castro"
 				}
 
@@ -1464,7 +1487,7 @@
 					"patching_rect" : [ 733.0, 345.0, 155.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 744.0, 298.0, 141.0, 60.0 ],
+					"presentation_rect" : [ 732.0, 288.0, 141.0, 60.0 ],
 					"text" : "Trevor Boesiger"
 				}
 
@@ -1512,7 +1535,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 733.0, 370.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 298.0, 352.0, 238.0 ],
+					"presentation_rect" : [ 732.0, 288.0, 352.0, 238.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1561,7 +1584,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 370.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 298.0, 352.0, 238.0 ],
+					"presentation_rect" : [ 372.0, 288.0, 352.0, 238.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1610,7 +1633,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 375.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 298.0, 352.0, 238.0 ],
+					"presentation_rect" : [ 12.0, 288.0, 352.0, 238.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1659,7 +1682,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 733.0, 49.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 28.0, 352.0, 248.0 ],
+					"presentation_rect" : [ 732.0, 18.0, 352.0, 248.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1708,7 +1731,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 49.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 28.0, 352.0, 248.0 ],
+					"presentation_rect" : [ 372.0, 18.0, 352.0, 248.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1753,7 +1776,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 28.0, 155.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 28.0, 155.0, 33.0 ],
+					"presentation_rect" : [ 12.0, 18.0, 155.0, 33.0 ],
 					"text" : "Alex Malone"
 				}
 
@@ -1771,7 +1794,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 49.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 28.0, 352.0, 248.0 ],
+					"presentation_rect" : [ 12.0, 18.0, 352.0, 248.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -2108,6 +2131,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -2583,7 +2608,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 24.0, 28.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 28.0, 352.0, 248.0 ],
+					"presentation_rect" : [ 12.0, 18.0, 352.0, 248.0 ],
 					"varname" : "alexmalone_networksynth",
 					"viewvisibility" : 1
 				}
@@ -2639,7 +2664,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 733.0, 345.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 298.0, 352.0, 238.0 ],
+					"presentation_rect" : [ 732.0, 288.0, 352.0, 238.0 ],
 					"varname" : "alexmalone_networksynth[2]",
 					"viewvisibility" : 1
 				}
@@ -2661,7 +2686,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 378.0, 345.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 298.0, 352.0, 238.0 ],
+					"presentation_rect" : [ 372.0, 288.0, 352.0, 238.0 ],
 					"varname" : "TREVOR_SYNTH[2]",
 					"viewvisibility" : 1
 				}
@@ -2683,7 +2708,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 733.0, 28.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 28.0, 352.0, 248.0 ],
+					"presentation_rect" : [ 732.0, 18.0, 352.0, 248.0 ],
 					"varname" : "alexmalone_networksynth[1]",
 					"viewvisibility" : 1
 				}
@@ -2705,7 +2730,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 378.0, 28.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 28.0, 352.0, 248.0 ],
+					"presentation_rect" : [ 372.0, 18.0, 352.0, 248.0 ],
 					"varname" : "TREVOR_SYNTH[1]",
 					"viewvisibility" : 1
 				}
@@ -2727,7 +2752,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 24.0, 345.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 298.0, 352.0, 238.0 ],
+					"presentation_rect" : [ 12.0, 288.0, 352.0, 238.0 ],
 					"varname" : "TREVOR_SYNTH",
 					"viewvisibility" : 1
 				}
@@ -3244,14 +3269,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 1 ],
+					"destination" : [ "obj-78", 1 ],
 					"source" : [ "obj-65", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-65", 0 ]
 				}
 
@@ -3379,6 +3404,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 1 ],
+					"source" : [ "obj-78", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-78", 0 ]
 				}
 
 			}
@@ -3800,6 +3839,15 @@
 			"obj-77::obj-26" : [ "Decay[2]", "Decay", 0 ],
 			"obj-77::obj-50" : [ "bypass[26]", "bypass", 0 ],
 			"obj-77::obj-55" : [ "Mix[9]", "Mix", 0 ],
+			"obj-78::obj-16" : [ "lofreq[4]", "LoFreq", 0 ],
+			"obj-78::obj-17" : [ "mid[4]", "Mid", 0 ],
+			"obj-78::obj-18" : [ "hifreq[4]", "HiFreq", 0 ],
+			"obj-78::obj-19" : [ "lo[4]", "Lo", 0 ],
+			"obj-78::obj-28" : [ "init[4]", "Init", 0 ],
+			"obj-78::obj-30" : [ "qlist[12]", "Qlist", 0 ],
+			"obj-78::obj-36" : [ "hi[4]", "Hi", 0 ],
+			"obj-78::obj-4" : [ "setname[27]", "Setname", 0 ],
+			"obj-78::obj-9" : [ "active[90]", "Active", 0 ],
 			"obj-7::obj-112::obj-118" : [ "Mix", "Mix", 0 ],
 			"obj-7::obj-112::obj-27" : [ "Feedback", "Feedback", 0 ],
 			"obj-7::obj-112::obj-49" : [ "HPF", "HPF", 0 ],
@@ -4792,6 +4840,38 @@
 ,
 				"obj-77::obj-55" : 				{
 					"parameter_longname" : "Mix[9]"
+				}
+,
+				"obj-78::obj-16" : 				{
+					"parameter_longname" : "lofreq[4]"
+				}
+,
+				"obj-78::obj-17" : 				{
+					"parameter_longname" : "mid[4]"
+				}
+,
+				"obj-78::obj-18" : 				{
+					"parameter_longname" : "hifreq[4]"
+				}
+,
+				"obj-78::obj-19" : 				{
+					"parameter_longname" : "lo[4]"
+				}
+,
+				"obj-78::obj-28" : 				{
+					"parameter_longname" : "init[4]"
+				}
+,
+				"obj-78::obj-30" : 				{
+					"parameter_longname" : "qlist[12]"
+				}
+,
+				"obj-78::obj-36" : 				{
+					"parameter_longname" : "hi[4]"
+				}
+,
+				"obj-78::obj-9" : 				{
+					"parameter_longname" : "active[90]"
 				}
 ,
 				"obj-7::obj-113::obj-113" : 				{
