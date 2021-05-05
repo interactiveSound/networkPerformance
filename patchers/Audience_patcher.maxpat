@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 124.0, 79.0, 1135.0, 928.0 ],
+		"rect" : [ 275.0, 79.0, 1135.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -668,7 +668,7 @@
 					"patching_rect" : [ 109.327826619148254, 54.0, 79.0, 33.259632050991058 ],
 					"pattrstorage" : "Sam",
 					"presentation" : 1,
-					"presentation_rect" : [ 143.769255638122559, 6.129816025495529, 79.0, 33.259632050991058 ]
+					"presentation_rect" : [ 300.769255638122559, 323.129816025495529, 79.0, 33.259632050991058 ]
 				}
 
 			}
@@ -802,7 +802,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 26.506403207778931, 119.0, 427.230751395225525, 121.84615421295166 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.769255638122559, 43.0, 420.230751395225525, 102.129816025495529 ],
+					"presentation_rect" : [ 0.769255638122559, 43.0, 282.558574318885803, 102.129816025495529 ],
 					"varname" : "oscillator",
 					"viewvisibility" : 1
 				}
@@ -1308,128 +1308,132 @@
 		"dependency_cache" : [ 			{
 				"name" : "kontrol.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[1].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[2].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kontrol[3].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gig.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverbtwoo.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sam.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1611,8 +1615,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -1622,8 +1626,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -1634,6 +1638,8 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1642,9 +1648,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1671,6 +1675,7 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1679,8 +1684,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",

@@ -139,7 +139,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 907.5, 428.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1072.0, 298.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1072.0, 278.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -182,7 +182,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 564.5, 418.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 712.0, 298.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 712.0, 278.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -239,7 +239,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 167.5, 422.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 298.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 352.0, 278.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -268,7 +268,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 938.5, 79.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1072.0, 28.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1072.0, 8.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -297,7 +297,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 625.0, 72.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 707.0, 28.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 707.0, 8.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -340,7 +340,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 224.0, 68.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 28.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 352.0, 8.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1473,7 +1473,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1, 1, 1, 1.0 ],
+					"bgcolor" : [ 1, 1, 1, 0.0 ],
 					"id" : "obj-30",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1519,7 +1519,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1, 1, 1, 1.0 ],
+					"bgcolor" : [ 1, 1, 1, 0.0 ],
 					"id" : "obj-27",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1527,7 +1527,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 733.0, 49.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 28.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 744.0, 28.0, 352.0, 248.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1565,7 +1565,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1, 1, 1, 1.0 ],
+					"bgcolor" : [ 1, 1, 1, 0.0 ],
 					"id" : "obj-24",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1573,7 +1573,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 49.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 28.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 384.0, 28.0, 352.0, 248.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1625,7 +1625,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1, 1, 1, 1.0 ],
+					"bgcolor" : [ 1, 1, 1, 0.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1633,7 +1633,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 49.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 28.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 24.0, 28.0, 352.0, 248.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2444,7 +2444,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 24.0, 28.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 28.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 24.0, 28.0, 352.0, 248.0 ],
 					"varname" : "alexmalone_networksynth",
 					"viewvisibility" : 1
 				}
@@ -2544,7 +2544,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 733.0, 28.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 28.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 744.0, 28.0, 352.0, 248.0 ],
 					"varname" : "alexmalone_networksynth[1]",
 					"viewvisibility" : 1
 				}
@@ -2566,7 +2566,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 378.0, 28.0, 352.0, 287.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 28.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 384.0, 28.0, 352.0, 248.0 ],
 					"varname" : "TREVOR_SYNTH[1]",
 					"viewvisibility" : 1
 				}

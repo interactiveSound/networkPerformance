@@ -355,7 +355,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 19.0, 1085.666672468185425, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 237.0, 187.0, 69.0, 139.0 ],
+					"presentation_rect" : [ 237.0, 44.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[1]",
 					"viewvisibility" : 1
 				}
@@ -379,7 +379,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 19.0, 291.0, 314.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 67.0, 314.0, 116.0 ],
+					"presentation_rect" : [ 3.0, 67.0, 232.0, 116.0 ],
 					"varname" : "bp.Oscillator[2]",
 					"viewvisibility" : 1
 				}
@@ -1209,80 +1209,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.Reverb 1.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Signal Mixer.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Smooth Delay.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Josiah.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1309,8 +1313,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -1320,8 +1324,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -1332,6 +1336,8 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1340,9 +1346,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1369,6 +1373,7 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1377,8 +1382,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",

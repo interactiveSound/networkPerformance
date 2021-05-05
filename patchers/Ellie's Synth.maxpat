@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 295.0, 189.0, 953.0, 588.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -62,6 +62,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 224.0, 148.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 281.000007033348083, 150.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[17]",
@@ -132,7 +134,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 444.21933070818568, 668.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.000007033348083, 157.0, 69.0, 139.0 ],
+					"presentation_rect" : [ 2.000007033348083, 32.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[1]",
 					"viewvisibility" : 1
 				}
@@ -206,7 +208,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 140.333349704742432, 74.5, 24.0, 24.0 ]
+					"patching_rect" : [ 380.333349704742432, 411.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -311,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 278.0, 117.0, 100.0, 40.0 ],
+					"patching_rect" : [ 417.0, 411.5, 100.0, 40.0 ],
 					"pattrstorage" : "Ellie"
 				}
 
@@ -348,6 +350,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 172.0, 148.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 229.000007033348083, 150.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[14]",
@@ -374,6 +378,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 120.0, 148.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 177.000007033348083, 150.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[13]",
@@ -428,6 +434,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 14.0, 668.0, 175.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.000007033348083, 173.0, 175.0, 116.0 ],
 					"varname" : "bp.Signal Mixer[2]",
 					"viewvisibility" : 1
 				}
@@ -472,6 +480,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 14.0, 786.014181167968786, 187.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 177.000007033348083, 173.0, 187.0, 116.0 ],
 					"varname" : "bp.Chorus",
 					"viewvisibility" : 1
 				}
@@ -489,6 +499,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 68.0, 148.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 125.000007033348083, 150.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[15]",
@@ -528,6 +540,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 16.0, 148.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 73.000007033348083, 150.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[16]",
@@ -583,6 +597,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 16.0, 314.0, 358.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 73.000007033348083, 32.0, 358.0, 116.0 ],
 					"varname" : "bp.Macro Oscillator",
 					"viewvisibility" : 1
 				}
@@ -642,7 +658,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 149.833349704742432, 143.0, 201.166674852371216, 143.0, 201.166674852371216, 54.5, 25.5, 54.5 ],
+					"midpoints" : [ 389.833349704742432, 143.0, 201.166674852371216, 143.0, 201.166674852371216, 54.5, 25.5, 54.5 ],
 					"order" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -966,91 +982,91 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.Macro Oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers/marco_osc",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers/marco_osc",
 				"patcherrelativepath" : "./marco_osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/code",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Chorus.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Feedback.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Signal Mixer.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Smooth Delay.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ellie.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

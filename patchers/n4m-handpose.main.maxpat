@@ -83,9 +83,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1101.96875, 522.6875, 150.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 234.270847678184509, 11.362234592437744, 150.0, 33.0 ],
 					"text" : "on - performance mode\noff - audience mode"
 				}
 
@@ -98,9 +95,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 705.270847678184509, 412.299734592437744, 38.0625, 38.0625 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 201.577826619148254, 18.299734592437744, 26.0625, 26.0625 ]
+					"patching_rect" : [ 705.270847678184509, 412.299734592437744, 38.0625, 38.0625 ]
 				}
 
 			}
@@ -274,7 +269,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 243.577826619148254, 108.440444648265839, 390.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.577826619148254, 73.440444648265839, 390.0, 128.0 ],
+					"presentation_rect" : [ -1.305668473243713, 39.459862589836121, 316.213593244552612, 128.0 ],
 					"varname" : "macro_oscillator",
 					"viewvisibility" : 1
 				}
@@ -290,9 +285,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1083.808578014373779, 328.679456114768982, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 326.308563669522755, 49.440444648265839, 50.0, 22.0 ],
+					"patching_rect" : [ 1187.692071735858917, 334.504698753356934, 50.0, 22.0 ],
 					"varname" : "number[5]"
 				}
 
@@ -332,8 +325,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 900.333347678184509, 695.679456114768982, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 137.07781227429723, 49.440444648265839, 50.0, 22.0 ],
 					"varname" : "number[3]"
 				}
 
@@ -349,8 +340,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1004.0625, 446.679456114768982, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 262.562485655148976, 49.440444648265839, 50.0, 22.0 ],
 					"varname" : "number[4]"
 				}
 
@@ -400,8 +389,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 954.077840963999279, 570.330984592437744, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 201.577826619148254, 49.440444648265839, 50.0, 22.0 ],
 					"varname" : "number[2]"
 				}
 
@@ -494,7 +481,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 243.577826619148254, 692.012792587280273, 264.0, 135.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.577826619148254, 476.299734592437744, 264.0, 135.0 ],
+					"presentation_rect" : [ 316.907924771308899, 39.459862589836121, 265.941747546195984, 128.0 ],
 					"varname" : "reverb1",
 					"viewvisibility" : 1
 				}
@@ -517,7 +504,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 243.577826619148254, 853.0, 282.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.327833791573767, 476.299734592437744, 282.0, 128.0 ],
+					"presentation_rect" : [ 316.907924771308899, 169.459862589836121, 272.291262269020081, 128.0 ],
 					"varname" : "reverb2",
 					"viewvisibility" : 1
 				}
@@ -534,8 +521,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 846.000014344851024, 805.012792587280273, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 73.5, 49.440444648265839, 50.0, 22.0 ],
 					"varname" : "number[1]"
 				}
 
@@ -686,8 +671,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 780.077840963999279, 900.415786266326904, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.577826619148254, 49.440444648265839, 50.0, 22.0 ],
 					"varname" : "number"
 				}
 
@@ -733,7 +716,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 243.577826619148254, 252.440444648265839, 427.230751395225525, 121.84615421295166 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.577826619148254, 211.440444648265839, 427.230751395225525, 121.84615421295166 ],
+					"presentation_rect" : [ -1.305668473243713, 169.459862589836121, 316.213593244552612, 121.84615421295166 ],
 					"varname" : "oscillator",
 					"viewvisibility" : 1
 				}
@@ -1261,115 +1244,119 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "stereo.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb2.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb1.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gigaverb.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "macro_oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/patchers/marco_osc",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers/marco_osc",
 				"patcherrelativepath" : "./marco_osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Annie.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1402,8 +1389,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -1413,8 +1400,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -1425,6 +1412,8 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1433,9 +1422,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1450,6 +1437,7 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1458,8 +1446,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
