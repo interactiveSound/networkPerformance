@@ -2,7 +2,7 @@
 	"name" : "networkPerformance",
 	"version" : 1,
 	"creationdate" : 3701107559,
-	"modificationdate" : 3702493727,
+	"modificationdate" : 3702881553,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -42,7 +42,7 @@
 ,
 	"searchpath" : 	{
 		"0" : 		{
-			"bootpath" : "~/Downloads/networkPerformance-946494e27eb5e961b6bdad947d6b0f7958580119-2/node_content",
+			"bootpath" : "~/Downloads/networkPerformance-main-11/node_content",
 			"projectrelativepath" : "./node_content",
 			"label" : "node_contents",
 			"recursive" : 1,
@@ -51,18 +51,18 @@
 		}
 ,
 		"1" : 		{
-			"bootpath" : "~/Downloads/networkPerformance-946494e27eb5e961b6bdad947d6b0f7958580119-2/patchers",
+			"bootpath" : "~/Downloads/networkPerformance-main-11/patchers",
 			"projectrelativepath" : "./patchers",
-			"label" : "",
+			"label" : "Patchers",
 			"recursive" : 1,
 			"enabled" : 1,
 			"includeincollective" : 1
 		}
 ,
 		"2" : 		{
-			"bootpath" : "~/Downloads/networkPerformance-946494e27eb5e961b6bdad947d6b0f7958580119-2/media",
+			"bootpath" : "~/Downloads/networkPerformance-main-11/media",
 			"projectrelativepath" : "./media",
-			"label" : "",
+			"label" : "Media",
 			"recursive" : 1,
 			"enabled" : 1,
 			"includeincollective" : 1
