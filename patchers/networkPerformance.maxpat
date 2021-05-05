@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 185.0, 79.0, 1165.0, 1005.0 ],
+		"rect" : [ 326.0, 79.0, 1166.0, 954.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,8 +56,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1679.0, 1274.5, 69.0, 149.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1667.0, 1264.5, 69.0, 149.0 ],
 					"varname" : "AudioEQ[1]",
 					"viewvisibility" : 1
 				}
@@ -862,7 +860,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A remote stereo audio  sender.",
-					"args" : [ "trueMaster", "@bus", "trueMaster" ],
+					"args" : [ "trueMaster", "@bus", "trueMaster", "@gain", -10 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1075,7 +1073,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
-					"args" : [ "s-master", "@type", "effect" ],
+					"args" : [ "s-master", "@gain", -10 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1355,7 +1353,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 24.0, 690.5, 1061.0, 596.0 ],
-					"pic" : "Trio-2.jpeg",
+					"pic" : "Duo-1.jpeg",
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 554.0, 1143.0, 591.0 ]
 				}
@@ -2131,8 +2129,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -5971,7 +5967,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Trio-2.jpeg",
+				"name" : "Duo-2.jpeg",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
@@ -6981,7 +6977,6 @@
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6990,7 +6985,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -7005,7 +7001,6 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7014,7 +7009,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
