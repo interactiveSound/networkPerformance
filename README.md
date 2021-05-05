@@ -1,4 +1,4 @@
-# networkPerformance
+# NetworkPerformance
 ## Special Topics: Spatial and Interactive Audio | EMAR 391 | Spring 2021 
 
 ### Course Descrition 
