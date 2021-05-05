@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-85",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1770.0, 414.0, 61.0, 22.0 ],
+					"text" : "pipe 3000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1769.0, 356.0, 83.0, 22.0 ],
+					"text" : "loadmess 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1769.0, 471.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1769.0, 512.0, 44.0, 22.0 ],
+					"text" : "Mix $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -53,7 +101,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1606.577826619148254, 638.0, 264.0, 135.0 ],
+					"patching_rect" : [ 1624.577826619148254, 590.0, 264.0, 135.0 ],
 					"varname" : "reverb1",
 					"viewvisibility" : 1
 				}
@@ -74,7 +122,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1624.577826619148254, 812.987207412719727, 282.0, 128.0 ],
+					"patching_rect" : [ 1615.577826619148254, 794.987207412719727, 282.0, 128.0 ],
 					"varname" : "reverb2",
 					"viewvisibility" : 1
 				}
@@ -138,7 +186,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 286.5, 695.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1046.0, 538.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 970.0, 538.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -558,9 +606,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 1641.0, 518.0, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 559.0, 69.0, 39.0 ],
+					"patching_rect" : [ 1624.577826619148254, 420.5, 69.0, 39.0 ],
 					"varname" : "AudioReceive",
 					"viewvisibility" : 1
 				}
@@ -584,8 +630,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1527.0, 716.0, 69.0, 139.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 600.0, 69.0, 139.0 ],
 					"varname" : "AudioMix",
 					"viewvisibility" : 1
 				}
@@ -609,8 +653,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1527.0, 894.0, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 741.0, 69.0, 39.0 ],
 					"varname" : "AudioSend2[5]",
 					"viewvisibility" : 1
 				}
@@ -634,8 +676,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1436.0, 638.0, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 27.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[5]",
 					"viewvisibility" : 1
 				}
@@ -659,8 +699,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1436.0, 899.0, 69.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 243.0, 69.0, 29.0 ],
 					"varname" : "AudioOutput",
 					"viewvisibility" : 1
 				}
@@ -684,8 +722,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1436.0, 716.0, 69.0, 139.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 68.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[6]",
 					"viewvisibility" : 1
 				}
@@ -756,7 +792,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1270.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 209.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 782.0, 69.0, 39.0 ],
 					"varname" : "AudioSend2[2]",
 					"viewvisibility" : 1
 				}
@@ -781,7 +817,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1270.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 501.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 497.0, 69.0, 39.0 ],
 					"varname" : "AudioSend2[1]",
 					"viewvisibility" : 1
 				}
@@ -875,7 +911,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1208.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 964.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 741.0, 69.0, 39.0 ],
 					"varname" : "AudioSend[7]",
 					"viewvisibility" : 1
 				}
@@ -900,7 +936,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1208.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 460.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 456.0, 69.0, 39.0 ],
 					"varname" : "AudioSend[5]",
 					"viewvisibility" : 1
 				}
@@ -978,7 +1014,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
-					"args" : [ "@type", "effect" ],
+					"args" : [ "s-master", "@type", "effect" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -994,7 +1030,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1050.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 823.0, 69.0, 139.0 ],
+					"presentation_rect" : [ 1098.0, 600.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[3]",
 					"viewvisibility" : 1
 				}
@@ -1003,7 +1039,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
-					"args" : [ "@type", "effect" ],
+					"args" : [ "j-master", "@type", "effect" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1019,7 +1055,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1050.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 319.0, 69.0, 139.0 ],
+					"presentation_rect" : [ 1098.0, 315.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[2]",
 					"viewvisibility" : 1
 				}
@@ -1113,7 +1149,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 969.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 782.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 559.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[2]",
 					"viewvisibility" : 1
 				}
@@ -1138,7 +1174,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 969.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.0, 278.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 274.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[1]",
 					"viewvisibility" : 1
 				}
@@ -1186,7 +1222,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1272.0, 768.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1072.0, 538.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 996.0, 538.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -2036,6 +2072,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -3312,8 +3350,45 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 4 ],
+					"order" : 1,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 5 ],
+					"order" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-85", 0 ]
 				}
 
 			}
