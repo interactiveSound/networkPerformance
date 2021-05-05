@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "A remote stereo audio  sender.",
+					"args" : [ "JosiahOutBus", "@bus", "masterJosiah" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-24",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "AudioSend2.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "" ],
+					"patching_rect" : [ 400.0, 880.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 237.0, 187.0, 69.0, 39.0 ],
+					"varname" : "AudioSend2",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -205,19 +230,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-14",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 86.0, 1234.666672468185425, 150.0, 51.0 ],
-					"text" : "Not sure what the argument is supposed to be here."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -315,29 +327,6 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "A stereo/dual mono audio output chooser.",
-					"args" : [ "outBus", "@output", "1-2" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-4",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "AudioOutput.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 19.000007033348083, 1245.666672468185425, 69.0, 29.0 ],
-					"varname" : "AudioOutput",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "A simple stereo audio mixing module. ",
 					"args" : [ "Josiah", "@gain", -70 ],
 					"bgmode" : 0,
@@ -353,7 +342,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 19.0, 1085.666672468185425, 69.0, 139.0 ],
+					"patching_rect" : [ 277.0, 980.666672468185425, 69.0, 139.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 237.0, 44.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[1]",
@@ -896,14 +885,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-24", 1 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1035,12 +1024,14 @@
 			"obj-19::obj-46" : [ "Offset[3]", "Offset", 0 ],
 			"obj-19::obj-51" : [ "Freq[2]", "Freq", 0 ],
 			"obj-19::obj-53" : [ "Mute[14]", "Mute", 0 ],
+			"obj-24::obj-122" : [ "active[1]", "Active", 0 ],
+			"obj-24::obj-35" : [ "bus", "Bus", 0 ],
+			"obj-24::obj-88" : [ "gain[1]", "Gain", 0 ],
 			"obj-3::obj-1" : [ "Time[5]", "Time", 0 ],
 			"obj-3::obj-25" : [ "Cutoff[1]", "Cutoff", 0 ],
 			"obj-3::obj-26" : [ "Reflections[1]", "Reflections", 0 ],
 			"obj-3::obj-28" : [ "Mix[4]", "Mix", 0 ],
 			"obj-3::obj-47" : [ "bypass[16]", "bypass", 0 ],
-			"obj-4::obj-24" : [ "output", "Output", 0 ],
 			"obj-58::obj-29" : [ "in3[1]", "in3", 0 ],
 			"obj-58::obj-32" : [ "in2[1]", "in2", 0 ],
 			"obj-58::obj-33" : [ "in4[1]", "in4", 0 ],
@@ -1140,6 +1131,14 @@
 ,
 				"obj-19::obj-53" : 				{
 					"parameter_longname" : "Mute[14]"
+				}
+,
+				"obj-24::obj-122" : 				{
+					"parameter_longname" : "active[1]"
+				}
+,
+				"obj-24::obj-88" : 				{
+					"parameter_longname" : "gain[1]"
 				}
 ,
 				"obj-79::obj-106" : 				{
@@ -1278,16 +1277,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
+				"name" : "Josiah.json",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Josiah.json",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
-				"patcherrelativepath" : "../data",
+				"name" : "AudioSend2.maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

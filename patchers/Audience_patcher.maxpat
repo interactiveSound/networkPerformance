@@ -40,25 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"annotation" : "A stereo/dual mono audio output chooser.",
-					"args" : [ "Bus_sam", "@bus", "1-2" ],
+					"annotation" : "A remote stereo audio  sender.",
+					"args" : [ "SamOutbus", "@bus", "masterSam" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-47",
+					"id" : "obj-8",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "AudioOutput.maxpat",
+					"name" : "AudioSend2.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 22.0, 1040.0, 69.0, 29.0 ],
+					"patching_rect" : [ 161.0, 963.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.506403207778931, 284.129816025495529, 69.0, 29.0 ],
-					"varname" : "AudioOutput",
+					"presentation_rect" : [ 214.327829957008362, 2.0, 69.0, 39.0 ],
+					"varname" : "AudioSend2",
 					"viewvisibility" : 1
 				}
 
@@ -95,7 +95,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 22.0, 885.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.506403207778931, 6.129816025495529, 69.0, 139.0 ],
+					"presentation_rect" : [ 285.506403207778931, 2.0, 69.0, 143.129816025495529 ],
 					"varname" : "AudioMix[1]",
 					"viewvisibility" : 1
 				}
@@ -802,7 +802,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 26.506403207778931, 119.0, 427.230751395225525, 121.84615421295166 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.769255638122559, 43.0, 282.558574318885803, 102.129816025495529 ],
+					"presentation_rect" : [ 0.769255638122559, 43.0, 282.558574318885803, 98.129816025495529 ],
 					"varname" : "oscillator",
 					"viewvisibility" : 1
 				}
@@ -1168,14 +1168,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 1 ],
+					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-46", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1292,13 +1292,26 @@
 			"obj-46::obj-116" : [ "gain", "Gain", 0 ],
 			"obj-46::obj-30" : [ "qlist", "Qlist", 0 ],
 			"obj-46::obj-4" : [ "setname", "Setname", 0 ],
-			"obj-47::obj-24" : [ "output", "Output", 0 ],
 			"obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
 			"obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
 			"obj-72::obj-26" : [ "Reflections[2]", "Reflections", 0 ],
 			"obj-72::obj-28" : [ "Mix[5]", "Mix", 0 ],
 			"obj-72::obj-47" : [ "bypass[17]", "bypass", 0 ],
+			"obj-8::obj-122" : [ "active[1]", "Active", 0 ],
+			"obj-8::obj-35" : [ "bus", "Bus", 0 ],
+			"obj-8::obj-88" : [ "gain[1]", "Gain", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-8::obj-122" : 				{
+					"parameter_longname" : "active[1]"
+				}
+,
+				"obj-8::obj-88" : 				{
+					"parameter_longname" : "gain[1]"
+				}
 
 			}
 ,
@@ -1432,7 +1445,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AudioOutput.maxpat",
+				"name" : "AudioSend2.maxpat",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

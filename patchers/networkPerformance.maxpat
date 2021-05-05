@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 194.0, 79.0, 1120.0, 1005.0 ],
+		"rect" : [ 138.0, 79.0, 1292.0, 1005.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -96,7 +96,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 286.5, 695.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1072.0, 547.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1072.0, 559.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -502,6 +502,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "A container for Max For Live devices.",
+					"args" : [ "rev" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -516,6 +517,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1527.0, 638.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 600.0, 69.0, 39.0 ],
 					"varname" : "AudioM4LEffect",
 					"viewvisibility" : 1
 				}
@@ -539,6 +542,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1527.0, 581.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 559.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive",
 					"viewvisibility" : 1
 				}
@@ -562,6 +567,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1527.0, 716.0, 69.0, 139.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 641.0, 69.0, 139.0 ],
 					"varname" : "AudioMix",
 					"viewvisibility" : 1
 				}
@@ -585,6 +592,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1527.0, 894.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 782.0, 69.0, 39.0 ],
 					"varname" : "AudioSend2[5]",
 					"viewvisibility" : 1
 				}
@@ -608,6 +617,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1436.0, 638.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 69.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[5]",
 					"viewvisibility" : 1
 				}
@@ -631,6 +642,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1436.0, 899.0, 69.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 285.0, 69.0, 29.0 ],
 					"varname" : "AudioOutput",
 					"viewvisibility" : 1
 				}
@@ -654,6 +667,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1436.0, 716.0, 69.0, 139.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 110.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[6]",
 					"viewvisibility" : 1
 				}
@@ -723,6 +738,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1270.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 251.0, 69.0, 39.0 ],
 					"varname" : "AudioSend2[2]",
 					"viewvisibility" : 1
 				}
@@ -746,6 +763,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1270.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 28.0, 69.0, 39.0 ],
 					"varname" : "AudioSend2[1]",
 					"viewvisibility" : 1
 				}
@@ -838,6 +857,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1208.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 1005.0, 69.0, 39.0 ],
 					"varname" : "AudioSend[7]",
 					"viewvisibility" : 1
 				}
@@ -861,6 +882,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1208.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 498.0, 69.0, 39.0 ],
 					"varname" : "AudioSend[5]",
 					"viewvisibility" : 1
 				}
@@ -953,6 +976,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1050.0, 69.0, 139.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 864.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[3]",
 					"viewvisibility" : 1
 				}
@@ -976,6 +1001,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1050.0, 69.0, 139.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 357.0, 69.0, 139.0 ],
 					"varname" : "AudioMix[2]",
 					"viewvisibility" : 1
 				}
@@ -1068,6 +1095,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 969.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 823.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[2]",
 					"viewvisibility" : 1
 				}
@@ -1091,6 +1120,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 969.0, 69.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.0, 316.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[1]",
 					"viewvisibility" : 1
 				}
@@ -1137,7 +1168,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1272.0, 768.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 970.0, 549.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 970.0, 561.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -1185,7 +1216,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 788.0, 1061.0, 600.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 547.0, 1072.0, 596.0 ],
+					"presentation_rect" : [ 24.0, 559.0, 1072.0, 596.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1213,7 +1244,7 @@
 					"patching_rect" : [ 24.0, 690.5, 1061.0, 596.0 ],
 					"pic" : "Duo-1.jpeg",
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 547.0, 1072.0, 596.0 ]
+					"presentation_rect" : [ 24.0, 559.0, 1072.0, 596.0 ]
 				}
 
 			}
@@ -1969,6 +2000,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -3277,12 +3310,14 @@
 			"obj-1::obj-19::obj-46" : [ "Offset[10]", "Offset", 0 ],
 			"obj-1::obj-19::obj-51" : [ "Freq[7]", "Freq", 0 ],
 			"obj-1::obj-19::obj-53" : [ "Mute[16]", "Mute", 0 ],
+			"obj-1::obj-24::obj-122" : [ "active[87]", "Active", 0 ],
+			"obj-1::obj-24::obj-35" : [ "bus[48]", "Bus", 0 ],
+			"obj-1::obj-24::obj-88" : [ "gain[64]", "Gain", 0 ],
 			"obj-1::obj-3::obj-1" : [ "Time[5]", "Time", 0 ],
 			"obj-1::obj-3::obj-25" : [ "Cutoff[1]", "Cutoff", 0 ],
 			"obj-1::obj-3::obj-26" : [ "Reflections[1]", "Reflections", 0 ],
 			"obj-1::obj-3::obj-28" : [ "Mix[4]", "Mix", 0 ],
 			"obj-1::obj-3::obj-47" : [ "bypass[16]", "bypass", 0 ],
-			"obj-1::obj-4::obj-24" : [ "output[2]", "Output", 0 ],
 			"obj-1::obj-58::obj-29" : [ "in3[1]", "in3", 0 ],
 			"obj-1::obj-58::obj-32" : [ "in2[1]", "in2", 0 ],
 			"obj-1::obj-58::obj-33" : [ "in4[1]", "in4", 0 ],
@@ -3567,12 +3602,14 @@
 			"obj-6::obj-46::obj-116" : [ "gain[1]", "Gain", 0 ],
 			"obj-6::obj-46::obj-30" : [ "qlist[1]", "Qlist", 0 ],
 			"obj-6::obj-46::obj-4" : [ "setname[1]", "Setname", 0 ],
-			"obj-6::obj-47::obj-24" : [ "output[4]", "Output", 0 ],
 			"obj-6::obj-72::obj-1" : [ "Time[9]", "Time", 0 ],
 			"obj-6::obj-72::obj-25" : [ "Cutoff[2]", "Cutoff", 0 ],
 			"obj-6::obj-72::obj-26" : [ "Reflections[2]", "Reflections", 0 ],
 			"obj-6::obj-72::obj-28" : [ "Mix[5]", "Mix", 0 ],
 			"obj-6::obj-72::obj-47" : [ "bypass[17]", "bypass", 0 ],
+			"obj-6::obj-8::obj-122" : [ "active[88]", "Active", 0 ],
+			"obj-6::obj-8::obj-35" : [ "bus[49]", "Bus", 0 ],
+			"obj-6::obj-8::obj-88" : [ "gain[65]", "Gain", 0 ],
 			"obj-70::obj-122" : [ "active[85]", "Active", 0 ],
 			"obj-70::obj-35" : [ "bus[46]", "Bus", 0 ],
 			"obj-70::obj-88" : [ "gain[62]", "Gain", 0 ],
@@ -3876,6 +3913,14 @@
 					"parameter_longname" : "Mute[16]"
 				}
 ,
+				"obj-1::obj-24::obj-122" : 				{
+					"parameter_longname" : "active[87]"
+				}
+,
+				"obj-1::obj-24::obj-88" : 				{
+					"parameter_longname" : "gain[64]"
+				}
+,
 				"obj-1::obj-3::obj-1" : 				{
 					"parameter_longname" : "Time[5]"
 				}
@@ -3894,10 +3939,6 @@
 ,
 				"obj-1::obj-3::obj-47" : 				{
 					"parameter_longname" : "bypass[16]"
-				}
-,
-				"obj-1::obj-4::obj-24" : 				{
-					"parameter_longname" : "output[2]"
 				}
 ,
 				"obj-1::obj-58::obj-29" : 				{
@@ -4500,8 +4541,12 @@
 					"parameter_longname" : "qlist[1]"
 				}
 ,
-				"obj-6::obj-47::obj-24" : 				{
-					"parameter_longname" : "output[4]"
+				"obj-6::obj-8::obj-122" : 				{
+					"parameter_longname" : "active[88]"
+				}
+,
+				"obj-6::obj-8::obj-88" : 				{
+					"parameter_longname" : "gain[65]"
 				}
 ,
 				"obj-70::obj-122" : 				{
@@ -5250,16 +5295,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
+				"name" : "Josiah.json",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Josiah.json",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
-				"patcherrelativepath" : "../data",
+				"name" : "AudioSend2.maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5410,6 +5455,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "AudioOutput.maxpat",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Audience_patcher.maxpat",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
@@ -5453,13 +5505,6 @@
 			}
 , 			{
 				"name" : "AudioSend.maxpat",
-				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AudioSend2.maxpat",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
