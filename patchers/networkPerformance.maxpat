@@ -40,6 +40,44 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-79",
+					"linecount" : 7,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1679.0, 1141.0, 203.0, 102.0 ],
+					"text" : ";\rauido_JEQ@eqhi-7-eq active 1.;\rauido_JEQ@eqhi-7-eq hi -7.;\rauido_JEQ@eqhi-7-eq hifreq 672.5;\rauido_JEQ@eqhi-7-eq lo 0.;\rauido_JEQ@eqhi-7-eq lofreq 50.4;\rauido_JEQ@eqhi-7-eq mid 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "A stereo \"double-shelving\" EQ module.",
+					"args" : [ "auido_JEQ", "@", "eq", "hi", -7 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-92",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "AudioEQ.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "" ],
+					"patching_rect" : [ 1679.0, 953.5, 69.0, 149.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1180.0, 215.5, 69.0, 149.0 ],
+					"varname" : "AudioEQ",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-85",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -186,7 +224,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 286.5, 695.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 970.0, 538.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1041.0, 540.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -792,7 +830,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1270.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 782.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 496.999999999999943, 69.0, 39.0 ],
 					"varname" : "AudioSend2[2]",
 					"viewvisibility" : 1
 				}
@@ -817,7 +855,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1270.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 497.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 262.5, 69.0, 39.0 ],
 					"varname" : "AudioSend2[1]",
 					"viewvisibility" : 1
 				}
@@ -911,7 +949,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1208.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 741.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 452.166666666666629, 69.0, 39.0 ],
 					"varname" : "AudioSend[7]",
 					"viewvisibility" : 1
 				}
@@ -936,7 +974,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1208.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 456.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 217.666666666666686, 69.0, 39.0 ],
 					"varname" : "AudioSend[5]",
 					"viewvisibility" : 1
 				}
@@ -1030,7 +1068,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 1050.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 600.0, 69.0, 139.0 ],
+					"presentation_rect" : [ 1098.0, 307.333333333333314, 69.0, 139.0 ],
 					"varname" : "AudioMix[3]",
 					"viewvisibility" : 1
 				}
@@ -1055,7 +1093,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 1050.0, 69.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 315.0, 69.0, 139.0 ],
+					"presentation_rect" : [ 1098.0, 72.833333333333329, 69.0, 139.0 ],
 					"varname" : "AudioMix[2]",
 					"viewvisibility" : 1
 				}
@@ -1148,8 +1186,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1415.0, 969.0, 69.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 559.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[2]",
 					"viewvisibility" : 1
 				}
@@ -1174,7 +1210,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 1344.0, 969.0, 69.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1098.0, 274.0, 69.0, 39.0 ],
+					"presentation_rect" : [ 1098.0, 28.0, 69.0, 39.0 ],
 					"varname" : "AudioReceive2[1]",
 					"viewvisibility" : 1
 				}
@@ -1222,7 +1258,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1272.0, 768.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 996.0, 538.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 1067.0, 540.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -1270,7 +1306,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 788.0, 1061.0, 600.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 559.0, 1072.0, 596.0 ],
+					"presentation_rect" : [ 24.0, 564.0, 1143.0, 591.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1296,9 +1332,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 24.0, 690.5, 1061.0, 596.0 ],
-					"pic" : "Duo-1.jpeg",
+					"pic" : "Trio-2.jpeg",
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 559.0, 1072.0, 596.0 ]
+					"presentation_rect" : [ 24.0, 564.0, 1143.0, 591.0 ]
 				}
 
 			}
@@ -2072,8 +2108,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -3056,14 +3090,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 1 ],
+					"destination" : [ "obj-92", 1 ],
 					"source" : [ "obj-47", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
+					"destination" : [ "obj-92", 0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -3387,8 +3421,31 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-82", 0 ],
+					"destination" : [ "obj-79", 0 ],
+					"order" : 1,
 					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"order" : 0,
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 1 ],
+					"source" : [ "obj-92", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-92", 0 ]
 				}
 
 			}
@@ -3979,6 +4036,15 @@
 			"obj-8::obj-9::obj-46" : [ "Offset[1]", "Offset", 0 ],
 			"obj-8::obj-9::obj-51" : [ "Freq[13]", "Freq", 0 ],
 			"obj-8::obj-9::obj-53" : [ "Mute[21]", "Mute", 0 ],
+			"obj-92::obj-16" : [ "lofreq[3]", "LoFreq", 0 ],
+			"obj-92::obj-17" : [ "mid[3]", "Mid", 0 ],
+			"obj-92::obj-18" : [ "hifreq[3]", "HiFreq", 0 ],
+			"obj-92::obj-19" : [ "lo[3]", "Lo", 0 ],
+			"obj-92::obj-28" : [ "init[3]", "Init", 0 ],
+			"obj-92::obj-30" : [ "qlist[26]", "Qlist", 0 ],
+			"obj-92::obj-36" : [ "hi[3]", "Hi", 0 ],
+			"obj-92::obj-4" : [ "setname[26]", "Setname", 0 ],
+			"obj-92::obj-9" : [ "active[89]", "Active", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -5319,6 +5385,38 @@
 				"obj-8::obj-9::obj-53" : 				{
 					"parameter_longname" : "Mute[21]"
 				}
+,
+				"obj-92::obj-16" : 				{
+					"parameter_longname" : "lofreq[3]"
+				}
+,
+				"obj-92::obj-17" : 				{
+					"parameter_longname" : "mid[3]"
+				}
+,
+				"obj-92::obj-18" : 				{
+					"parameter_longname" : "hifreq[3]"
+				}
+,
+				"obj-92::obj-19" : 				{
+					"parameter_longname" : "lo[3]"
+				}
+,
+				"obj-92::obj-28" : 				{
+					"parameter_longname" : "init[3]"
+				}
+,
+				"obj-92::obj-30" : 				{
+					"parameter_longname" : "qlist[26]"
+				}
+,
+				"obj-92::obj-36" : 				{
+					"parameter_longname" : "hi[3]"
+				}
+,
+				"obj-92::obj-9" : 				{
+					"parameter_longname" : "active[89]"
+				}
 
 			}
 ,
@@ -5793,7 +5891,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Duo-1.jpeg",
+				"name" : "Trio-2.jpeg",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
