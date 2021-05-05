@@ -1,7 +1,6 @@
 # networkPerformance
 Special Topics: Spatial and Interactive Audio | EMAR 391 | Spring 2021 
 
-=======
 ### Course Descrition 
 
 This digital production course will explore the technical and conceptual fundamentals of computation and interactivity in the context of music-making and sound/interactive design. 
@@ -12,11 +11,8 @@ In the third part of the course, using these languages, students will take on a 
 
 
 
-
-Testtest
+about project
 -------------------
-
-*Test* testtest.
 
 ### networkPerformance
 
