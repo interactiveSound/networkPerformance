@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 291.0, 91.0, 1122.0, 1005.0 ],
+		"rect" : [ 194.0, 79.0, 1120.0, 1005.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -96,7 +96,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 286.5, 695.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1072.0, 574.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1072.0, 547.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -130,7 +130,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-140",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -173,7 +173,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-137",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -230,7 +230,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-132",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -259,7 +259,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-130",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -288,7 +288,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-127",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -331,7 +331,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-126",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -1137,7 +1137,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1272.0, 768.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 970.0, 576.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 970.0, 549.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -1175,7 +1175,9 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1, 1, 1, 1.0 ],
+					"bgcolor" : [ 1, 1, 1, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-43",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1183,7 +1185,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 788.0, 1061.0, 600.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 574.0, 1072.0, 596.0 ],
+					"presentation_rect" : [ 24.0, 547.0, 1072.0, 596.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1211,7 +1213,7 @@
 					"patching_rect" : [ 24.0, 690.5, 1061.0, 596.0 ],
 					"pic" : "Duo-1.jpeg",
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 574.0, 1072.0, 596.0 ]
+					"presentation_rect" : [ 24.0, 547.0, 1072.0, 596.0 ]
 				}
 
 			}
@@ -1379,7 +1381,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1, 1, 1, 1.0 ],
+					"bgcolor" : [ 1, 1, 1, 0.0 ],
 					"id" : "obj-37",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1387,7 +1389,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 733.0, 370.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 744.0, 298.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 744.0, 298.0, 352.0, 238.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1425,7 +1427,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1, 1, 1, 1.0 ],
+					"bgcolor" : [ 1, 1, 1, 0.0 ],
 					"id" : "obj-33",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1433,7 +1435,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 370.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.0, 298.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 384.0, 298.0, 352.0, 238.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1479,7 +1481,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 375.0, 352.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 298.0, 352.0, 265.0 ],
+					"presentation_rect" : [ 24.0, 298.0, 352.0, 238.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1967,8 +1969,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -5168,188 +5168,188 @@
 		"dependency_cache" : [ 			{
 				"name" : "networkPerformance.maxsnap",
 				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
-				"patcherrelativepath" : "../../../Desktop/Week 12/networkPerformance/data",
+				"patcherrelativepath" : "../data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "morganjosiah_96170_9291815_Josiah.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Reverb 1.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Signal Mixer.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Smooth Delay.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Josiah.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "n4m-handpose.main.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stereo.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb2.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb1.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gigaverb.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressor.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "macro_oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers/marco_osc",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers/marco_osc",
 				"patcherrelativepath" : "./marco_osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Annie.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5362,231 +5362,231 @@
 			}
 , 			{
 				"name" : "Ellie's Synth.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Macro Oscillator.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/code",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Chorus.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Feedback.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ellie.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Audience_patcher.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gig.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverbtwoo.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sam.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TREVOR_SYNTH.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend2.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive2.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioEQ.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Gigaverb.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Sync Delay.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Trevor.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Cloud.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.LFO.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Xfade.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alexmalone_networksynth.maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.FM (Alex).maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator (Alex).maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.CV LFO (Alex).maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Alex.json",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/data",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Xfade (Alex).maxpat",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/patchers",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "remote_client.js",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/node_content",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/node_content",
 				"patcherrelativepath" : "../node_content",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Duo-1.jpeg",
-				"bootpath" : "~/Downloads/networkPerformance-main-11 2 2/media",
+				"bootpath" : "~/Desktop/Week 12/networkPerformance/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
@@ -5594,21 +5594,21 @@
 , 			{
 				"name" : "AudioM4LEffect.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/AudioMix/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/AudioMix/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/AudioMix/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SimpleGain.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SimpleGain.amxd",
 				"bootpath" : "~/Documents/Max 8/Packages/AudioMix/misc",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/AudioMix/misc",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/AudioMix/misc",
 				"type" : "amxd",
 				"implicit" : 1
 			}
@@ -6593,8 +6593,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -6604,8 +6604,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -6615,6 +6615,8 @@
 				"name" : "Default M4L-1",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6623,9 +6625,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6640,6 +6640,7 @@
 				"name" : "myCoolTheme",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6648,8 +6649,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
